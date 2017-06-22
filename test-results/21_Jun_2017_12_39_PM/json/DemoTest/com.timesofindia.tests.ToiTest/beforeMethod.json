@@ -1,0 +1,23 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://m.timesofindia.com}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 110118
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1326
+    }
+  ],
+  "checkPoints": []
+}

@@ -1,0 +1,1014 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "declineNotifications",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 40
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[id: 0.22315399904097477-1]",
+          "subLogs": [],
+          "duration": 2659
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[id: 0.22315399904097477-1]",
+          "subLogs": [],
+          "duration": 102
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[text()='Enable'], using=xpath}"
+          ],
+          "result": "[id: 0.22315399904097477-2]",
+          "subLogs": [],
+          "duration": 52
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[text()='Not Now'], using=xpath}"
+          ],
+          "result": "[id: 0.22315399904097477-3]",
+          "subLogs": [],
+          "duration": 60
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Not Now'], using=xpath}"
+          ],
+          "result": "id: 0.22315399904097477-3",
+          "subLogs": [],
+          "duration": 56
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[text()='Not Now']",
+            "{\"id\":\"0.22315399904097477-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 88
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getTopStoriesList",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.22315399904097477-4, id: 0.22315399904097477-5, id: 0.22315399904097477-6, id: 0.22315399904097477-7, id: 0.22315399904097477-8, id: 0.22315399904097477-9, id: 0.22315399904097477-10]",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.22315399904097477-4, id: 0.22315399904097477-5, id: 0.22315399904097477-6, id: 0.22315399904097477-7, id: 0.22315399904097477-8, id: 0.22315399904097477-9, id: 0.22315399904097477-10]",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.22315399904097477-4\"}"
+          ],
+          "result": "getElementText:Kumble exit seen as triumph for player power",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.22315399904097477-5\"}"
+          ],
+          "result": "getElementText:Indians brace for 'family tax' in Saudi Arabia",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.22315399904097477-6\"}"
+          ],
+          "result": "getElementText:Uber founder Travis Kalanick resigns as CEO",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.22315399904097477-7\"}"
+          ],
+          "result": "getElementText:India most reliable partner for Afghanistan: US",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.22315399904097477-8\"}"
+          ],
+          "result": "getElementText:Firms face ban for not passing on GST gains",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.22315399904097477-9\"}"
+          ],
+          "result": "getElementText:What hastened Anil Kumble’s departure?",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.22315399904097477-10\"}"
+          ],
+          "result": "getElementText:International Yoga Day 2017: Complete coverage",
+          "subLogs": [],
+          "duration": 20
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyNewsTitle",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.22315399904097477-4, id: 0.22315399904097477-5, id: 0.22315399904097477-6, id: 0.22315399904097477-7, id: 0.22315399904097477-8, id: 0.22315399904097477-9, id: 0.22315399904097477-10]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.22315399904097477-4, id: 0.22315399904097477-5, id: 0.22315399904097477-6, id: 0.22315399904097477-7, id: 0.22315399904097477-8, id: 0.22315399904097477-9, id: 0.22315399904097477-10]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.22315399904097477-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 110762
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Kumble: Anil Kumble exit seen as triumph for player power - Times of India",
+          "subLogs": [],
+          "duration": 171
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1611
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 37
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[id: 0.6739448383779487-1]",
+          "subLogs": [],
+          "duration": 1318
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.6739448383779487-2, id: 0.6739448383779487-3, id: 0.6739448383779487-4, id: 0.6739448383779487-5, id: 0.6739448383779487-6, id: 0.6739448383779487-7, id: 0.6739448383779487-8]",
+          "subLogs": [],
+          "duration": 40
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.6739448383779487-2, id: 0.6739448383779487-3, id: 0.6739448383779487-4, id: 0.6739448383779487-5, id: 0.6739448383779487-6, id: 0.6739448383779487-7, id: 0.6739448383779487-8]",
+          "subLogs": [],
+          "duration": 348
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.6739448383779487-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 50185
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Saudi Arabia: Indians brace for Saudi ‘family tax’ - Times of India",
+          "subLogs": [],
+          "duration": 89
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2190
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[id: 0.5113330546812915-1]",
+          "subLogs": [],
+          "duration": 1752
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.5113330546812915-2, id: 0.5113330546812915-3, id: 0.5113330546812915-4, id: 0.5113330546812915-5, id: 0.5113330546812915-6, id: 0.5113330546812915-7, id: 0.5113330546812915-8]",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.5113330546812915-2, id: 0.5113330546812915-3, id: 0.5113330546812915-4, id: 0.5113330546812915-5, id: 0.5113330546812915-6, id: 0.5113330546812915-7, id: 0.5113330546812915-8]",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.5113330546812915-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 52067
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Travis Kalanick: Uber founder Travis Kalanick resigns as CEO - Times of India",
+          "subLogs": [],
+          "duration": 205
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2420
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[id: 0.8813235189052289-1]",
+          "subLogs": [],
+          "duration": 150
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.8813235189052289-2, id: 0.8813235189052289-3, id: 0.8813235189052289-4, id: 0.8813235189052289-5, id: 0.8813235189052289-6, id: 0.8813235189052289-7, id: 0.8813235189052289-8]",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.8813235189052289-2, id: 0.8813235189052289-3, id: 0.8813235189052289-4, id: 0.8813235189052289-5, id: 0.8813235189052289-6, id: 0.8813235189052289-7, id: 0.8813235189052289-8]",
+          "subLogs": [],
+          "duration": 48
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.8813235189052289-5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 57865
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "India and Afghanistan: India most reliable partner for Afghanistan: Pentagon | India News - Times of India",
+          "subLogs": [],
+          "duration": 104
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2188
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[id: 0.9274657115835434-1]",
+          "subLogs": [],
+          "duration": 224
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.9274657115835434-2, id: 0.9274657115835434-3, id: 0.9274657115835434-4, id: 0.9274657115835434-5, id: 0.9274657115835434-6, id: 0.9274657115835434-7, id: 0.9274657115835434-8]",
+          "subLogs": [],
+          "duration": 324
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.9274657115835434-2, id: 0.9274657115835434-3, id: 0.9274657115835434-4, id: 0.9274657115835434-5, id: 0.9274657115835434-6, id: 0.9274657115835434-7, id: 0.9274657115835434-8]",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.9274657115835434-6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 71219
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "GST: Firms face ban for not passing on GST gains - Times of India",
+          "subLogs": [],
+          "duration": 115
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2013
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[id: 0.26832024878685434-1]",
+          "subLogs": [],
+          "duration": 185
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.26832024878685434-2, id: 0.26832024878685434-3, id: 0.26832024878685434-4, id: 0.26832024878685434-5, id: 0.26832024878685434-6, id: 0.26832024878685434-7, id: 0.26832024878685434-8]",
+          "subLogs": [],
+          "duration": 44
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.26832024878685434-2, id: 0.26832024878685434-3, id: 0.26832024878685434-4, id: 0.26832024878685434-5, id: 0.26832024878685434-6, id: 0.26832024878685434-7, id: 0.26832024878685434-8]",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.26832024878685434-7\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 23465
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Anil Kumble: Scolding team for Champions Trophy debacle hastened Anil Kumble’s departure - Times of India",
+          "subLogs": [],
+          "duration": 147
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1788
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[id: 0.8209620948265763-1]",
+          "subLogs": [],
+          "duration": 117
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.8209620948265763-2, id: 0.8209620948265763-3, id: 0.8209620948265763-4, id: 0.8209620948265763-5, id: 0.8209620948265763-6, id: 0.8209620948265763-7, id: 0.8209620948265763-8]",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.8209620948265763-2, id: 0.8209620948265763-3, id: 0.8209620948265763-4, id: 0.8209620948265763-5, id: 0.8209620948265763-6, id: 0.8209620948265763-7, id: 0.8209620948265763-8]",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.8209620948265763-8\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2091
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "International Yoga Day 2017 – Latest Updates, News, Photos, Videos & Infographics",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1869
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[id: 0.8651952104687852-1]",
+          "subLogs": [],
+          "duration": 102
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.8651952104687852-2, id: 0.8651952104687852-3, id: 0.8651952104687852-4, id: 0.8651952104687852-5, id: 0.8651952104687852-6, id: 0.8651952104687852-7, id: 0.8651952104687852-8]",
+          "subLogs": [],
+          "duration": 64
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Decline notifications",
+      "type": "TestStepPass",
+      "duration": 10850,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Notification Pop-Up present : Actual Notification Pop-Up present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_a525uvnyqmwc3992.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Not now button on Pop-Up present : Actual Not now button on Pop-Up present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_1jsh6iz1tbzr33993.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Declining popup - Not to receive notofications",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Get List of top-stories and print",
+      "type": "TestStepPass",
+      "duration": 202,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Kumble exit seen as triumph for player power",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Indians brace for 'family tax' in Saudi Arabia",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Uber founder Travis Kalanick resigns as CEO",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "India most reliable partner for Afghanistan: US",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Firms face ban for not passing on GST gains",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "What hastened Anil Kumble’s departure?",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "International Yoga Day 2017: Complete coverage",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Verify each news title",
+      "type": "TestStepPass",
+      "duration": 407958,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "News title is : Kumble: Anil Kumble exit seen as triumph for player power - Times of India",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top news text present : Actual Top news text present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_nc84xy7w81963994.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Saudi Arabia: Indians brace for Saudi ‘family tax’ - Times of India",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top news text present : Actual Top news text present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_1hjdbooietc2a3995.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Travis Kalanick: Uber founder Travis Kalanick resigns as CEO - Times of India",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top news text present : Actual Top news text present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_a2fvwr4c02ba3996.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : India and Afghanistan: India most reliable partner for Afghanistan: Pentagon | India News - Times of India",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top news text present : Actual Top news text present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_11z228d4q9vbx3997.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : GST: Firms face ban for not passing on GST gains - Times of India",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top news text present : Actual Top news text present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_z291o7tdssg33998.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Anil Kumble: Scolding team for Champions Trophy debacle hastened Anil Kumble’s departure - Times of India",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top news text present : Actual Top news text present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_7unn9tpej4ul3999.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : International Yoga Day 2017 – Latest Updates, News, Photos, Videos & Infographics",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top news text present : Actual Top news text present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_1p7nwbn3dmwjx4000.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Decline notifications</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>No notification present</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Get List of top-stories and print</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verifyNewsTitle</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAS Demo" duration-ms="45234" started-at="2017-06-09T09:18:27Z" finished-at="2017-06-09T09:19:12Z">
+    <groups>
+      <group name="TOI_Regression">
+        <method signature="ToiTest.toiPageVerification()[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="toiPageVerification" class="com.timesofindia.tests.ToiTest"/>
+      </group> <!-- TOI_Regression -->
+    </groups>
+    <test name="DemoTest" duration-ms="45234" started-at="2017-06-09T09:18:27Z" finished-at="2017-06-09T09:19:12Z">
+      <class name="com.timesofindia.tests.ToiTest">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="setupSuit" is-config="true" duration-ms="36" started-at="2017-06-09T14:48:27Z" finished-at="2017-06-09T14:48:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="setupTest" is-config="true" duration-ms="1" started-at="2017-06-09T14:48:27Z" finished-at="2017-06-09T14:48:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="beforeTest" is-config="true" duration-ms="32993" started-at="2017-06-09T14:48:27Z" depends-on-methods="com.qmetry.qaf.automation.ui.AbstractTestCase.setupTest" finished-at="2017-06-09T14:49:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="setup" is-config="true" duration-ms="1" started-at="2017-06-09T14:49:00Z" finished-at="2017-06-09T14:49:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="setupMethod" is-config="true" duration-ms="1" started-at="2017-06-09T14:49:00Z" finished-at="2017-06-09T14:49:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.timesofindia.tests.ToiTest.toiPageVerification()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="toiPageVerification()[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="toiPageVerification" duration-ms="10745" started-at="2017-06-09T14:49:00Z" description="Times Of India Page verification" finished-at="2017-06-09T14:49:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Decline notifications</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>No notification present</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Get List of top-stories and print</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verifyNewsTitle</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toiPageVerification -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="afterMethod" is-config="true" duration-ms="2" started-at="2017-06-09T14:49:10Z" finished-at="2017-06-09T14:49:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=toiPageVerification status=SUCCESS method=ToiTest.toiPageVerification()[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Decline notifications</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>No notification present</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Get List of top-stories and print</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verifyNewsTitle</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-06-09T14:49:10Z" finished-at="2017-06-09T14:49:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="afterTest" is-config="true" duration-ms="1421" started-at="2017-06-09T14:49:10Z" finished-at="2017-06-09T14:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="afterSuit" is-config="true" duration-ms="2" started-at="2017-06-09T14:49:12Z" finished-at="2017-06-09T14:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.timesofindia.tests.ToiTest -->
+    </test> <!-- DemoTest -->
+  </suite> <!-- QAS Demo -->
+</testng-results>

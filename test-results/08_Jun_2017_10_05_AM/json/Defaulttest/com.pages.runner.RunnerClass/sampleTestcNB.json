@@ -1,0 +1,113 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://timesofindia.indiatimes.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3380
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1210
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[id: 0.4283054407439819-1]",
+      "subLogs": [],
+      "duration": 2259
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//a[text()='Enable'], using=xpath}"
+      ],
+      "result": "[id: 0.4283054407439819-2]",
+      "subLogs": [],
+      "duration": 40
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Expected Notification  present : Actual Notification  present",
+      "type": "Pass",
+      "screenshot": "../img/sampleTest_1qjjnoqpqcevi15237.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

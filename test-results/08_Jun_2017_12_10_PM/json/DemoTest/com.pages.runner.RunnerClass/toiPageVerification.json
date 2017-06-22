@@ -1,0 +1,265 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://timesofindia.indiatimes.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 4551
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1231
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[id: 0.08861008165409245-1]",
+      "subLogs": [],
+      "duration": 22985
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[id: 0.08861008165409245-1]",
+      "subLogs": [],
+      "duration": 58
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//a[text()='Enable'], using=xpath}"
+      ],
+      "result": "[id: 0.08861008165409245-2]",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//a[text()='Not Now'], using=xpath}"
+      ],
+      "result": "[id: 0.08861008165409245-3]",
+      "subLogs": [],
+      "duration": 61
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text()='Not Now'], using=xpath}"
+      ],
+      "result": "id: 0.08861008165409245-3",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[text()='Not Now']",
+        "{\"id\":\"0.08861008165409245-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 87
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.08861008165409245-4, id: 0.08861008165409245-5, id: 0.08861008165409245-6, id: 0.08861008165409245-7, id: 0.08861008165409245-8]",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.08861008165409245-4, id: 0.08861008165409245-5, id: 0.08861008165409245-6, id: 0.08861008165409245-7, id: 0.08861008165409245-8]",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"0.08861008165409245-4\"}"
+      ],
+      "result": "getElementText:From next week, daily revision of petrol prices ",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"0.08861008165409245-5\"}"
+      ],
+      "result": "getElementText:Rahul stopped from entering Mandsaur, arrested",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"0.08861008165409245-6\"}"
+      ],
+      "result": "getElementText:Rahul's visit to Mandsaur a 'photo op': Naidu",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"0.08861008165409245-7\"}"
+      ],
+      "result": "getElementText:How Saudi Arabia and allies strong-armed Qatar",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"0.08861008165409245-8\"}"
+      ],
+      "result": "getElementText:India ready to take on Pak, China: Army Chief ",
+      "subLogs": [],
+      "duration": 24
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Expected Notification Pop-Up present : Actual Notification Pop-Up present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_wnn3s98ism0248283.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected Not now button on Pop-Up present : Actual Not now button on Pop-Up present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_1jhz5zdher5p348284.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Declining popup - Not to receive notofications",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "From next week, daily revision of petrol prices ",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Rahul stopped from entering Mandsaur, arrested",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Rahul's visit to Mandsaur a 'photo op': Naidu",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "How Saudi Arabia and allies strong-armed Qatar",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "India ready to take on Pak, China: Army Chief ",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

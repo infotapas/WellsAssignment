@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Decline notifications</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Notification Pop-Up present : Actual Notification Pop-Up present <a href="../img/toiPageVerificationEntertainment_gzg1rsy97lfz8948.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected Not now button on Pop-Up present : Actual Not now button on Pop-Up present <a href="../img/toiPageVerificationEntertainment_w2hug88btdja8949.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Declining popup - Not to receive notofications</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Entertainment section verification</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Top news text present : Actual Top news text present <a href="../img/toiPageVerificationEntertainment_1527qzm8v71vk8950.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected Entertainment news section present : Actual Entertainment news section present <a href="../img/toiPageVerificationEntertainment_gzrucxn7rgbd8951.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Extract entertainment section's news</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Entertainment news size count is 11</div><div  class="info"><span class="info-label">I </span>Prabhas, Varun recreate iconic ‘Baahubali’ pose</div><div  class="info"><span class="info-label">I </span>'Jab Harry Met Sejal' mini trailer 3</div><div  class="info"><span class="info-label">I </span>Kabir Khan on ‘Little Boy’ and ‘Tubelight’</div><div  class="info"><span class="info-label">I </span>‘Tubelight’ is Salman’s shortest film</div><div  class="info"><span class="info-label">I </span>Priyanka reunites with pooch Diana in New York</div><div  class="info"><span class="info-label">I </span>SRK’s daughter Suhana to make her debut?</div><div  class="info"><span class="info-label">I </span>11 interesting facts about 'Tubelight'</div><div  class="info"><span class="info-label">I </span>Salman introduces ‘Tubelight’ star Matin</div><div  class="info"><span class="info-label">I </span>Pic: SRK's stunning selfie with wife Gauri</div><div  class="info"><span class="info-label">I </span>Pic: Bebo takes Taimur to visit granny Babita</div><div  class="info"><span class="info-label">I </span>Model's tragic death after 100 plastic surgeries</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Verify total number of image displayed</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Total number of image displayed : 
+Expected: &lt;3&gt;
+     Actual: was &lt;3&gt; <a href="../img/toiPageVerificationEntertainment_694v4wfc3r888952.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Verifying after clicking on Next button</div><div  class="pass"><span class="pass-label">P </span>Total number of image displayed : 
+Expected: &lt;3&gt;
+     Actual: was &lt;3&gt; <a href="../img/toiPageVerificationEntertainment_1atlu6ptl4o2u8953.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Verifying after clicking on Back button</div><div  class="pass"><span class="pass-label">P </span>Total number of image displayed : 
+Expected: &lt;3&gt;
+     Actual: was &lt;3&gt; <a href="../img/toiPageVerificationEntertainment_pb7ve5zrh1j48954.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Reading sub news</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span></div><div  class="info"><span class="info-label">I </span>Reading Hindi subnews.</div><div  class="info"><span class="info-label">I </span>Reading English subnews.</div><div  class="info"><span class="info-label">I </span>Reading Tamil subnews.</div><div  class="info"><span class="info-label">I </span>Reading Telugu subnews.</div><div  class="info"><span class="info-label">I </span>Reading Marathi subnews.</div><div  class="info"><span class="info-label">I </span>Reading Gujrati subnews.</div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAS Demo" duration-ms="26857" started-at="2017-06-20T06:53:59Z" finished-at="2017-06-20T06:54:25Z">
+    <groups>
+      <group name="TOI_Regression">
+        <method signature="ToiTest.toiPageVerificationEntertainment()[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="toiPageVerificationEntertainment" class="com.timesofindia.tests.ToiTest"/>
+      </group> <!-- TOI_Regression -->
+    </groups>
+    <test name="DemoTest" duration-ms="26857" started-at="2017-06-20T06:53:59Z" finished-at="2017-06-20T06:54:25Z">
+      <class name="com.timesofindia.tests.ToiTest">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="setupSuit" is-config="true" duration-ms="25" started-at="2017-06-20T12:23:59Z" finished-at="2017-06-20T12:23:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="setupTest" is-config="true" duration-ms="2" started-at="2017-06-20T12:23:59Z" finished-at="2017-06-20T12:23:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="beforeTest" is-config="true" duration-ms="7711" started-at="2017-06-20T12:23:59Z" depends-on-methods="com.qmetry.qaf.automation.ui.AbstractTestCase.setupTest" finished-at="2017-06-20T12:24:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="setup" is-config="true" duration-ms="1" started-at="2017-06-20T12:24:06Z" finished-at="2017-06-20T12:24:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="toiPageVerificationEntertainment()[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="toiPageVerificationEntertainment" duration-ms="18198" started-at="2017-06-20T12:24:06Z" description="Times Of India Entertainment" finished-at="2017-06-20T12:24:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Decline notifications</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Notification Pop-Up present : Actual Notification Pop-Up present <a href="../img/toiPageVerificationEntertainment_gzg1rsy97lfz8948.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected Not now button on Pop-Up present : Actual Not now button on Pop-Up present <a href="../img/toiPageVerificationEntertainment_w2hug88btdja8949.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Declining popup - Not to receive notofications</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Entertainment section verification</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Top news text present : Actual Top news text present <a href="../img/toiPageVerificationEntertainment_1527qzm8v71vk8950.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected Entertainment news section present : Actual Entertainment news section present <a href="../img/toiPageVerificationEntertainment_gzrucxn7rgbd8951.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Extract entertainment section's news</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Entertainment news size count is 11</div><div  class="info"><span class="info-label">I </span>Prabhas, Varun recreate iconic ‘Baahubali’ pose</div><div  class="info"><span class="info-label">I </span>'Jab Harry Met Sejal' mini trailer 3</div><div  class="info"><span class="info-label">I </span>Kabir Khan on ‘Little Boy’ and ‘Tubelight’</div><div  class="info"><span class="info-label">I </span>‘Tubelight’ is Salman’s shortest film</div><div  class="info"><span class="info-label">I </span>Priyanka reunites with pooch Diana in New York</div><div  class="info"><span class="info-label">I </span>SRK’s daughter Suhana to make her debut?</div><div  class="info"><span class="info-label">I </span>11 interesting facts about 'Tubelight'</div><div  class="info"><span class="info-label">I </span>Salman introduces ‘Tubelight’ star Matin</div><div  class="info"><span class="info-label">I </span>Pic: SRK's stunning selfie with wife Gauri</div><div  class="info"><span class="info-label">I </span>Pic: Bebo takes Taimur to visit granny Babita</div><div  class="info"><span class="info-label">I </span>Model's tragic death after 100 plastic surgeries</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Verify total number of image displayed</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Total number of image displayed : 
+Expected: &lt;3&gt;
+     Actual: was &lt;3&gt; <a href="../img/toiPageVerificationEntertainment_694v4wfc3r888952.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Verifying after clicking on Next button</div><div  class="pass"><span class="pass-label">P </span>Total number of image displayed : 
+Expected: &lt;3&gt;
+     Actual: was &lt;3&gt; <a href="../img/toiPageVerificationEntertainment_1atlu6ptl4o2u8953.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Verifying after clicking on Back button</div><div  class="pass"><span class="pass-label">P </span>Total number of image displayed : 
+Expected: &lt;3&gt;
+     Actual: was &lt;3&gt; <a href="../img/toiPageVerificationEntertainment_pb7ve5zrh1j48954.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Reading sub news</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span></div><div  class="info"><span class="info-label">I </span>Reading Hindi subnews.</div><div  class="info"><span class="info-label">I </span>Reading English subnews.</div><div  class="info"><span class="info-label">I </span>Reading Tamil subnews.</div><div  class="info"><span class="info-label">I </span>Reading Telugu subnews.</div><div  class="info"><span class="info-label">I </span>Reading Marathi subnews.</div><div  class="info"><span class="info-label">I </span>Reading Gujrati subnews.</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toiPageVerificationEntertainment -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="setupMethod" is-config="true" duration-ms="0" started-at="2017-06-20T12:24:06Z" finished-at="2017-06-20T12:24:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.timesofindia.tests.ToiTest.toiPageVerificationEntertainment()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-06-20T12:24:25Z" finished-at="2017-06-20T12:24:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=toiPageVerificationEntertainment status=SUCCESS method=ToiTest.toiPageVerificationEntertainment()[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Decline notifications</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Notification Pop-Up present : Actual Notification Pop-Up present <a href="../img/toiPageVerificationEntertainment_gzg1rsy97lfz8948.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected Not now button on Pop-Up present : Actual Not now button on Pop-Up present <a href="../img/toiPageVerificationEntertainment_w2hug88btdja8949.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Declining popup - Not to receive notofications</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Entertainment section verification</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Top news text present : Actual Top news text present <a href="../img/toiPageVerificationEntertainment_1527qzm8v71vk8950.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected Entertainment news section present : Actual Entertainment news section present <a href="../img/toiPageVerificationEntertainment_gzrucxn7rgbd8951.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Extract entertainment section's news</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Entertainment news size count is 11</div><div  class="info"><span class="info-label">I </span>Prabhas, Varun recreate iconic ‘Baahubali’ pose</div><div  class="info"><span class="info-label">I </span>'Jab Harry Met Sejal' mini trailer 3</div><div  class="info"><span class="info-label">I </span>Kabir Khan on ‘Little Boy’ and ‘Tubelight’</div><div  class="info"><span class="info-label">I </span>‘Tubelight’ is Salman’s shortest film</div><div  class="info"><span class="info-label">I </span>Priyanka reunites with pooch Diana in New York</div><div  class="info"><span class="info-label">I </span>SRK’s daughter Suhana to make her debut?</div><div  class="info"><span class="info-label">I </span>11 interesting facts about 'Tubelight'</div><div  class="info"><span class="info-label">I </span>Salman introduces ‘Tubelight’ star Matin</div><div  class="info"><span class="info-label">I </span>Pic: SRK's stunning selfie with wife Gauri</div><div  class="info"><span class="info-label">I </span>Pic: Bebo takes Taimur to visit granny Babita</div><div  class="info"><span class="info-label">I </span>Model's tragic death after 100 plastic surgeries</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Verify total number of image displayed</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Total number of image displayed : 
+Expected: &lt;3&gt;
+     Actual: was &lt;3&gt; <a href="../img/toiPageVerificationEntertainment_694v4wfc3r888952.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Verifying after clicking on Next button</div><div  class="pass"><span class="pass-label">P </span>Total number of image displayed : 
+Expected: &lt;3&gt;
+     Actual: was &lt;3&gt; <a href="../img/toiPageVerificationEntertainment_1atlu6ptl4o2u8953.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Verifying after clicking on Back button</div><div  class="pass"><span class="pass-label">P </span>Total number of image displayed : 
+Expected: &lt;3&gt;
+     Actual: was &lt;3&gt; <a href="../img/toiPageVerificationEntertainment_pb7ve5zrh1j48954.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Reading sub news</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span></div><div  class="info"><span class="info-label">I </span>Reading Hindi subnews.</div><div  class="info"><span class="info-label">I </span>Reading English subnews.</div><div  class="info"><span class="info-label">I </span>Reading Tamil subnews.</div><div  class="info"><span class="info-label">I </span>Reading Telugu subnews.</div><div  class="info"><span class="info-label">I </span>Reading Marathi subnews.</div><div  class="info"><span class="info-label">I </span>Reading Gujrati subnews.</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-06-20T12:24:25Z" finished-at="2017-06-20T12:24:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="afterTest" is-config="true" duration-ms="859" started-at="2017-06-20T12:24:25Z" finished-at="2017-06-20T12:24:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="afterSuit" is-config="true" duration-ms="1" started-at="2017-06-20T12:24:25Z" finished-at="2017-06-20T12:24:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.timesofindia.tests.ToiTest -->
+    </test> <!-- DemoTest -->
+  </suite> <!-- QAS Demo -->
+</testng-results>

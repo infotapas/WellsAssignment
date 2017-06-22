@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "beforeMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1498127040763,
+      "duration": 10375,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

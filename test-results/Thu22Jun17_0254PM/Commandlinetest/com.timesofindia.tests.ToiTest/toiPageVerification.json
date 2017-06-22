@@ -1,0 +1,111 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "declineNotifications",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30564
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getTopStoriesList",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 609
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 634
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyNewsTitle",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 797
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Decline notifications",
+      "type": "TestStepPass",
+      "duration": 30564,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "No notification present",
+          "type": "Info",
+          "screenshot": "img/toiPageVerificationEntertainment_7ecivmbew5ap7532.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Get List of top-stories and print",
+      "type": "TestStepPass",
+      "duration": 1259,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Verify each news title",
+      "type": "TestStepPass",
+      "duration": 813,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "native_app",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

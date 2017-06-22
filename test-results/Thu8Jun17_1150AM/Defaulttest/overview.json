@@ -1,0 +1,31 @@
+{
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.timesofindia.org.TestClass"
+  ],
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "11",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "10-Apr-2017 23:17:07"
+    },
+    "run-parameters": {},
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_111",
+      "os.arch": "amd64",
+      "host": "icpl12186",
+      "os.name": "Windows 8.1",
+      "user.name": "tapas.padhi",
+      "os.version": "6.3"
+    }
+  },
+  "startTime": 1496902816418,
+  "endTime": 1496902816461
+}

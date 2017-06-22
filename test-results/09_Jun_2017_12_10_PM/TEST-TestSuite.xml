@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="TestSuite" time="104.237" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\TAPAS~1.PAD\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Users\tapas.padhi\gmworkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2791498858076324045.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Perforce\DVCS\;C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security 10 for Windows SP2\;C:\Software\eclipse-jee-neon-2-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\tapas.padhi"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="tapas.padhi"/>
+    <property name="java.class.path" value="/C:/Software/eclipse-jee-neon-2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.timesofindia.tests.ToiTest" name="toiPageVerification" time="83.977">
+    <failure message="The xpath expression &apos;//div[@class=&apos;top-story&apos;]/ul/li&apos; cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 224 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;10.11.28.37&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8961/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: aaa84286-9cb3-470c-a961-0ffd04f10a1e
+*** Element info: {Using=xpath, value=//div[@class=&apos;top-story&apos;]/ul/li}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: The xpath expression &apos;//div[@class=&apos;top-story&apos;]/ul/li&apos; cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 224 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;10.11.28.37&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8961/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: aaa84286-9cb3-470c-a961-0ffd04f10a1e
+*** Element info: {Using=xpath, value=//div[@class=&apos;top-story&apos;]/ul/li}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:388)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:504)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:351)
+	at com.qmetry.qaf.automation.ui.webdriver.ComponentListHandler.invoke(ComponentListHandler.java:97)
+	at com.sun.proxy.$Proxy13.size(Unknown Source)
+	at com.timesofindia.defs.DetailsNewsDefs.verifyNewsTitle_aroundBody0(DetailsNewsDefs.java:20)
+	at com.timesofindia.defs.DetailsNewsDefs$AjcClosure1.run(DetailsNewsDefs.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)
+	at com.timesofindia.defs.DetailsNewsDefs.verifyNewsTitle(DetailsNewsDefs.java:16)
+	at com.timesofindia.tests.ToiTest.toiPageVerification(ToiTest.java:30)
+</failure>
+    <system-out>[ConfigurationManager] - ISFW build info: {qaf-Type=core, qaf-Revision=10, qaf-Version=2.1, qaf-Build-Time=03-Jan-2017 14:01:00}
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\mailer.properties not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\test_data not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\desktop_web\object_repository not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\desktop_web\configuration not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\desktop_web\translations.properties not exist!
+[ConfigurationManager] - Resource dir: C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\desktop_web. Found property files to load: 1
+[ConfigurationManager] - Resource dir: C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\desktop_web. Found property files to load: 0
+[QAFTestBase] - Initializing Driver...browser_str:IExplorerDriver,base_url:http://timesofindia.indiatimes.com/,sel_server:localhost,port:4444
+[UiDriverFactory] - Driver: IExplorerDriver
+driver init done
+[WebDriverCommandLogger] - Executing get parameters: {&quot;url&quot;:&quot;http://timesofindia.indiatimes.com/&quot;}
+[WebDriverCommandLogger] - command: get[ param-1: {url=http://timesofindia.indiatimes.com/}] Result: null
+[WebDriverCommandLogger] - Executing maximizeWindow parameters: {&quot;windowHandle&quot;:&quot;current&quot;}
+[WebDriverCommandLogger] - command: maximizeWindow[ param-1: {windowHandle=current}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: 3f8709a7-6f42-4114-bd91-7b6d56bf95e8, id: 8622e08b-8955-4663-9f7b-e77615762948, id: 182090ba-f37c-446b-bae2-8803d2cb1d28, id: 0456e3df-e4b4-4ae0-8763-1fd9fbd8dd7d, id: fe2f9720-4166-4d6d-ada1-e80dc5d35359, id: 60e7cc0c-7b8b-426b-9318-9e5a8b8fd693, id: 496c086a-2238-44a7-8fff-fd98586c98b6]
+TopStory size count is 7
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: 3f8709a7-6f42-4114-bd91-7b6d56bf95e8, id: 8622e08b-8955-4663-9f7b-e77615762948, id: 182090ba-f37c-446b-bae2-8803d2cb1d28, id: 0456e3df-e4b4-4ae0-8763-1fd9fbd8dd7d, id: fe2f9720-4166-4d6d-ada1-e80dc5d35359, id: 60e7cc0c-7b8b-426b-9318-9e5a8b8fd693, id: 496c086a-2238-44a7-8fff-fd98586c98b6]
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;3f8709a7-6f42-4114-bd91-7b6d56bf95e8&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;3f8709a7-6f42-4114-bd91-7b6d56bf95e8&quot;}] Result: getElementText:Partial stay on law making Aadhaar must for ITR
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;8622e08b-8955-4663-9f7b-e77615762948&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;8622e08b-8955-4663-9f7b-e77615762948&quot;}] Result: getElementText:I will form govt, Brexit talks to go ahead: May
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;182090ba-f37c-446b-bae2-8803d2cb1d28&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;182090ba-f37c-446b-bae2-8803d2cb1d28&quot;}] Result: getElementText:UK PM May&apos;s election gamble backfires
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0456e3df-e4b4-4ae0-8763-1fd9fbd8dd7d&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0456e3df-e4b4-4ae0-8763-1fd9fbd8dd7d&quot;}] Result: getElementText:Indian-origin candidates shine in UK polls
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;fe2f9720-4166-4d6d-ada1-e80dc5d35359&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;fe2f9720-4166-4d6d-ada1-e80dc5d35359&quot;}] Result: getElementText:SBI makes home loans above Rs 75 lakh cheaper
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;60e7cc0c-7b8b-426b-9318-9e5a8b8fd693&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;60e7cc0c-7b8b-426b-9318-9e5a8b8fd693&quot;}] Result: getElementText:J&amp;K: Infiltration bid foiled, 2 terrorists killed in Uri
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;496c086a-2238-44a7-8fff-fd98586c98b6&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;496c086a-2238-44a7-8fff-fd98586c98b6&quot;}] Result: getElementText:India, Pakistan become full members of SCO
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: 3f8709a7-6f42-4114-bd91-7b6d56bf95e8, id: 8622e08b-8955-4663-9f7b-e77615762948, id: 182090ba-f37c-446b-bae2-8803d2cb1d28, id: 0456e3df-e4b4-4ae0-8763-1fd9fbd8dd7d, id: fe2f9720-4166-4d6d-ada1-e80dc5d35359, id: 60e7cc0c-7b8b-426b-9318-9e5a8b8fd693, id: 496c086a-2238-44a7-8fff-fd98586c98b6]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: 3f8709a7-6f42-4114-bd91-7b6d56bf95e8, id: 8622e08b-8955-4663-9f7b-e77615762948, id: 182090ba-f37c-446b-bae2-8803d2cb1d28, id: 0456e3df-e4b4-4ae0-8763-1fd9fbd8dd7d, id: fe2f9720-4166-4d6d-ada1-e80dc5d35359, id: 60e7cc0c-7b8b-426b-9318-9e5a8b8fd693, id: 496c086a-2238-44a7-8fff-fd98586c98b6]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;3f8709a7-6f42-4114-bd91-7b6d56bf95e8&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;3f8709a7-6f42-4114-bd91-7b6d56bf95e8&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: AADHAAR: SC partially stays law making Aadhaar mandatory for PAN, ITR filing | India News - Times of India
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;logo&apos;], using=xpath}] Result: [id: 8e56ef65-e2b4-4890-b0fe-2bff724cd422]
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_di8wf2cw8t7a62769.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: 92dbc809-564b-4324-adaa-e8e0596489a3, id: 79af43cc-6309-4bae-97b9-d0a9fab549d7, id: 4464d0d4-57e2-4b20-a7cd-3b4675757608, id: 4f3b9a5b-cfb2-4b9d-b5c1-4563a92ea1e8, id: edfad5eb-e467-4dd7-8cbd-fbf39b793e7f, id: 6c8981a3-d250-4d09-a4f8-42a28b112548, id: 3aa65adc-7302-420a-88f7-07c99fec1fec]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: 92dbc809-564b-4324-adaa-e8e0596489a3, id: 79af43cc-6309-4bae-97b9-d0a9fab549d7, id: 4464d0d4-57e2-4b20-a7cd-3b4675757608, id: 4f3b9a5b-cfb2-4b9d-b5c1-4563a92ea1e8, id: edfad5eb-e467-4dd7-8cbd-fbf39b793e7f, id: 6c8981a3-d250-4d09-a4f8-42a28b112548, id: 3aa65adc-7302-420a-88f7-07c99fec1fec]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;79af43cc-6309-4bae-97b9-d0a9fab549d7&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;79af43cc-6309-4bae-97b9-d0a9fab549d7&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: Live: UK Election Results: With 153 seats out of 650 declared in British election, Conservatives on 57 and Labour on 76
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;logo&apos;], using=xpath}] Result: [id: 58bb1fff-23e7-4081-af59-caf5b4922f50]
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_bwux0wdek93962770.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: f6e737e5-0f7a-4226-868b-8e58f15d07b0, id: 2c8f8adb-a70c-4061-9b82-9bf4c0739e25, id: 6b35c949-fbcb-4894-a110-68e818126191, id: 2c24e247-5145-4ed5-961b-a0c9aace20ae, id: 3a74d8e2-8fe2-48ba-b0ea-5e6c0de8b63b, id: 11d9a310-bea5-4727-b26a-7f3e9ca3137b, id: d267a055-3584-49c0-9030-7df8a5071032]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: f6e737e5-0f7a-4226-868b-8e58f15d07b0, id: 2c8f8adb-a70c-4061-9b82-9bf4c0739e25, id: 6b35c949-fbcb-4894-a110-68e818126191, id: 2c24e247-5145-4ed5-961b-a0c9aace20ae, id: 3a74d8e2-8fe2-48ba-b0ea-5e6c0de8b63b, id: 11d9a310-bea5-4727-b26a-7f3e9ca3137b, id: d267a055-3584-49c0-9030-7df8a5071032]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;6b35c949-fbcb-4894-a110-68e818126191&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;6b35c949-fbcb-4894-a110-68e818126191&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: Theresa May: UK election deals May a crushing blow, blurring Brexit talks - Times of India
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;logo&apos;], using=xpath}] Result: [id: f8a2b89b-53b9-467c-8ee5-4fa92a3c686f]
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_sp2oqos3nvap62771.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: e8f0b010-9144-44e3-8afb-db4946f6286e, id: eb8bb8f0-7ed8-4086-945b-a265cd8b19d0, id: d12a940e-c935-4831-9af5-74628af4d6f7, id: b8e50196-02a6-4e16-bcfb-0b5c33dfd063, id: b8c8d313-d3ef-4e3c-beb8-1c45f621011f, id: 4cb145bd-c94b-4dd1-81ab-ca2890a955ae, id: 38611f58-e990-4bd2-85ff-41b24239ab09]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: e8f0b010-9144-44e3-8afb-db4946f6286e, id: eb8bb8f0-7ed8-4086-945b-a265cd8b19d0, id: d12a940e-c935-4831-9af5-74628af4d6f7, id: b8e50196-02a6-4e16-bcfb-0b5c33dfd063, id: b8c8d313-d3ef-4e3c-beb8-1c45f621011f, id: 4cb145bd-c94b-4dd1-81ab-ca2890a955ae, id: 38611f58-e990-4bd2-85ff-41b24239ab09]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;b8e50196-02a6-4e16-bcfb-0b5c33dfd063&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;b8e50196-02a6-4e16-bcfb-0b5c33dfd063&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: Preet Gill: First female Sikh and first turbaned lawmakers take Indian-origin MPs tally in UK to 12 - Times of India
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;logo&apos;], using=xpath}] Result: [id: 6b6cece7-2c5d-4fa9-8dd9-1800b7508e0e]
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_qpcfoxcijukw62772.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: The xpath expression &apos;//div[@class=&apos;top-story&apos;]/ul/li&apos; cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 224 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;10.11.28.37&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8961/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: aaa84286-9cb3-470c-a961-0ffd04f10a1e
+*** Element info: {Using=xpath, value=//div[@class=&apos;top-story&apos;]/ul/li}
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_17mbtfnwcpum062773.png
+</system-out>
+    <system-err>log4j:WARN No such property [follow] in org.apache.log4j.FileAppender.
+Started InternetExplorerDriver server (32-bit)
+2.47.0.0
+Listening on port 8961
+</system-err>
+  </testcase>
+</testsuite>

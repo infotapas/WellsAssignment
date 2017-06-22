@@ -1,0 +1,481 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "declineNotifications",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 579
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 361
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 409
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 422
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 407
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 398
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 403
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 410
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getTopStoriesList",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: fa56b506-2170-4c86-b159-a89e6a1268fa, id: 96ee61d7-33e1-4782-85d9-6f3da5a29319, id: a5253dba-a59e-4d9a-8a35-94d4a959e1e6, id: ce00c4cb-dd85-41b2-b831-7dd11b3a8f67, id: a916c9d5-26e7-4271-9732-dd3351429a59, id: 7f0165a6-30fe-458c-9349-e5abed10564e, id: d71c1547-2508-4cf6-978f-1a8a9451871f]",
+          "subLogs": [],
+          "duration": 166
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: fa56b506-2170-4c86-b159-a89e6a1268fa, id: 96ee61d7-33e1-4782-85d9-6f3da5a29319, id: a5253dba-a59e-4d9a-8a35-94d4a959e1e6, id: ce00c4cb-dd85-41b2-b831-7dd11b3a8f67, id: a916c9d5-26e7-4271-9732-dd3351429a59, id: 7f0165a6-30fe-458c-9349-e5abed10564e, id: d71c1547-2508-4cf6-978f-1a8a9451871f]",
+          "subLogs": [],
+          "duration": 112
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"fa56b506-2170-4c86-b159-a89e6a1268fa\"}"
+          ],
+          "result": "getElementText:Partial stay on law making Aadhaar must for ITR",
+          "subLogs": [],
+          "duration": 139
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"96ee61d7-33e1-4782-85d9-6f3da5a29319\"}"
+          ],
+          "result": "getElementText:Live: I will form a government, says Theresa May",
+          "subLogs": [],
+          "duration": 94
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"a5253dba-a59e-4d9a-8a35-94d4a959e1e6\"}"
+          ],
+          "result": "getElementText:UK PM May's election gamble backfires",
+          "subLogs": [],
+          "duration": 86
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"ce00c4cb-dd85-41b2-b831-7dd11b3a8f67\"}"
+          ],
+          "result": "getElementText:Indian-origin candidates shine in UK polls",
+          "subLogs": [],
+          "duration": 88
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"a916c9d5-26e7-4271-9732-dd3351429a59\"}"
+          ],
+          "result": "getElementText:SBI makes home loans above Rs 75 lakh cheaper",
+          "subLogs": [],
+          "duration": 86
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"7f0165a6-30fe-458c-9349-e5abed10564e\"}"
+          ],
+          "result": "getElementText:J&K: Infiltration bid foiled, 2 terrorists killed in Uri",
+          "subLogs": [],
+          "duration": 161
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"d71c1547-2508-4cf6-978f-1a8a9451871f\"}"
+          ],
+          "result": "getElementText:India, Pakistan become full members of SCO",
+          "subLogs": [],
+          "duration": 194
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyNewsTitle",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: fa56b506-2170-4c86-b159-a89e6a1268fa, id: 96ee61d7-33e1-4782-85d9-6f3da5a29319, id: a5253dba-a59e-4d9a-8a35-94d4a959e1e6, id: ce00c4cb-dd85-41b2-b831-7dd11b3a8f67, id: a916c9d5-26e7-4271-9732-dd3351429a59, id: 7f0165a6-30fe-458c-9349-e5abed10564e, id: d71c1547-2508-4cf6-978f-1a8a9451871f]",
+          "subLogs": [],
+          "duration": 137
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: fa56b506-2170-4c86-b159-a89e6a1268fa, id: 96ee61d7-33e1-4782-85d9-6f3da5a29319, id: a5253dba-a59e-4d9a-8a35-94d4a959e1e6, id: ce00c4cb-dd85-41b2-b831-7dd11b3a8f67, id: a916c9d5-26e7-4271-9732-dd3351429a59, id: 7f0165a6-30fe-458c-9349-e5abed10564e, id: d71c1547-2508-4cf6-978f-1a8a9451871f]",
+          "subLogs": [],
+          "duration": 115
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"fa56b506-2170-4c86-b159-a89e6a1268fa\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 21745
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "AADHAAR: SC partially stays law making Aadhaar mandatory for PAN, ITR filing | India News - Times of India",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 504
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "The xpath expression '//div[@class='logo']' cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 246 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:10137/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]\nSession ID: f33f091c-415c-48d0-a6f1-adf51f7188f7\n*** Element info: {Using=xpath, value=//div[@class='logo']}",
+          "subLogs": [],
+          "duration": 249
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[id: 2d182340-10ee-4740-9710-36adf386d379]",
+          "subLogs": [],
+          "duration": 378
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: db2fea66-0288-4f97-821f-edcca80d618d, id: 6ba80b10-4be4-4571-b164-b3f201e99868, id: b69769cc-b5cd-44f0-ae23-c935cdf880c7, id: 4cca97ca-8585-42bb-854b-41207e73d1ba, id: 09fa1e99-a218-4ff4-8d54-1d9d906574c9, id: 89b3f4fb-3796-4ebb-8f4a-1706f89991d7, id: 63578f9d-22da-476b-91ab-311aa9ac2620]",
+          "subLogs": [],
+          "duration": 82
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: db2fea66-0288-4f97-821f-edcca80d618d, id: 6ba80b10-4be4-4571-b164-b3f201e99868, id: b69769cc-b5cd-44f0-ae23-c935cdf880c7, id: 4cca97ca-8585-42bb-854b-41207e73d1ba, id: 09fa1e99-a218-4ff4-8d54-1d9d906574c9, id: 89b3f4fb-3796-4ebb-8f4a-1706f89991d7, id: 63578f9d-22da-476b-91ab-311aa9ac2620]",
+          "subLogs": [],
+          "duration": 61
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"6ba80b10-4be4-4571-b164-b3f201e99868\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 16800
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Live: UK Election Results: With 153 seats out of 650 declared in British election, Conservatives on 57 and Labour on 76",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 9200
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[id: c0ee930b-ec24-49bc-9035-1a6a16693e52]",
+          "subLogs": [],
+          "duration": 71
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: e8c464b2-31d8-4703-b3d6-90fc56d13bb6, id: 6499d497-240f-4a6c-8c6d-d1d7dcff5327, id: fc163a7a-e1cd-4bc6-a227-63d309f4c719, id: 9eeb4999-e6ad-475f-a86a-deac40c7c933, id: 3a26aa56-c041-4bc3-a2f0-8d37db7ef78b, id: 6e1b6401-5c66-4d66-8288-09544e055a29, id: 2a2ddf1d-b9e4-4d04-9192-4cca351c373a]",
+          "subLogs": [],
+          "duration": 223
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: e8c464b2-31d8-4703-b3d6-90fc56d13bb6, id: 6499d497-240f-4a6c-8c6d-d1d7dcff5327, id: fc163a7a-e1cd-4bc6-a227-63d309f4c719, id: 9eeb4999-e6ad-475f-a86a-deac40c7c933, id: 3a26aa56-c041-4bc3-a2f0-8d37db7ef78b, id: 6e1b6401-5c66-4d66-8288-09544e055a29, id: 2a2ddf1d-b9e4-4d04-9192-4cca351c373a]",
+          "subLogs": [],
+          "duration": 63
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"fc163a7a-e1cd-4bc6-a227-63d309f4c719\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 869
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Unable to get browser (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 15 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:10137/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]\nSession ID: f33f091c-415c-48d0-a6f1-adf51f7188f7",
+          "subLogs": [],
+          "duration": 16
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Decline notifications",
+      "type": "TestStepPass",
+      "duration": 10439,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "No notification present",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Get List of top-stories and print",
+      "type": "TestStepPass",
+      "duration": 1152,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Partial stay on law making Aadhaar must for ITR",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Live: I will form a government, says Theresa May",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "UK PM May's election gamble backfires",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Indian-origin candidates shine in UK polls",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "SBI makes home loans above Rs 75 lakh cheaper",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "J&K: Infiltration bid foiled, 2 terrorists killed in Uri",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "India, Pakistan become full members of SCO",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Verify each news title",
+      "type": "TestStepFail",
+      "screenshot": "",
+      "duration": 52933,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "News title is : AADHAAR: SC partially stays law making Aadhaar mandatory for PAN, ITR filing | India News - Times of India",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_13rzyiotusr2g57368.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Live: UK Election Results: With 153 seats out of 650 declared in British election, Conservatives on 57 and Labour on 76",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_12ctl9wrjrr0957369.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 15 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:10137/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]\nSession ID: f33f091c-415c-48d0-a6f1-adf51f7188f7",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 15 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:10137/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]\nSession ID: f33f091c-415c-48d0-a6f1-adf51f7188f7\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:222)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:320)\r\n\tat com.timesofindia.pages.DetailedNewsPage.verifyNewsTitle(DetailedNewsPage.java:27)\r\n\tat com.timesofindia.defs.DetailsNewsDefs.verifyNewsTitle_aroundBody0(DetailsNewsDefs.java:22)\r\n\tat com.timesofindia.defs.DetailsNewsDefs$AjcClosure1.run(DetailsNewsDefs.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)\r\n\tat com.timesofindia.defs.DetailsNewsDefs.verifyNewsTitle(DetailsNewsDefs.java:16)\r\n\tat com.timesofindia.tests.ToiTest.toiPageVerification(ToiTest.java:30)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:805)\r\n\tat org.testng.TestRunner.run(TestRunner.java:655)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)\r\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)\r\n\tat org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)\r\n\tat org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)\r\n"
+}

@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "main",
+        "sign": "TestClass.main()[pri:0, instance:com.timesofindia.org.TestClass@4a83a74a]"
+      },
+      "dependsOn": [],
+      "startTime": 1496912834795,
+      "duration": 8175,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

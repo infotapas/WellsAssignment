@@ -1,0 +1,102 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "beforeMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1498124913987,
+      "duration": 0,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Times Of India Entertainment",
+        "groups": [
+          "TOI_Regression"
+        ],
+        "name": "toiPageVerificationEntertainment",
+        "sign": "ToiTest.toiPageVerificationEntertainment()[pri:0, instance:com.timesofindia.tests.ToiTest@2d8f65a4]"
+      },
+      "dependsOn": [],
+      "startTime": 1498124924250,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "afterMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1498124924360,
+      "duration": 13255,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "beforeMethodUfZ",
+        "name": "beforeMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1498124937662,
+      "duration": 0,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Times Of India Page verification",
+        "groups": [
+          "TOI_Regression"
+        ],
+        "name": "toiPageVerification",
+        "sign": "ToiTest.toiPageVerification()[pri:0, instance:com.timesofindia.tests.ToiTest@2d8f65a4]"
+      },
+      "dependsOn": [],
+      "startTime": 1498124950851,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "afterMethodYJt",
+        "name": "afterMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1498124950866,
+      "duration": 17373,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

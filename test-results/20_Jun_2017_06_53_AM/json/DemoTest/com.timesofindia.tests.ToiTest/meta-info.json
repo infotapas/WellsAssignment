@@ -1,0 +1,37 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "beforeTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1497941639031,
+      "duration": 7711,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Times Of India Entertainment",
+        "groups": [
+          "TOI_Regression"
+        ],
+        "name": "toiPageVerificationEntertainment",
+        "sign": "ToiTest.toiPageVerificationEntertainment()[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]"
+      },
+      "dependsOn": [],
+      "startTime": 1497941646779,
+      "duration": 18198,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

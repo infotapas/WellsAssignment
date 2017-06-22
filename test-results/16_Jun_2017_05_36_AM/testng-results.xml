@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Decline notifications</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Notification Pop-Up present : Actual Notification Pop-Up present <a href="../img/toiPageVerificationEntertainment_1tlf32p98ub1o8661.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected Not now button on Pop-Up present : Actual Not now button on Pop-Up present <a href="../img/toiPageVerificationEntertainment_1k8dpxe1iyoj48662.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Declining popup - Not to receive notofications</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Entertainment section verification</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Top news text present : Actual Top news text present <a href="../img/toiPageVerificationEntertainment_d9aw44qxyu28663.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected Entertainment news section present : Actual Entertainment news section present <a href="../img/toiPageVerificationEntertainment_1f2q31621sis8664.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Extract entertainment section's news</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Entertainment news size count is 11</div><div  class="info"><span class="info-label">I </span>KBC 9: Celebs who should participate</div><div  class="info"><span class="info-label">I </span>Jacqueline, Taapsee put rift rumours to rest</div><div  class="info"><span class="info-label">I </span>Maha govt to defend Sanjay Dutt’s early release</div><div  class="info"><span class="info-label">I </span>Watch: Salman calls out Shah Rukh Khan</div><div  class="info"><span class="info-label">I </span>'Tubelight' to feature at Times Square</div><div  class="info"><span class="info-label">I </span>Saif not happy with Sara’s Bollywood dream</div><div  class="info"><span class="info-label">I </span>10 Bollywood items that were auctioned</div><div  class="info"><span class="info-label">I </span>Ranbir fails to recognise nephew Taimur</div><div  class="info"><span class="info-label">I </span>Celebs trolled for alleged plastic surgeries</div><div  class="info"><span class="info-label">I </span>Movie review: Despicable Me 3</div><div  class="info"><span class="info-label">I </span>6 shocking Miss World controversies</div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAS Demo" duration-ms="25557" started-at="2017-06-16T05:36:27Z" finished-at="2017-06-16T05:36:52Z">
+    <groups>
+      <group name="TOI_Regression">
+        <method signature="ToiTest.toiPageVerificationEntertainment()[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="toiPageVerificationEntertainment" class="com.timesofindia.tests.ToiTest"/>
+      </group> <!-- TOI_Regression -->
+    </groups>
+    <test name="DemoTest" duration-ms="25557" started-at="2017-06-16T05:36:27Z" finished-at="2017-06-16T05:36:52Z">
+      <class name="com.timesofindia.tests.ToiTest">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="setupSuit" is-config="true" duration-ms="31" started-at="2017-06-16T11:06:27Z" finished-at="2017-06-16T11:06:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="setupTest" is-config="true" duration-ms="0" started-at="2017-06-16T11:06:27Z" finished-at="2017-06-16T11:06:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="beforeTest" is-config="true" duration-ms="9191" started-at="2017-06-16T11:06:27Z" depends-on-methods="com.qmetry.qaf.automation.ui.AbstractTestCase.setupTest" finished-at="2017-06-16T11:06:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="setup" is-config="true" duration-ms="1" started-at="2017-06-16T11:06:36Z" finished-at="2017-06-16T11:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="setupMethod" is-config="true" duration-ms="1" started-at="2017-06-16T11:06:36Z" finished-at="2017-06-16T11:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.timesofindia.tests.ToiTest.toiPageVerificationEntertainment()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="toiPageVerificationEntertainment()[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="toiPageVerificationEntertainment" duration-ms="15216" started-at="2017-06-16T11:06:36Z" description="Times Of India Entertainment" finished-at="2017-06-16T11:06:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Decline notifications</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Notification Pop-Up present : Actual Notification Pop-Up present <a href="../img/toiPageVerificationEntertainment_1tlf32p98ub1o8661.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected Not now button on Pop-Up present : Actual Not now button on Pop-Up present <a href="../img/toiPageVerificationEntertainment_1k8dpxe1iyoj48662.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Declining popup - Not to receive notofications</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Entertainment section verification</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Top news text present : Actual Top news text present <a href="../img/toiPageVerificationEntertainment_d9aw44qxyu28663.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected Entertainment news section present : Actual Entertainment news section present <a href="../img/toiPageVerificationEntertainment_1f2q31621sis8664.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Extract entertainment section's news</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Entertainment news size count is 11</div><div  class="info"><span class="info-label">I </span>KBC 9: Celebs who should participate</div><div  class="info"><span class="info-label">I </span>Jacqueline, Taapsee put rift rumours to rest</div><div  class="info"><span class="info-label">I </span>Maha govt to defend Sanjay Dutt’s early release</div><div  class="info"><span class="info-label">I </span>Watch: Salman calls out Shah Rukh Khan</div><div  class="info"><span class="info-label">I </span>'Tubelight' to feature at Times Square</div><div  class="info"><span class="info-label">I </span>Saif not happy with Sara’s Bollywood dream</div><div  class="info"><span class="info-label">I </span>10 Bollywood items that were auctioned</div><div  class="info"><span class="info-label">I </span>Ranbir fails to recognise nephew Taimur</div><div  class="info"><span class="info-label">I </span>Celebs trolled for alleged plastic surgeries</div><div  class="info"><span class="info-label">I </span>Movie review: Despicable Me 3</div><div  class="info"><span class="info-label">I </span>6 shocking Miss World controversies</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toiPageVerificationEntertainment -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-06-16T11:06:51Z" finished-at="2017-06-16T11:06:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=toiPageVerificationEntertainment status=SUCCESS method=ToiTest.toiPageVerificationEntertainment()[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Decline notifications</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Notification Pop-Up present : Actual Notification Pop-Up present <a href="../img/toiPageVerificationEntertainment_1tlf32p98ub1o8661.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected Not now button on Pop-Up present : Actual Not now button on Pop-Up present <a href="../img/toiPageVerificationEntertainment_1k8dpxe1iyoj48662.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Declining popup - Not to receive notofications</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Entertainment section verification</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Top news text present : Actual Top news text present <a href="../img/toiPageVerificationEntertainment_d9aw44qxyu28663.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected Entertainment news section present : Actual Entertainment news section present <a href="../img/toiPageVerificationEntertainment_1f2q31621sis8664.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Extract entertainment section's news</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Entertainment news size count is 11</div><div  class="info"><span class="info-label">I </span>KBC 9: Celebs who should participate</div><div  class="info"><span class="info-label">I </span>Jacqueline, Taapsee put rift rumours to rest</div><div  class="info"><span class="info-label">I </span>Maha govt to defend Sanjay Dutt’s early release</div><div  class="info"><span class="info-label">I </span>Watch: Salman calls out Shah Rukh Khan</div><div  class="info"><span class="info-label">I </span>'Tubelight' to feature at Times Square</div><div  class="info"><span class="info-label">I </span>Saif not happy with Sara’s Bollywood dream</div><div  class="info"><span class="info-label">I </span>10 Bollywood items that were auctioned</div><div  class="info"><span class="info-label">I </span>Ranbir fails to recognise nephew Taimur</div><div  class="info"><span class="info-label">I </span>Celebs trolled for alleged plastic surgeries</div><div  class="info"><span class="info-label">I </span>Movie review: Despicable Me 3</div><div  class="info"><span class="info-label">I </span>6 shocking Miss World controversies</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-06-16T11:06:51Z" finished-at="2017-06-16T11:06:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="afterTest" is-config="true" duration-ms="1098" started-at="2017-06-16T11:06:51Z" finished-at="2017-06-16T11:06:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.timesofindia.tests.ToiTest@7a9273a8]" name="afterSuit" is-config="true" duration-ms="0" started-at="2017-06-16T11:06:52Z" finished-at="2017-06-16T11:06:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c540f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.timesofindia.tests.ToiTest -->
+    </test> <!-- DemoTest -->
+  </suite> <!-- QAS Demo -->
+</testng-results>

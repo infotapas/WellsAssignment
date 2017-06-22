@@ -1,0 +1,1 @@
+detailedpage.news.header = {\"locator\":\"xpath=//div[@class='main-content']/section/h1\",\"desc\":\"Main content\"}

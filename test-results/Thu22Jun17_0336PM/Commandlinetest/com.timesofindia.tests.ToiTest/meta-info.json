@@ -1,0 +1,102 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "beforeMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1498125966860,
+      "duration": 7134,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Times Of India Entertainment",
+        "groups": [
+          "TOI_Regression"
+        ],
+        "name": "toiPageVerificationEntertainment",
+        "sign": "ToiTest.toiPageVerificationEntertainment()[pri:0, instance:com.timesofindia.tests.ToiTest@5a1c0542]"
+      },
+      "dependsOn": [],
+      "startTime": 1498125974038,
+      "duration": 53149,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "afterMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1498126031394,
+      "duration": 1856,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "beforeMethodxOT",
+        "name": "beforeMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1498126033297,
+      "duration": 7850,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Times Of India Page verification",
+        "groups": [
+          "TOI_Regression"
+        ],
+        "name": "toiPageVerification",
+        "sign": "ToiTest.toiPageVerification()[pri:0, instance:com.timesofindia.tests.ToiTest@5a1c0542]"
+      },
+      "dependsOn": [],
+      "startTime": 1498126041159,
+      "duration": 11216,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "afterMethodwkF",
+        "name": "afterMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1498126052471,
+      "duration": 1074,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

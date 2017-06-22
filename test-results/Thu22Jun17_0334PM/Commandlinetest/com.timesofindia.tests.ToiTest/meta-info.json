@@ -1,0 +1,102 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "beforeMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1498125846640,
+      "duration": 8272,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Times Of India Entertainment",
+        "groups": [
+          "TOI_Regression"
+        ],
+        "name": "toiPageVerificationEntertainment",
+        "sign": "ToiTest.toiPageVerificationEntertainment()[pri:0, instance:com.timesofindia.tests.ToiTest@17579e0f]"
+      },
+      "dependsOn": [],
+      "startTime": 1498125854940,
+      "duration": 24068,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "afterMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1498125883212,
+      "duration": 1031,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "beforeMethodini",
+        "name": "beforeMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1498125884243,
+      "duration": 0,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Times Of India Page verification",
+        "groups": [
+          "TOI_Regression"
+        ],
+        "name": "toiPageVerification",
+        "sign": "ToiTest.toiPageVerification()[pri:0, instance:com.timesofindia.tests.ToiTest@17579e0f]"
+      },
+      "dependsOn": [],
+      "startTime": 1498125894647,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "afterMethodzhF",
+        "name": "afterMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1498125894662,
+      "duration": 779,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

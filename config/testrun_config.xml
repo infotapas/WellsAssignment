@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QAS Demo" verbose="0">
+
+
+	<test name="DemoTest" enabled="true">
+		<!-- <parameter name="driver.name" value="IEDriver" /> -->
+		<classes>
+			<class name="com.timesofindia.tests.ToiTest">
+				<methods>
+<!-- 					<include name="toiPageVerificationEntertainment"></include> -->
+					<include name="toiPageVerification"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

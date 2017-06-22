@@ -1,0 +1,203 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://timesofindia.indiatimes.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 4926
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1246
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[id: 0.3425239066413166-1]",
+      "subLogs": [],
+      "duration": 2303
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='timesofindia.notification.popup.enable' or @id='timesofindia.notification.popup.enable' or @value='timesofindia.notification.popup.enable'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='timesofindia.notification.popup.enable' or @id='timesofindia.notification.popup.enable' or @value='timesofindia.notification.popup.enable'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='timesofindia.notification.popup.enable' or @id='timesofindia.notification.popup.enable' or @value='timesofindia.notification.popup.enable'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 47
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='timesofindia.notification.popup.enable' or @id='timesofindia.notification.popup.enable' or @value='timesofindia.notification.popup.enable'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='timesofindia.notification.popup.enable' or @id='timesofindia.notification.popup.enable' or @value='timesofindia.notification.popup.enable'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='timesofindia.notification.popup.enable' or @id='timesofindia.notification.popup.enable' or @value='timesofindia.notification.popup.enable'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='timesofindia.notification.popup.enable' or @id='timesofindia.notification.popup.enable' or @value='timesofindia.notification.popup.enable'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 47
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='timesofindia.notification.popup.enable' or @id='timesofindia.notification.popup.enable' or @value='timesofindia.notification.popup.enable'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='timesofindia.notification.popup.enable' or @id='timesofindia.notification.popup.enable' or @value='timesofindia.notification.popup.enable'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='timesofindia.notification.popup.enable' or @id='timesofindia.notification.popup.enable' or @value='timesofindia.notification.popup.enable'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 62
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='timesofindia.notification.popup.enable' or @id='timesofindia.notification.popup.enable' or @value='timesofindia.notification.popup.enable'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 47
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Expected Notification  present : Actual Notification  not present",
+      "type": "Fail",
+      "screenshot": "img/sampleTest_at2o6fg1pc3x37967.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

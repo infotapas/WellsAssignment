@@ -1,0 +1,971 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "declineNotifications",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[id: 0.7130616017520839-1]",
+          "subLogs": [],
+          "duration": 12737
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[id: 0.7130616017520839-1]",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[text()='Enable'], using=xpath}"
+          ],
+          "result": "[id: 0.7130616017520839-2]",
+          "subLogs": [],
+          "duration": 404
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[text()='Not Now'], using=xpath}"
+          ],
+          "result": "[id: 0.7130616017520839-3]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Not Now'], using=xpath}"
+          ],
+          "result": "id: 0.7130616017520839-3",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[text()='Not Now']",
+            "{\"id\":\"0.7130616017520839-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 115
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getTopStoriesList",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.7130616017520839-4, id: 0.7130616017520839-5, id: 0.7130616017520839-6, id: 0.7130616017520839-7, id: 0.7130616017520839-8]",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.7130616017520839-4, id: 0.7130616017520839-5, id: 0.7130616017520839-6, id: 0.7130616017520839-7, id: 0.7130616017520839-8]",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.7130616017520839-4\"}"
+          ],
+          "result": "getElementText:'Mandsaur situation better'; Rahul meets farmers",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.7130616017520839-5\"}"
+          ],
+          "result": "getElementText:Was fired to undermine Russia probe: Ex-FBI chief",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.7130616017520839-6\"}"
+          ],
+          "result": "getElementText:GJM protest turns violent, Mamata calls in Army",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.7130616017520839-7\"}"
+          ],
+          "result": "getElementText:Pak envoy laughed at for 'no safe haven' remark",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.7130616017520839-8\"}"
+          ],
+          "result": "getElementText:Pak army giving 'artillery cover' to terrorists: Army",
+          "subLogs": [],
+          "duration": 26
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyNewsTitle",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.7130616017520839-4, id: 0.7130616017520839-5, id: 0.7130616017520839-6, id: 0.7130616017520839-7, id: 0.7130616017520839-8]",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.7130616017520839-4, id: 0.7130616017520839-5, id: 0.7130616017520839-6, id: 0.7130616017520839-7, id: 0.7130616017520839-8]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.7130616017520839-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 13777
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='main-content']/section/h1, using=xpath}"
+          ],
+          "result": "[id: 0.37212695598396306-1]",
+          "subLogs": [],
+          "duration": 183
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@class='main-content']/section/h1, using=xpath}"
+          ],
+          "result": "id: 0.37212695598396306-1",
+          "subLogs": [],
+          "duration": 150
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='main-content']/section/h1",
+            "{\"id\":\"0.37212695598396306-1\"}"
+          ],
+          "result": "getElementText:'Situation in Mandsaur improving, but still tense'; Rahul Gandhi leads opposition charge",
+          "subLogs": [],
+          "duration": 84
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1663
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[id: 0.48447609902423494-1]",
+          "subLogs": [],
+          "duration": 21838
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.48447609902423494-2, id: 0.48447609902423494-3, id: 0.48447609902423494-4, id: 0.48447609902423494-5, id: 0.48447609902423494-6]",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.48447609902423494-2, id: 0.48447609902423494-3, id: 0.48447609902423494-4, id: 0.48447609902423494-5, id: 0.48447609902423494-6]",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.48447609902423494-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 26501
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='main-content']/section/h1, using=xpath}"
+          ],
+          "result": "[id: 0.0329028059803711-1]",
+          "subLogs": [],
+          "duration": 174
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@class='main-content']/section/h1, using=xpath}"
+          ],
+          "result": "id: 0.0329028059803711-1",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='main-content']/section/h1",
+            "{\"id\":\"0.0329028059803711-1\"}"
+          ],
+          "result": "getElementText:Former FBI chief James Comey says Trump fired him to 'undermine Russia investigation'",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2063
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 42
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 39
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 46
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 40
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[id: 0.42480428964175476-1]",
+          "subLogs": [],
+          "duration": 22888
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.42480428964175476-2, id: 0.42480428964175476-3, id: 0.42480428964175476-4, id: 0.42480428964175476-5, id: 0.42480428964175476-6]",
+          "subLogs": [],
+          "duration": 87
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.42480428964175476-2, id: 0.42480428964175476-3, id: 0.42480428964175476-4, id: 0.42480428964175476-5, id: 0.42480428964175476-6]",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.42480428964175476-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 24854
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='main-content']/section/h1, using=xpath}"
+          ],
+          "result": "[id: 0.2309298276096925-1]",
+          "subLogs": [],
+          "duration": 133
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@class='main-content']/section/h1, using=xpath}"
+          ],
+          "result": "id: 0.2309298276096925-1",
+          "subLogs": [],
+          "duration": 72
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='main-content']/section/h1",
+            "{\"id\":\"0.2309298276096925-1\"}"
+          ],
+          "result": "getElementText:Army deployed in Darjeeling as GJM protest turns violent",
+          "subLogs": [],
+          "duration": 40
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2364
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[id: 0.7502140943640867-1]",
+          "subLogs": [],
+          "duration": 103
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.7502140943640867-2, id: 0.7502140943640867-3, id: 0.7502140943640867-4, id: 0.7502140943640867-5, id: 0.7502140943640867-6]",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.7502140943640867-2, id: 0.7502140943640867-3, id: 0.7502140943640867-4, id: 0.7502140943640867-5, id: 0.7502140943640867-6]",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.7502140943640867-5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 26117
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='main-content']/section/h1, using=xpath}"
+          ],
+          "result": "[id: 0.5134782829671483-1]",
+          "subLogs": [],
+          "duration": 142
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@class='main-content']/section/h1, using=xpath}"
+          ],
+          "result": "id: 0.5134782829671483-1",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='main-content']/section/h1",
+            "{\"id\":\"0.5134782829671483-1\"}"
+          ],
+          "result": "getElementText:Pakistan's US envoy laughed at for saying 'no terrorist safe havens in his country'",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2040
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[id: 0.2404387300414308-1]",
+          "subLogs": [],
+          "duration": 136
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.2404387300414308-2, id: 0.2404387300414308-3, id: 0.2404387300414308-4, id: 0.2404387300414308-5, id: 0.2404387300414308-6]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.2404387300414308-2, id: 0.2404387300414308-3, id: 0.2404387300414308-4, id: 0.2404387300414308-5, id: 0.2404387300414308-6]",
+          "subLogs": [],
+          "duration": 433
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0.2404387300414308-6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 25799
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='main-content']/section/h1, using=xpath}"
+          ],
+          "result": "[id: 0.4303608980777205-1]",
+          "subLogs": [],
+          "duration": 148
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@class='main-content']/section/h1, using=xpath}"
+          ],
+          "result": "id: 0.4303608980777205-1",
+          "subLogs": [],
+          "duration": 44
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='main-content']/section/h1",
+            "{\"id\":\"0.4303608980777205-1\"}"
+          ],
+          "result": "getElementText:Pak army giving 'artillery cover' to armed intruders in J&K: Army",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2534
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Sign In'], using=xpath}"
+          ],
+          "result": "[id: 0.815729657453083-1]",
+          "subLogs": [],
+          "duration": 78
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.815729657453083-2, id: 0.815729657453083-3, id: 0.815729657453083-4, id: 0.815729657453083-5, id: 0.815729657453083-6]",
+          "subLogs": [],
+          "duration": 14
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Decline notifications",
+      "type": "TestStepPass",
+      "duration": 23157,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Notification Pop-Up present : Actual Notification Pop-Up present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_cweu4drgi4bf49032.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Not now button on Pop-Up present : Actual Not now button on Pop-Up present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_1f53kj48zerxr49033.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Declining popup - Not to receive notofications",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Get List of top-stories and print",
+      "type": "TestStepPass",
+      "duration": 225,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "'Mandsaur situation better'; Rahul meets farmers",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Was fired to undermine Russia probe: Ex-FBI chief",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "GJM protest turns violent, Mamata calls in Army",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Pak envoy laughed at for 'no safe haven' remark",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Pak army giving 'artillery cover' to terrorists: Army",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "verifyNewsTitle",
+      "type": "TestStepPass",
+      "duration": 197339,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected News header title present : Actual News header title present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_p2lxpcfhumb649034.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News header is : 'Situation in Mandsaur improving, but still tense'; Rahul Gandhi leads opposition charge",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_18601ojndpnxk49035.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected News header title present : Actual News header title present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_113tgv6yng86z49036.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News header is : Former FBI chief James Comey says Trump fired him to 'undermine Russia investigation'",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_11p6sr194d05n49037.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected News header title present : Actual News header title present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_vjhsbx0jq5oz49038.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News header is : Army deployed in Darjeeling as GJM protest turns violent",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_13bgja00csacp49039.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected News header title present : Actual News header title present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_m8gjn0dqgymr49040.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News header is : Pakistan's US envoy laughed at for saying 'no terrorist safe havens in his country'",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_1f33ulvzt7vjr49041.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected News header title present : Actual News header title present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_i2lb5yv5catw49042.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News header is : Pak army giving 'artillery cover' to armed intruders in J&K: Army",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_17nhfr5jbn89x49043.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

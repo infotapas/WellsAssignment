@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-QAS_Demo">
+              <span class="suite-name border-failed">QAS Demo</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-QAS_Demo">
+                    <span>C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\config\testrun_config.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-QAS_Demo">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-QAS_Demo">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-QAS_Demo">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-QAS_Demo">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-QAS_Demo">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-QAS_Demo">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-QAS_Demo" class="hide-methods failed suite-QAS_Demo"> (hide)</a> <!-- hide-methods failed suite-QAS_Demo -->
+                      <a href="#" panel-name="suite-QAS_Demo" class="show-methods failed suite-QAS_Demo"> (show)</a> <!-- show-methods failed suite-QAS_Demo -->
+                    </span>
+                    <div class="method-list-content failed suite-QAS_Demo">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAS_Demo" title="com.timesofindia.tests.ToiTest" hash-for-method="toiPageVerificationEntertainment">toiPageVerificationEntertainment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-QAS_Demo -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-QAS_Demo" class="panel QAS_Demo">
+          <div class="suite-QAS_Demo-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.timesofindia.tests.ToiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="toiPageVerificationEntertainment">
+                  </a> <!-- toiPageVerificationEntertainment -->
+                  <span class="method-name">toiPageVerificationEntertainment</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span class=&quot;sprite_bg next&quot;&gt;&lt;/span&gt; is not clickable at point (1158, 531). Other element would receive the click: &lt;iframe id=&quot;google_ads_iframe_/7176/TOI/TOI_Home/TOI_Home_Home_New/TOI_HP_NW_ATF_300_0&quot; title=&quot;3rd party ad content&quot; name=&quot;google_ads_iframe_/7176/TOI/TOI_Home/TOI_Home_Home_New/TOI_HP_NW_ATF_300_0&quot; width=&quot;300&quot; height=&quot;250&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; frameborder=&quot;0&quot; srcdoc=&quot;&quot; style=&quot;border: 0px; vertical-align: bottom; width: 1000px; position: absolute; z-index: 100; right: -7px; height: 500px; top: -10px;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 52 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\TAPAS~1.PAD\AppData\Local\Temp\scoped_dir9368_10993}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1761ea5903864fc62a233537409293fb
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:256)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:252)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.timesofindia.defs.HomePageDefs.verifyTotalNumberOfImage_aroundBody8(HomePageDefs.java:45)
+	at com.timesofindia.defs.HomePageDefs$AjcClosure9.run(HomePageDefs.java:1)
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)
+	at com.timesofindia.defs.HomePageDefs.verifyTotalNumberOfImage(HomePageDefs.java:41)
+	at com.timesofindia.tests.ToiTest.toiPageVerificationEntertainment(ToiTest.java:44)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Times Of India Entertainment)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QAS_Demo-class-failed -->
+        </div> <!-- panel QAS_Demo -->
+        <div panel-name="test-xml-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\config\testrun_config.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;QAS Demo&quot;&gt;
+  &lt;test name=&quot;DemoTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.timesofindia.tests.ToiTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;toiPageVerificationEntertainment&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.timesofindia.tests.ToiTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DemoTest --&gt;
+&lt;/suite&gt; &lt;!-- QAS Demo --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for QAS Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">DemoTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for QAS Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">TOI_Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">toiPageVerificationEntertainment</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for QAS Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_QAS_Demo');
+function tableData_QAS_Demo() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'toiPageVerificationEntertainment')
+data.setCell(0, 2, 'com.timesofindia.tests.ToiTest')
+data.setCell(0, 3, 4575);
+window.suiteTableData['QAS_Demo']= { tableData: data, tableDiv: 'times-div-QAS_Demo'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-QAS_Demo">
+              </div> <!-- times-div-QAS_Demo -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for QAS Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">toiPageVerificationEntertainment</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Decline notifications</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Notification Pop-Up present : Actual Notification Pop-Up present <a href="../img/toiPageVerificationEntertainment_1a078mopexupe16252.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected Not now button on Pop-Up present : Actual Not now button on Pop-Up present <a href="../img/toiPageVerificationEntertainment_1lg71ovm66h6j16253.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Declining popup - Not to receive notofications</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Entertainment section verification</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Top news text present : Actual Top news text present <a href="../img/toiPageVerificationEntertainment_joxmbrbixwgn16254.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected Entertainment news section present : Actual Entertainment news section present <a href="../img/toiPageVerificationEntertainment_1u3tm9oi6ceqm16255.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Extract entertainment section's news</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Entertainment news size count is 11</div><div  class="info"><span class="info-label">I </span>Pic: Suhana steals the limelight from SRK</div><div  class="info"><span class="info-label">I </span>Aryan shares beautiful pic with mom Gauri Khan</div><div  class="info"><span class="info-label">I </span>IndvsPak: B-town stars react</div><div  class="info"><span class="info-label">I </span>Bruised Sanjay Mishra in 'Baadshaho' poster</div><div  class="info"><span class="info-label">I </span>Akshay shares an adorable pic with his son Aarav</div><div  class="info"><span class="info-label">I </span>Van rams into people leaving a mosque in London</div><div  class="info"><span class="info-label">I </span>10 lesser known facts about Lisa Haydon</div><div  class="info"><span class="info-label">I </span>SRK to make a cameo in 'Jagga Jasoos'?</div><div  class="info"><span class="info-label">I </span>JP Dutta introduces his new Paltan</div><div  class="info"><span class="info-label">I </span>Sunny Leone and Daniel's PDA on the sets</div><div  class="info"><span class="info-label">I </span>Model criticized for not being too black</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>Verify total number of image displayed <a href="../img/toiPageVerificationEntertainment_np3x00ssyvcn16257.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Total number of image displayed : 
+Expected: &lt;3&gt;
+     Actual: was &lt;3&gt; <a href="../img/toiPageVerificationEntertainment_1ga8vd950iv9o16256.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Verifying after clicking on Next button</div><div  class="fail"><span class="fail-label">F </span>org.openqa.selenium.WebDriverException: unknown error: Element <span class="sprite_bg next"></span> is not clickable at point (1158, 531). Other element would receive the click: <iframe id="google_ads_iframe_/7176/TOI/TOI_Home/TOI_Home_Home_New/TOI_HP_NW_ATF_300_0" title="3rd party ad content" name="google_ads_iframe_/7176/TOI/TOI_Home/TOI_Home_Home_New/TOI_HP_NW_ATF_300_0" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" srcdoc="" style="border: 0px; vertical-align: bottom; width: 1000px; position: absolute; z-index: 100; right: -7px; height: 500px; top: -10px;"></iframe>
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 52 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'icpl12186', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\TAPAS~1.PAD\AppData\Local\Temp\scoped_dir9368_10993}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1761ea5903864fc62a233537409293fb</div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.timesofindia.tests.ToiTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">toiPageVerification</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.timesofindia.tests.ToiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuit(org.testng.TestRunner@c540f5a)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest(org.testng.TestRunner@c540f5a)</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@c540f5a)</span>
+                <span class="method-start">59632 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.timesofindia.tests.ToiTest.toiPageVerificationEntertainment(), org.testng.TestRunner...)</span>
+                <span class="method-start">59690 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">toiPageVerificationEntertainment</span>
+                <span class="method-start">59691 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@c540f5a, [TestResult name=toiPageVerificationEntertainment status=FAILURE meth...)</span>
+                <span class="method-start">64954 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@c540f5a)</span>
+                <span class="method-start">64955 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@c540f5a)</span>
+                <span class="method-start">64956 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuit(org.testng.TestRunner@c540f5a)</span>
+                <span class="method-start">71532 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

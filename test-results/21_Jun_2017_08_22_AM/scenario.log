@@ -1,0 +1,14 @@
+13:52:30 Invoking Teststep: Decline notifications
+13:53:02 Completed Teststep: Decline notifications
+13:53:02 Invoking Teststep: Entertainment section verification
+13:53:03 Completed Teststep: Entertainment section verification
+13:53:03 Invoking Teststep: Extract entertainment section's news
+13:53:04 Completed Teststep: Extract entertainment section's news
+13:53:04 Invoking Teststep: Verify total number of image displayed
+13:53:10 Completed Teststep: Verify total number of image displayed
+13:53:15 Invoking Teststep: Reading sub news
+13:53:33 Completed Teststep: Reading sub news
+13:53:33 Invoking Teststep: Click on {0} and verify page with arguments: [Hindi]
+13:54:32 Completed Teststep: Click on {0} and verify page with arguments: [Hindi]
+13:54:32 Invoking Teststep: Verify trending now section
+13:54:33 Completed Teststep: Verify trending now section

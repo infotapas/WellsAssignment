@@ -1,0 +1,3471 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "declineNotifications",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 44
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 39
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 73
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 60
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 35
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getTopStoriesList",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.8340699856461675-1, id: 0.8340699856461675-2, id: 0.8340699856461675-3, id: 0.8340699856461675-4, id: 0.8340699856461675-5, id: 0.8340699856461675-6, id: 0.8340699856461675-7, id: 0.8340699856461675-8, id: 0.8340699856461675-9, id: 0.8340699856461675-10, id: 0.8340699856461675-11, id: 0.8340699856461675-12, id: 0.8340699856461675-13, id: 0.8340699856461675-14, id: 0.8340699856461675-15, id: 0.8340699856461675-16, id: 0.8340699856461675-17, id: 0.8340699856461675-18, id: 0.8340699856461675-19, id: 0.8340699856461675-20, id: 0.8340699856461675-21]",
+          "subLogs": [],
+          "duration": 81
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.8340699856461675-1, id: 0.8340699856461675-2, id: 0.8340699856461675-3, id: 0.8340699856461675-4, id: 0.8340699856461675-5, id: 0.8340699856461675-6, id: 0.8340699856461675-7, id: 0.8340699856461675-8, id: 0.8340699856461675-9, id: 0.8340699856461675-10, id: 0.8340699856461675-11, id: 0.8340699856461675-12, id: 0.8340699856461675-13, id: 0.8340699856461675-14, id: 0.8340699856461675-15, id: 0.8340699856461675-16, id: 0.8340699856461675-17, id: 0.8340699856461675-18, id: 0.8340699856461675-19, id: 0.8340699856461675-20, id: 0.8340699856461675-21]",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-1\"}"
+          ],
+          "result": "getElementText:Britain, Brexit in disarray as PM May's election gamble backfires\n50 mins ago",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-2\"}"
+          ],
+          "result": "getElementText:Live: Labour Party will seek to form minority govt in UK\n12 hrs ago",
+          "subLogs": [],
+          "duration": 37
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-3\"}"
+          ],
+          "result": "getElementText:PM Modi meets Chinese President Xi Jinping on SCO sidelines\n2 hrs ago",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-4\"}"
+          ],
+          "result": "getElementText:We are not invincible, says Virat Kohli ahead of 'virtual quarters'\n41 mins ago",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-5\"}"
+          ],
+          "result": "getElementText:Labour's Indian-origin candidates shine in UK polls\n2 hrs ago",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-6\"}"
+          ],
+          "result": "getElementText:Islamic State claims it killed two Chinese in Pakistan\n44 mins ago",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-7\"}"
+          ],
+          "result": "getElementText:iPhone 6 available at a discount of over Rs 14,000\n1 hr ago",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-8\"}"
+          ],
+          "result": "getElementText:Day-long curfew relaxation in Mandsaur city, Pipliamandi\n2 hrs ago",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-9\"}"
+          ],
+          "result": "getElementText:UP Board Class 12th Result 2017 declared\n12 mins ago",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-10\"}"
+          ],
+          "result": "getElementText:UP Board Class 10th Result 2017 declared\n10 mins ago",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-11\"}"
+          ],
+          "result": "getElementText:CAC seeks more time to decide on Anil Kumble's future\n3 hrs ago",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-12\"}"
+          ],
+          "result": "getElementText:Air India plane overshoots runway in Jammu while landing, airport closed\n1 hr ago",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-13\"}"
+          ],
+          "result": "getElementText:Partnership is best way to describe Indo-US relationship: Navtej Sarna\n5 hrs ago",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-14\"}"
+          ],
+          "result": "getElementText:Delhi: Pharmacist helps deliver baby, leaves needle inside patient's body\n5 hrs ago",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-15\"}"
+          ],
+          "result": "getElementText:Do not panic, embassy tells Indians in Qatar\n11 hrs ago",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-16\"}"
+          ],
+          "result": "getElementText:Chhota Shakeel's aide arrested, was planning to target Tarek Fateh\n1 hr ago",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-17\"}"
+          ],
+          "result": "getElementText:Raabta movie review\n2 hrs ago",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-18\"}"
+          ],
+          "result": "getElementText:Pakistani model bares it all in these pictures\n5 hrs ago",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-19\"}"
+          ],
+          "result": "getElementText:Telangana snaps power to Andhra Pradesh over Rs 1,600 crore dues\n5 hrs ago",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-20\"}"
+          ],
+          "result": "getElementText:Infosys founders looking to sell their stake in company\n2 hrs ago",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-21\"}"
+          ],
+          "result": "getElementText:This Chennai bus conductor plants 38,000 trees\n40 mins ago",
+          "subLogs": [],
+          "duration": 26
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyNewsTitle",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.8340699856461675-1, id: 0.8340699856461675-2, id: 0.8340699856461675-3, id: 0.8340699856461675-4, id: 0.8340699856461675-5, id: 0.8340699856461675-6, id: 0.8340699856461675-7, id: 0.8340699856461675-8, id: 0.8340699856461675-9, id: 0.8340699856461675-10, id: 0.8340699856461675-11, id: 0.8340699856461675-12, id: 0.8340699856461675-13, id: 0.8340699856461675-14, id: 0.8340699856461675-15, id: 0.8340699856461675-16, id: 0.8340699856461675-17, id: 0.8340699856461675-18, id: 0.8340699856461675-19, id: 0.8340699856461675-20, id: 0.8340699856461675-21]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.8340699856461675-1, id: 0.8340699856461675-2, id: 0.8340699856461675-3, id: 0.8340699856461675-4, id: 0.8340699856461675-5, id: 0.8340699856461675-6, id: 0.8340699856461675-7, id: 0.8340699856461675-8, id: 0.8340699856461675-9, id: 0.8340699856461675-10, id: 0.8340699856461675-11, id: 0.8340699856461675-12, id: 0.8340699856461675-13, id: 0.8340699856461675-14, id: 0.8340699856461675-15, id: 0.8340699856461675-16, id: 0.8340699856461675-17, id: 0.8340699856461675-18, id: 0.8340699856461675-19, id: 0.8340699856461675-20, id: 0.8340699856461675-21]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8340699856461675-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 61
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Theresa May: UK election deals May a crushing blow, blurring Brexit talks - The Times of India on Mobile",
+          "subLogs": [],
+          "duration": 2730
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2199
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 82
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 44
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 41
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 55
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.5211486418941258-1, id: 0.5211486418941258-2, id: 0.5211486418941258-3, id: 0.5211486418941258-4, id: 0.5211486418941258-5, id: 0.5211486418941258-6, id: 0.5211486418941258-7, id: 0.5211486418941258-8, id: 0.5211486418941258-9, id: 0.5211486418941258-10, id: 0.5211486418941258-11, id: 0.5211486418941258-12, id: 0.5211486418941258-13, id: 0.5211486418941258-14, id: 0.5211486418941258-15, id: 0.5211486418941258-16, id: 0.5211486418941258-17, id: 0.5211486418941258-18, id: 0.5211486418941258-19, id: 0.5211486418941258-20, id: 0.5211486418941258-21]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.5211486418941258-1, id: 0.5211486418941258-2, id: 0.5211486418941258-3, id: 0.5211486418941258-4, id: 0.5211486418941258-5, id: 0.5211486418941258-6, id: 0.5211486418941258-7, id: 0.5211486418941258-8, id: 0.5211486418941258-9, id: 0.5211486418941258-10, id: 0.5211486418941258-11, id: 0.5211486418941258-12, id: 0.5211486418941258-13, id: 0.5211486418941258-14, id: 0.5211486418941258-15, id: 0.5211486418941258-16, id: 0.5211486418941258-17, id: 0.5211486418941258-18, id: 0.5211486418941258-19, id: 0.5211486418941258-20, id: 0.5211486418941258-21]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.5211486418941258-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 51
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Live: UK Election Results: With 153 seats out of 650 declared in British election, Conservatives on 57 and Labour on 76",
+          "subLogs": [],
+          "duration": 4832
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1802
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 122
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 43
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 53
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 43
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.7578907729615358-1, id: 0.7578907729615358-2, id: 0.7578907729615358-3, id: 0.7578907729615358-4, id: 0.7578907729615358-5, id: 0.7578907729615358-6, id: 0.7578907729615358-7, id: 0.7578907729615358-8, id: 0.7578907729615358-9, id: 0.7578907729615358-10, id: 0.7578907729615358-11, id: 0.7578907729615358-12, id: 0.7578907729615358-13, id: 0.7578907729615358-14, id: 0.7578907729615358-15, id: 0.7578907729615358-16, id: 0.7578907729615358-17, id: 0.7578907729615358-18, id: 0.7578907729615358-19, id: 0.7578907729615358-20, id: 0.7578907729615358-21]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.7578907729615358-1, id: 0.7578907729615358-2, id: 0.7578907729615358-3, id: 0.7578907729615358-4, id: 0.7578907729615358-5, id: 0.7578907729615358-6, id: 0.7578907729615358-7, id: 0.7578907729615358-8, id: 0.7578907729615358-9, id: 0.7578907729615358-10, id: 0.7578907729615358-11, id: 0.7578907729615358-12, id: 0.7578907729615358-13, id: 0.7578907729615358-14, id: 0.7578907729615358-15, id: 0.7578907729615358-16, id: 0.7578907729615358-17, id: 0.7578907729615358-18, id: 0.7578907729615358-19, id: 0.7578907729615358-20, id: 0.7578907729615358-21]",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.7578907729615358-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2199
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Narendra Modi: PM Modi meets Chinese President Xi Jinping on SCO sidelines - The Times of India on Mobile",
+          "subLogs": [],
+          "duration": 65
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2145
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 212
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 52
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 66
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 52
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.5824110697445322-1, id: 0.5824110697445322-2, id: 0.5824110697445322-3, id: 0.5824110697445322-4, id: 0.5824110697445322-5, id: 0.5824110697445322-6, id: 0.5824110697445322-7, id: 0.5824110697445322-8, id: 0.5824110697445322-9, id: 0.5824110697445322-10, id: 0.5824110697445322-11, id: 0.5824110697445322-12, id: 0.5824110697445322-13, id: 0.5824110697445322-14, id: 0.5824110697445322-15, id: 0.5824110697445322-16, id: 0.5824110697445322-17, id: 0.5824110697445322-18, id: 0.5824110697445322-19, id: 0.5824110697445322-20, id: 0.5824110697445322-21]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.5824110697445322-1, id: 0.5824110697445322-2, id: 0.5824110697445322-3, id: 0.5824110697445322-4, id: 0.5824110697445322-5, id: 0.5824110697445322-6, id: 0.5824110697445322-7, id: 0.5824110697445322-8, id: 0.5824110697445322-9, id: 0.5824110697445322-10, id: 0.5824110697445322-11, id: 0.5824110697445322-12, id: 0.5824110697445322-13, id: 0.5824110697445322-14, id: 0.5824110697445322-15, id: 0.5824110697445322-16, id: 0.5824110697445322-17, id: 0.5824110697445322-18, id: 0.5824110697445322-19, id: 0.5824110697445322-20, id: 0.5824110697445322-21]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.5824110697445322-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 94
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Champions Trophy: Great scenario to have two quarter-finals: Virat Kohli - The Times of India on Mobile",
+          "subLogs": [],
+          "duration": 1886
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1948
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 68
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 52
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.03802897037373976-1, id: 0.03802897037373976-2, id: 0.03802897037373976-3, id: 0.03802897037373976-4, id: 0.03802897037373976-5, id: 0.03802897037373976-6, id: 0.03802897037373976-7, id: 0.03802897037373976-8, id: 0.03802897037373976-9, id: 0.03802897037373976-10, id: 0.03802897037373976-11, id: 0.03802897037373976-12, id: 0.03802897037373976-13, id: 0.03802897037373976-14, id: 0.03802897037373976-15, id: 0.03802897037373976-16, id: 0.03802897037373976-17, id: 0.03802897037373976-18, id: 0.03802897037373976-19, id: 0.03802897037373976-20, id: 0.03802897037373976-21]",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.03802897037373976-1, id: 0.03802897037373976-2, id: 0.03802897037373976-3, id: 0.03802897037373976-4, id: 0.03802897037373976-5, id: 0.03802897037373976-6, id: 0.03802897037373976-7, id: 0.03802897037373976-8, id: 0.03802897037373976-9, id: 0.03802897037373976-10, id: 0.03802897037373976-11, id: 0.03802897037373976-12, id: 0.03802897037373976-13, id: 0.03802897037373976-14, id: 0.03802897037373976-15, id: 0.03802897037373976-16, id: 0.03802897037373976-17, id: 0.03802897037373976-18, id: 0.03802897037373976-19, id: 0.03802897037373976-20, id: 0.03802897037373976-21]",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.03802897037373976-5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 103
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Preet Gill: UK gets its first female Sikh MP in general election - The Times of India on Mobile",
+          "subLogs": [],
+          "duration": 2168
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2050
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 56
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 61
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.36186286273056245-1, id: 0.36186286273056245-2, id: 0.36186286273056245-3, id: 0.36186286273056245-4, id: 0.36186286273056245-5, id: 0.36186286273056245-6, id: 0.36186286273056245-7, id: 0.36186286273056245-8, id: 0.36186286273056245-9, id: 0.36186286273056245-10, id: 0.36186286273056245-11, id: 0.36186286273056245-12, id: 0.36186286273056245-13, id: 0.36186286273056245-14, id: 0.36186286273056245-15, id: 0.36186286273056245-16, id: 0.36186286273056245-17, id: 0.36186286273056245-18, id: 0.36186286273056245-19, id: 0.36186286273056245-20, id: 0.36186286273056245-21]",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.36186286273056245-1, id: 0.36186286273056245-2, id: 0.36186286273056245-3, id: 0.36186286273056245-4, id: 0.36186286273056245-5, id: 0.36186286273056245-6, id: 0.36186286273056245-7, id: 0.36186286273056245-8, id: 0.36186286273056245-9, id: 0.36186286273056245-10, id: 0.36186286273056245-11, id: 0.36186286273056245-12, id: 0.36186286273056245-13, id: 0.36186286273056245-14, id: 0.36186286273056245-15, id: 0.36186286273056245-16, id: 0.36186286273056245-17, id: 0.36186286273056245-18, id: 0.36186286273056245-19, id: 0.36186286273056245-20, id: 0.36186286273056245-21]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.36186286273056245-6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2145
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "CPEC: Islamic State claims it killed two Chinese in Pakistan - The Times of India on Mobile",
+          "subLogs": [],
+          "duration": 85
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1777
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 121
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 52
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.2682668162291122-1, id: 0.2682668162291122-2, id: 0.2682668162291122-3, id: 0.2682668162291122-4, id: 0.2682668162291122-5, id: 0.2682668162291122-6, id: 0.2682668162291122-7, id: 0.2682668162291122-8, id: 0.2682668162291122-9, id: 0.2682668162291122-10, id: 0.2682668162291122-11, id: 0.2682668162291122-12, id: 0.2682668162291122-13, id: 0.2682668162291122-14, id: 0.2682668162291122-15, id: 0.2682668162291122-16, id: 0.2682668162291122-17, id: 0.2682668162291122-18, id: 0.2682668162291122-19, id: 0.2682668162291122-20, id: 0.2682668162291122-21]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.2682668162291122-1, id: 0.2682668162291122-2, id: 0.2682668162291122-3, id: 0.2682668162291122-4, id: 0.2682668162291122-5, id: 0.2682668162291122-6, id: 0.2682668162291122-7, id: 0.2682668162291122-8, id: 0.2682668162291122-9, id: 0.2682668162291122-10, id: 0.2682668162291122-11, id: 0.2682668162291122-12, id: 0.2682668162291122-13, id: 0.2682668162291122-14, id: 0.2682668162291122-15, id: 0.2682668162291122-16, id: 0.2682668162291122-17, id: 0.2682668162291122-18, id: 0.2682668162291122-19, id: 0.2682668162291122-20, id: 0.2682668162291122-21]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.2682668162291122-7\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 81
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Flipkart Father’s Day sale: Pick up Apple iPhone 6 at Rs 21,999 | Gadgets Now",
+          "subLogs": [],
+          "duration": 4534
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2070
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 108
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 45
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 54
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 40
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.6101965539103724-1, id: 0.6101965539103724-2, id: 0.6101965539103724-3, id: 0.6101965539103724-4, id: 0.6101965539103724-5, id: 0.6101965539103724-6, id: 0.6101965539103724-7, id: 0.6101965539103724-8, id: 0.6101965539103724-9, id: 0.6101965539103724-10, id: 0.6101965539103724-11, id: 0.6101965539103724-12, id: 0.6101965539103724-13, id: 0.6101965539103724-14, id: 0.6101965539103724-15, id: 0.6101965539103724-16, id: 0.6101965539103724-17, id: 0.6101965539103724-18, id: 0.6101965539103724-19, id: 0.6101965539103724-20, id: 0.6101965539103724-21]",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.6101965539103724-1, id: 0.6101965539103724-2, id: 0.6101965539103724-3, id: 0.6101965539103724-4, id: 0.6101965539103724-5, id: 0.6101965539103724-6, id: 0.6101965539103724-7, id: 0.6101965539103724-8, id: 0.6101965539103724-9, id: 0.6101965539103724-10, id: 0.6101965539103724-11, id: 0.6101965539103724-12, id: 0.6101965539103724-13, id: 0.6101965539103724-14, id: 0.6101965539103724-15, id: 0.6101965539103724-16, id: 0.6101965539103724-17, id: 0.6101965539103724-18, id: 0.6101965539103724-19, id: 0.6101965539103724-20, id: 0.6101965539103724-21]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.6101965539103724-8\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1982
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "MP farmers protest: Day-long curfew relaxation in Mandsaur city, Pipliamandi - The Times of India on Mobile",
+          "subLogs": [],
+          "duration": 63
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 3900
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.7593590472117546-1, id: 0.7593590472117546-2, id: 0.7593590472117546-3, id: 0.7593590472117546-4, id: 0.7593590472117546-5, id: 0.7593590472117546-6, id: 0.7593590472117546-7, id: 0.7593590472117546-8, id: 0.7593590472117546-9, id: 0.7593590472117546-10, id: 0.7593590472117546-11, id: 0.7593590472117546-12, id: 0.7593590472117546-13, id: 0.7593590472117546-14, id: 0.7593590472117546-15, id: 0.7593590472117546-16, id: 0.7593590472117546-17, id: 0.7593590472117546-18, id: 0.7593590472117546-19, id: 0.7593590472117546-20, id: 0.7593590472117546-21]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.7593590472117546-1, id: 0.7593590472117546-2, id: 0.7593590472117546-3, id: 0.7593590472117546-4, id: 0.7593590472117546-5, id: 0.7593590472117546-6, id: 0.7593590472117546-7, id: 0.7593590472117546-8, id: 0.7593590472117546-9, id: 0.7593590472117546-10, id: 0.7593590472117546-11, id: 0.7593590472117546-12, id: 0.7593590472117546-13, id: 0.7593590472117546-14, id: 0.7593590472117546-15, id: 0.7593590472117546-16, id: 0.7593590472117546-17, id: 0.7593590472117546-18, id: 0.7593590472117546-19, id: 0.7593590472117546-20, id: 0.7593590472117546-21]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.7593590472117546-9\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 79
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "UP Board Intermediate Class 12th Results 2017 at upresults.nic.in: UP Board Class 12th results declared at upresults.nic.in",
+          "subLogs": [],
+          "duration": 2286
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1760
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 42
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 57
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 39
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.8406423909638059-1, id: 0.8406423909638059-2, id: 0.8406423909638059-3, id: 0.8406423909638059-4, id: 0.8406423909638059-5, id: 0.8406423909638059-6, id: 0.8406423909638059-7, id: 0.8406423909638059-8, id: 0.8406423909638059-9, id: 0.8406423909638059-10, id: 0.8406423909638059-11, id: 0.8406423909638059-12, id: 0.8406423909638059-13, id: 0.8406423909638059-14, id: 0.8406423909638059-15, id: 0.8406423909638059-16, id: 0.8406423909638059-17, id: 0.8406423909638059-18, id: 0.8406423909638059-19, id: 0.8406423909638059-20, id: 0.8406423909638059-21]",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.8406423909638059-1, id: 0.8406423909638059-2, id: 0.8406423909638059-3, id: 0.8406423909638059-4, id: 0.8406423909638059-5, id: 0.8406423909638059-6, id: 0.8406423909638059-7, id: 0.8406423909638059-8, id: 0.8406423909638059-9, id: 0.8406423909638059-10, id: 0.8406423909638059-11, id: 0.8406423909638059-12, id: 0.8406423909638059-13, id: 0.8406423909638059-14, id: 0.8406423909638059-15, id: 0.8406423909638059-16, id: 0.8406423909638059-17, id: 0.8406423909638059-18, id: 0.8406423909638059-19, id: 0.8406423909638059-20, id: 0.8406423909638059-21]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.8406423909638059-10\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 88
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "UP Board High School Class 10th Results 2017 at upresults.nic.in: UP Board Class 10th results declared at upresults.nic.in",
+          "subLogs": [],
+          "duration": 1555
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1984
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 100
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 39
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 66
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.6746187885780006-1, id: 0.6746187885780006-2, id: 0.6746187885780006-3, id: 0.6746187885780006-4, id: 0.6746187885780006-5, id: 0.6746187885780006-6, id: 0.6746187885780006-7, id: 0.6746187885780006-8, id: 0.6746187885780006-9, id: 0.6746187885780006-10, id: 0.6746187885780006-11, id: 0.6746187885780006-12, id: 0.6746187885780006-13, id: 0.6746187885780006-14, id: 0.6746187885780006-15, id: 0.6746187885780006-16, id: 0.6746187885780006-17, id: 0.6746187885780006-18, id: 0.6746187885780006-19, id: 0.6746187885780006-20, id: 0.6746187885780006-21]",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.6746187885780006-1, id: 0.6746187885780006-2, id: 0.6746187885780006-3, id: 0.6746187885780006-4, id: 0.6746187885780006-5, id: 0.6746187885780006-6, id: 0.6746187885780006-7, id: 0.6746187885780006-8, id: 0.6746187885780006-9, id: 0.6746187885780006-10, id: 0.6746187885780006-11, id: 0.6746187885780006-12, id: 0.6746187885780006-13, id: 0.6746187885780006-14, id: 0.6746187885780006-15, id: 0.6746187885780006-16, id: 0.6746187885780006-17, id: 0.6746187885780006-18, id: 0.6746187885780006-19, id: 0.6746187885780006-20, id: 0.6746187885780006-21]",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.6746187885780006-11\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 75
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Kumble: CAC seeks more time to decide on Anil Kumble's future - The Times of India on Mobile",
+          "subLogs": [],
+          "duration": 2175
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1932
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 103
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 44
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 49
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.957948512033568-1, id: 0.957948512033568-2, id: 0.957948512033568-3, id: 0.957948512033568-4, id: 0.957948512033568-5, id: 0.957948512033568-6, id: 0.957948512033568-7, id: 0.957948512033568-8, id: 0.957948512033568-9, id: 0.957948512033568-10, id: 0.957948512033568-11, id: 0.957948512033568-12, id: 0.957948512033568-13, id: 0.957948512033568-14, id: 0.957948512033568-15, id: 0.957948512033568-16, id: 0.957948512033568-17, id: 0.957948512033568-18, id: 0.957948512033568-19, id: 0.957948512033568-20, id: 0.957948512033568-21]",
+          "subLogs": [],
+          "duration": 41
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.957948512033568-1, id: 0.957948512033568-2, id: 0.957948512033568-3, id: 0.957948512033568-4, id: 0.957948512033568-5, id: 0.957948512033568-6, id: 0.957948512033568-7, id: 0.957948512033568-8, id: 0.957948512033568-9, id: 0.957948512033568-10, id: 0.957948512033568-11, id: 0.957948512033568-12, id: 0.957948512033568-13, id: 0.957948512033568-14, id: 0.957948512033568-15, id: 0.957948512033568-16, id: 0.957948512033568-17, id: 0.957948512033568-18, id: 0.957948512033568-19, id: 0.957948512033568-20, id: 0.957948512033568-21]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.957948512033568-12\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 83
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Air India: Air India plane overshoots runway in Jammu while landing, airport closed - The Times of India on Mobile",
+          "subLogs": [],
+          "duration": 1092
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1812
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 174
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 52
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 42
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.5554743916728289-1, id: 0.5554743916728289-2, id: 0.5554743916728289-3, id: 0.5554743916728289-4, id: 0.5554743916728289-5, id: 0.5554743916728289-6, id: 0.5554743916728289-7, id: 0.5554743916728289-8, id: 0.5554743916728289-9, id: 0.5554743916728289-10, id: 0.5554743916728289-11, id: 0.5554743916728289-12, id: 0.5554743916728289-13, id: 0.5554743916728289-14, id: 0.5554743916728289-15, id: 0.5554743916728289-16, id: 0.5554743916728289-17, id: 0.5554743916728289-18, id: 0.5554743916728289-19, id: 0.5554743916728289-20, id: 0.5554743916728289-21]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.5554743916728289-1, id: 0.5554743916728289-2, id: 0.5554743916728289-3, id: 0.5554743916728289-4, id: 0.5554743916728289-5, id: 0.5554743916728289-6, id: 0.5554743916728289-7, id: 0.5554743916728289-8, id: 0.5554743916728289-9, id: 0.5554743916728289-10, id: 0.5554743916728289-11, id: 0.5554743916728289-12, id: 0.5554743916728289-13, id: 0.5554743916728289-14, id: 0.5554743916728289-15, id: 0.5554743916728289-16, id: 0.5554743916728289-17, id: 0.5554743916728289-18, id: 0.5554743916728289-19, id: 0.5554743916728289-20, id: 0.5554743916728289-21]",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.5554743916728289-13\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 88
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "India-US relations: Partnership is best way to describe Indo-US relationship: Navtej Sarna - The Times of India on Mobile",
+          "subLogs": [],
+          "duration": 2287
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 776
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 113
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 39
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.7163203674848724-1, id: 0.7163203674848724-2, id: 0.7163203674848724-3, id: 0.7163203674848724-4, id: 0.7163203674848724-5, id: 0.7163203674848724-6, id: 0.7163203674848724-7, id: 0.7163203674848724-8, id: 0.7163203674848724-9, id: 0.7163203674848724-10, id: 0.7163203674848724-11, id: 0.7163203674848724-12, id: 0.7163203674848724-13, id: 0.7163203674848724-14, id: 0.7163203674848724-15, id: 0.7163203674848724-16, id: 0.7163203674848724-17, id: 0.7163203674848724-18, id: 0.7163203674848724-19, id: 0.7163203674848724-20, id: 0.7163203674848724-21]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.7163203674848724-1, id: 0.7163203674848724-2, id: 0.7163203674848724-3, id: 0.7163203674848724-4, id: 0.7163203674848724-5, id: 0.7163203674848724-6, id: 0.7163203674848724-7, id: 0.7163203674848724-8, id: 0.7163203674848724-9, id: 0.7163203674848724-10, id: 0.7163203674848724-11, id: 0.7163203674848724-12, id: 0.7163203674848724-13, id: 0.7163203674848724-14, id: 0.7163203674848724-15, id: 0.7163203674848724-16, id: 0.7163203674848724-17, id: 0.7163203674848724-18, id: 0.7163203674848724-19, id: 0.7163203674848724-20, id: 0.7163203674848724-21]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.7163203674848724-14\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 81
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Delhi: Pharmacist helps deliver baby, leaves needle inside patient's body - The Times of India on Mobile",
+          "subLogs": [],
+          "duration": 3352
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1866
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 93
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 42
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 41
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 53
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.7368265275014829-1, id: 0.7368265275014829-2, id: 0.7368265275014829-3, id: 0.7368265275014829-4, id: 0.7368265275014829-5, id: 0.7368265275014829-6, id: 0.7368265275014829-7, id: 0.7368265275014829-8, id: 0.7368265275014829-9, id: 0.7368265275014829-10, id: 0.7368265275014829-11, id: 0.7368265275014829-12, id: 0.7368265275014829-13, id: 0.7368265275014829-14, id: 0.7368265275014829-15, id: 0.7368265275014829-16, id: 0.7368265275014829-17, id: 0.7368265275014829-18, id: 0.7368265275014829-19, id: 0.7368265275014829-20, id: 0.7368265275014829-21]",
+          "subLogs": [],
+          "duration": 40
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.7368265275014829-1, id: 0.7368265275014829-2, id: 0.7368265275014829-3, id: 0.7368265275014829-4, id: 0.7368265275014829-5, id: 0.7368265275014829-6, id: 0.7368265275014829-7, id: 0.7368265275014829-8, id: 0.7368265275014829-9, id: 0.7368265275014829-10, id: 0.7368265275014829-11, id: 0.7368265275014829-12, id: 0.7368265275014829-13, id: 0.7368265275014829-14, id: 0.7368265275014829-15, id: 0.7368265275014829-16, id: 0.7368265275014829-17, id: 0.7368265275014829-18, id: 0.7368265275014829-19, id: 0.7368265275014829-20, id: 0.7368265275014829-21]",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.7368265275014829-15\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 94
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Do not panic, embassy tells Indians in Qatar - The Times of India on Mobile",
+          "subLogs": [],
+          "duration": 3818
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 960
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 142
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 44
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 39
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.4844130007783092-1, id: 0.4844130007783092-2, id: 0.4844130007783092-3, id: 0.4844130007783092-4, id: 0.4844130007783092-5, id: 0.4844130007783092-6, id: 0.4844130007783092-7, id: 0.4844130007783092-8, id: 0.4844130007783092-9, id: 0.4844130007783092-10, id: 0.4844130007783092-11, id: 0.4844130007783092-12, id: 0.4844130007783092-13, id: 0.4844130007783092-14, id: 0.4844130007783092-15, id: 0.4844130007783092-16, id: 0.4844130007783092-17, id: 0.4844130007783092-18, id: 0.4844130007783092-19, id: 0.4844130007783092-20, id: 0.4844130007783092-21]",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.4844130007783092-1, id: 0.4844130007783092-2, id: 0.4844130007783092-3, id: 0.4844130007783092-4, id: 0.4844130007783092-5, id: 0.4844130007783092-6, id: 0.4844130007783092-7, id: 0.4844130007783092-8, id: 0.4844130007783092-9, id: 0.4844130007783092-10, id: 0.4844130007783092-11, id: 0.4844130007783092-12, id: 0.4844130007783092-13, id: 0.4844130007783092-14, id: 0.4844130007783092-15, id: 0.4844130007783092-16, id: 0.4844130007783092-17, id: 0.4844130007783092-18, id: 0.4844130007783092-19, id: 0.4844130007783092-20, id: 0.4844130007783092-21]",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.4844130007783092-16\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 133
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "junaid chowdhry: Chhota Shakeel's aide arrested, was planning to target Tarek Fateh - The Times of India on Mobile",
+          "subLogs": [],
+          "duration": 2248
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1797
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 58
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 130
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.6068559574495707-1, id: 0.6068559574495707-2, id: 0.6068559574495707-3, id: 0.6068559574495707-4, id: 0.6068559574495707-5, id: 0.6068559574495707-6, id: 0.6068559574495707-7, id: 0.6068559574495707-8, id: 0.6068559574495707-9, id: 0.6068559574495707-10, id: 0.6068559574495707-11, id: 0.6068559574495707-12, id: 0.6068559574495707-13, id: 0.6068559574495707-14, id: 0.6068559574495707-15, id: 0.6068559574495707-16, id: 0.6068559574495707-17, id: 0.6068559574495707-18, id: 0.6068559574495707-19, id: 0.6068559574495707-20, id: 0.6068559574495707-21]",
+          "subLogs": [],
+          "duration": 119
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.6068559574495707-1, id: 0.6068559574495707-2, id: 0.6068559574495707-3, id: 0.6068559574495707-4, id: 0.6068559574495707-5, id: 0.6068559574495707-6, id: 0.6068559574495707-7, id: 0.6068559574495707-8, id: 0.6068559574495707-9, id: 0.6068559574495707-10, id: 0.6068559574495707-11, id: 0.6068559574495707-12, id: 0.6068559574495707-13, id: 0.6068559574495707-14, id: 0.6068559574495707-15, id: 0.6068559574495707-16, id: 0.6068559574495707-17, id: 0.6068559574495707-18, id: 0.6068559574495707-19, id: 0.6068559574495707-20, id: 0.6068559574495707-21]",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.6068559574495707-17\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2402
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Raabta Review {2.5/5}: If sparks flew more organically, it would have been easier to make a connection with this epic tale of love",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2015
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 134
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 60
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 43
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.7111779963988409-1, id: 0.7111779963988409-2, id: 0.7111779963988409-3, id: 0.7111779963988409-4, id: 0.7111779963988409-5, id: 0.7111779963988409-6, id: 0.7111779963988409-7, id: 0.7111779963988409-8, id: 0.7111779963988409-9, id: 0.7111779963988409-10, id: 0.7111779963988409-11, id: 0.7111779963988409-12, id: 0.7111779963988409-13, id: 0.7111779963988409-14, id: 0.7111779963988409-15, id: 0.7111779963988409-16, id: 0.7111779963988409-17, id: 0.7111779963988409-18, id: 0.7111779963988409-19, id: 0.7111779963988409-20, id: 0.7111779963988409-21]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.7111779963988409-1, id: 0.7111779963988409-2, id: 0.7111779963988409-3, id: 0.7111779963988409-4, id: 0.7111779963988409-5, id: 0.7111779963988409-6, id: 0.7111779963988409-7, id: 0.7111779963988409-8, id: 0.7111779963988409-9, id: 0.7111779963988409-10, id: 0.7111779963988409-11, id: 0.7111779963988409-12, id: 0.7111779963988409-13, id: 0.7111779963988409-14, id: 0.7111779963988409-15, id: 0.7111779963988409-16, id: 0.7111779963988409-17, id: 0.7111779963988409-18, id: 0.7111779963988409-19, id: 0.7111779963988409-20, id: 0.7111779963988409-21]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.7111779963988409-18\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 82
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Pakistani beauty queens bare it all in these pictures Miss India | Femina Miss India 2015",
+          "subLogs": [],
+          "duration": 2477
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 55
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 39
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 37
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 38
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Decline notifications",
+      "type": "TestStepPass",
+      "duration": 10495,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "No notification present",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Get List of top-stories and print",
+      "type": "TestStepPass",
+      "duration": 720,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Britain, Brexit in disarray as PM May's election gamble backfires\n50 mins ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Live: Labour Party will seek to form minority govt in UK\n12 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "PM Modi meets Chinese President Xi Jinping on SCO sidelines\n2 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "We are not invincible, says Virat Kohli ahead of 'virtual quarters'\n41 mins ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Labour's Indian-origin candidates shine in UK polls\n2 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Islamic State claims it killed two Chinese in Pakistan\n44 mins ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "iPhone 6 available at a discount of over Rs 14,000\n1 hr ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Day-long curfew relaxation in Mandsaur city, Pipliamandi\n2 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "UP Board Class 12th Result 2017 declared\n12 mins ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "UP Board Class 10th Result 2017 declared\n10 mins ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "CAC seeks more time to decide on Anil Kumble's future\n3 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Air India plane overshoots runway in Jammu while landing, airport closed\n1 hr ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Partnership is best way to describe Indo-US relationship: Navtej Sarna\n5 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Delhi: Pharmacist helps deliver baby, leaves needle inside patient's body\n5 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Do not panic, embassy tells Indians in Qatar\n11 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Chhota Shakeel's aide arrested, was planning to target Tarek Fateh\n1 hr ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Raabta movie review\n2 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Pakistani model bares it all in these pictures\n5 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Telangana snaps power to Andhra Pradesh over Rs 1,600 crore dues\n5 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Infosys founders looking to sell their stake in company\n2 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "This Chennai bus conductor plants 38,000 trees\n40 mins ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "verifyNewsTitle",
+      "type": "TestStepFail",
+      "screenshot": "../img/toiPageVerification_1hrvpyn2qyf26202.png",
+      "duration": 277342,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "News title is : Theresa May: UK election deals May a crushing blow, blurring Brexit talks - The Times of India on Mobile",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_dhtd39eoqdoq185.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Live: UK Election Results: With 153 seats out of 650 declared in British election, Conservatives on 57 and Labour on 76",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_z047t7h9cvet186.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Narendra Modi: PM Modi meets Chinese President Xi Jinping on SCO sidelines - The Times of India on Mobile",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_7myk0k89lzbt187.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Champions Trophy: Great scenario to have two quarter-finals: Virat Kohli - The Times of India on Mobile",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_1ob2d9xh90eym188.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Preet Gill: UK gets its first female Sikh MP in general election - The Times of India on Mobile",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_mbobbdb2dft6189.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : CPEC: Islamic State claims it killed two Chinese in Pakistan - The Times of India on Mobile",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_t7s0kahn9xba190.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Flipkart Father’s Day sale: Pick up Apple iPhone 6 at Rs 21,999 | Gadgets Now",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_kzwn1ejwexm0191.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : MP farmers protest: Day-long curfew relaxation in Mandsaur city, Pipliamandi - The Times of India on Mobile",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_1cfimrm3pgwy1192.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : UP Board Intermediate Class 12th Results 2017 at upresults.nic.in: UP Board Class 12th results declared at upresults.nic.in",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_1phszu3lvmgq1193.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : UP Board High School Class 10th Results 2017 at upresults.nic.in: UP Board Class 10th results declared at upresults.nic.in",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_129ku1cfauhbm194.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Kumble: CAC seeks more time to decide on Anil Kumble's future - The Times of India on Mobile",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_1rhqidb4z1z5n195.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Air India: Air India plane overshoots runway in Jammu while landing, airport closed - The Times of India on Mobile",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_1s8kuhbcixa9m196.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : India-US relations: Partnership is best way to describe Indo-US relationship: Navtej Sarna - The Times of India on Mobile",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_1gx5w5fhc4xyz197.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Delhi: Pharmacist helps deliver baby, leaves needle inside patient's body - The Times of India on Mobile",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_lv5sdmaahejc198.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Do not panic, embassy tells Indians in Qatar - The Times of India on Mobile",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_k2n35ylzh4st199.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : junaid chowdhry: Chhota Shakeel's aide arrested, was planning to target Tarek Fateh - The Times of India on Mobile",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_2h66kli6pz9n200.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Raabta Review {2.5/5}: If sparks flew more organically, it would have been easier to make a connection with this epic tale of love",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_10kbwu4ify1ii201.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Pakistani beauty queens bare it all in these pictures Miss India | Femina Miss India 2015",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_1hrvpyn2qyf26202.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

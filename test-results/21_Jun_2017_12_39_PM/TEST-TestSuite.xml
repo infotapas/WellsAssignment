@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="TestSuite" time="209.738" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\TAPAS~1.PAD\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Users\tapas.padhi\gmworkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf876634107159978087.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Perforce\DVCS\;C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security 10 for Windows SP2\;C:\Software\eclipse-jee-neon-2-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\tapas.padhi"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="tapas.padhi"/>
+    <property name="java.class.path" value="/C:/Software/eclipse-jee-neon-2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.timesofindia.tests.ToiTest" name="toiPageVerification" time="93.131">
+    <failure message="unknown error: Element &lt;li&gt;...&lt;/li&gt; is not clickable at point (187, 621). Other element would receive the click: &lt;iframe id=&quot;google_ads_iframe_/7176/TOI_MWeb/TOI_MWeb_Home/TOI_MWeb_HP_PT_FBN_0&quot; title=&quot;3rd party ad content&quot; name=&quot;google_ads_iframe_/7176/TOI_MWeb/TOI_MWeb_Home/TOI_MWeb_HP_PT_FBN_0&quot; width=&quot;320&quot; height=&quot;50&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; frameborder=&quot;0&quot; style=&quot;border: 0px; vertical-align: bottom;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 104 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=true, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\TAPAS~1.PAD\AppData\Local\Temp\scoped_dir9320_2837}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=true, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 05e6a3ea9f9a63afc8998a600c5e0500" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: Element &lt;li&gt;...&lt;/li&gt; is not clickable at point (187, 621). Other element would receive the click: &lt;iframe id=&quot;google_ads_iframe_/7176/TOI_MWeb/TOI_MWeb_Home/TOI_MWeb_HP_PT_FBN_0&quot; title=&quot;3rd party ad content&quot; name=&quot;google_ads_iframe_/7176/TOI_MWeb/TOI_MWeb_Home/TOI_MWeb_HP_PT_FBN_0&quot; width=&quot;320&quot; height=&quot;50&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; frameborder=&quot;0&quot; style=&quot;border: 0px; vertical-align: bottom;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 104 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=true, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\TAPAS~1.PAD\AppData\Local\Temp\scoped_dir9320_2837}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=true, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 05e6a3ea9f9a63afc8998a600c5e0500
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:256)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:252)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.timesofindia.defs.DetailsNewsDefs.verifyNewsTitle_aroundBody0(DetailsNewsDefs.java:23)
+	at com.timesofindia.defs.DetailsNewsDefs$AjcClosure1.run(DetailsNewsDefs.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)
+	at com.timesofindia.defs.DetailsNewsDefs.verifyNewsTitle(DetailsNewsDefs.java:17)
+	at com.timesofindia.tests.ToiTest.toiPageVerification(ToiTest.java:45)
+</failure>
+    <system-out>[ConfigurationManager] - ISFW build info: {qaf-Type=core, qaf-Revision=10, qaf-Version=2.1, qaf-Build-Time=03-Jan-2017 14:01:00}
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\mailer.properties not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\test_data not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\mobile_web\object_repository not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\mobile_web\configuration not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\mobile_web\translations.properties not exist!
+[ConfigurationManager] - Resource dir: C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\mobile_web. Found property files to load: 1
+[ConfigurationManager] - Resource dir: C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\mobile_web. Found property files to load: 0
+[QAFTestBase] - Initializing Driver...browser_str:chromeDriver,base_url:http://m.timesofindia.com,sel_server:localhost,port:4444
+[UiDriverFactory] - Driver: chromeDriver
+driver init done
+[WebDriverCommandLogger] - Executing get parameters: {&quot;url&quot;:&quot;http://m.timesofindia.com&quot;}
+[WebDriverCommandLogger] - command: get[ param-1: {url=http://m.timesofindia.com}] Result: null
+[WebDriverCommandLogger] - Executing maximizeWindow parameters: {&quot;windowHandle&quot;:&quot;current&quot;}
+[WebDriverCommandLogger] - command: maximizeWindow[ param-1: {windowHandle=current}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;.//div[@class=&apos;homenotification&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=.//div[@class=&apos;homenotification&apos;], using=xpath}] Result: [id: 0.7367615487697501-1]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;.//div[@class=&apos;homenotification&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=.//div[@class=&apos;homenotification&apos;], using=xpath}] Result: [id: 0.7367615487697501-1]
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_1rfqzidoi7uoj39295.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[text()=&apos;Enable&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[text()=&apos;Enable&apos;], using=xpath}] Result: [id: 0.7367615487697501-2]
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_1v9w24musgdcv39296.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[text()=&apos;Not Now&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[text()=&apos;Not Now&apos;], using=xpath}] Result: [id: 0.7367615487697501-3]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[text()=&apos;Not Now&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//a[text()=&apos;Not Now&apos;], using=xpath}] Result: id: 0.7367615487697501-3
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //a[text()=&apos;Not Now&apos;] parameters: {&quot;id&quot;:&quot;0.7367615487697501-3&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //a[text()=&apos;Not Now&apos;] param-2: {&quot;id&quot;:&quot;0.7367615487697501-3&quot;}] Result: element not visible
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=true, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\TAPAS~1.PAD\AppData\Local\Temp\scoped_dir9320_2837}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=true, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 05e6a3ea9f9a63afc8998a600c5e0500
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.7367615487697501-4, id: 0.7367615487697501-5, id: 0.7367615487697501-6, id: 0.7367615487697501-7, id: 0.7367615487697501-8, id: 0.7367615487697501-9, id: 0.7367615487697501-10, id: 0.7367615487697501-11, id: 0.7367615487697501-12, id: 0.7367615487697501-13, id: 0.7367615487697501-14, id: 0.7367615487697501-15, id: 0.7367615487697501-16, id: 0.7367615487697501-17, id: 0.7367615487697501-18, id: 0.7367615487697501-19, id: 0.7367615487697501-20, id: 0.7367615487697501-21, id: 0.7367615487697501-22, id: 0.7367615487697501-23, id: 0.7367615487697501-24]
+TopStory size count is 21
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.7367615487697501-4, id: 0.7367615487697501-5, id: 0.7367615487697501-6, id: 0.7367615487697501-7, id: 0.7367615487697501-8, id: 0.7367615487697501-9, id: 0.7367615487697501-10, id: 0.7367615487697501-11, id: 0.7367615487697501-12, id: 0.7367615487697501-13, id: 0.7367615487697501-14, id: 0.7367615487697501-15, id: 0.7367615487697501-16, id: 0.7367615487697501-17, id: 0.7367615487697501-18, id: 0.7367615487697501-19, id: 0.7367615487697501-20, id: 0.7367615487697501-21, id: 0.7367615487697501-22, id: 0.7367615487697501-23, id: 0.7367615487697501-24]
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-4&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-4&quot;}] Result: getElementText:Saudi Arabia&apos;s king ousts nephew, promotes son as successor
+1 hr ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-5&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-5&quot;}] Result: getElementText:Presidential poll: Jolt to opposition unity, JD(U) to support Kovind
+3 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-6&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-6&quot;}] Result: getElementText:Just saying, stuck to a coach I hated, for 20 years: Abhinav Bindra
+3 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-7&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-7&quot;}] Result: getElementText:Ex-judge Karnan brought to Kolkata, taken to jail
+5 mins ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-8&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-8&quot;}] Result: getElementText:Travis Kalanick - Uber&apos;s disruptive driving force
+55 mins ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-9&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-9&quot;}] Result: getElementText:Darjeeling bandh: GJM offers 12-hour &apos;window&apos; to schools to evacuate students
+1 hr ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-10&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-10&quot;}] Result: getElementText:Spat with Kohli: Kumble exit seen as triumph for player power
+5 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-11&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-11&quot;}] Result: getElementText:FERA cases: Sasikala appears through videoconferencing
+15 mins ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-12&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-12&quot;}] Result: getElementText:OnePlus 5: 5 reasons to buy and not buy the flagship smartphone
+3 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-13&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-13&quot;}] Result: getElementText:Honda&apos;s new most affordable scooter: 10 things to know
+28 mins ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-14&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-14&quot;}] Result: getElementText:Akshay Kumar to play PM Narendra Modi in a film?
+2 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-15&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-15&quot;}] Result: getElementText:Humour: Twitter reacts to Kumble&apos;s resignation
+19 mins ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-16&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-16&quot;}] Result: getElementText:BMC demolishes actor Arshad Warsi&apos;s Versova bungalow
+1 hr ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-17&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-17&quot;}] Result: getElementText:India most reliable partner for Afghanistan: Pentagon
+4 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-18&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-18&quot;}] Result: getElementText:Karnataka waives loan up to Rs 50,000 per farmer
+2 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-19&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-19&quot;}] Result: getElementText:International Yoga Day 2017: Complete coverage
+6 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-20&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-20&quot;}] Result: getElementText:&apos;Need leave from work to eat chicken&apos;: Railway employee&apos;s application goes viral
+1 hr ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-21&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-21&quot;}] Result: getElementText:In pics: Yoga records across India
+1 hr ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-22&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-22&quot;}] Result: getElementText:Supreme Court refuses to grant interim bail to CS Karnan
+3 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-23&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-23&quot;}] Result: getElementText:Builders asking flat buyers to make full payment by Jul 1 illegal: Naidu
+3 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-24&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-24&quot;}] Result: getElementText:Shocking contestants in Playboy Bunny outfits
+3 hrs ago
+mobile_web
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.7367615487697501-4, id: 0.7367615487697501-5, id: 0.7367615487697501-6, id: 0.7367615487697501-7, id: 0.7367615487697501-8, id: 0.7367615487697501-9, id: 0.7367615487697501-10, id: 0.7367615487697501-11, id: 0.7367615487697501-12, id: 0.7367615487697501-13, id: 0.7367615487697501-14, id: 0.7367615487697501-15, id: 0.7367615487697501-16, id: 0.7367615487697501-17, id: 0.7367615487697501-18, id: 0.7367615487697501-19, id: 0.7367615487697501-20, id: 0.7367615487697501-21, id: 0.7367615487697501-22, id: 0.7367615487697501-23, id: 0.7367615487697501-24]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.7367615487697501-4, id: 0.7367615487697501-5, id: 0.7367615487697501-6, id: 0.7367615487697501-7, id: 0.7367615487697501-8, id: 0.7367615487697501-9, id: 0.7367615487697501-10, id: 0.7367615487697501-11, id: 0.7367615487697501-12, id: 0.7367615487697501-13, id: 0.7367615487697501-14, id: 0.7367615487697501-15, id: 0.7367615487697501-16, id: 0.7367615487697501-17, id: 0.7367615487697501-18, id: 0.7367615487697501-19, id: 0.7367615487697501-20, id: 0.7367615487697501-21, id: 0.7367615487697501-22, id: 0.7367615487697501-23, id: 0.7367615487697501-24]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7367615487697501-4&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7367615487697501-4&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: Saudi Prince: Saudi Arabia&apos;s Mohammed bin Salman elevated to Crown Prince - The Times of India on Mobile
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;.//a[text()=&apos;top news&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=.//a[text()=&apos;top news&apos;], using=xpath}] Result: [id: 0.32923531539183926-1]
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_8yyecjjabahd39297.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.32923531539183926-2, id: 0.32923531539183926-3, id: 0.32923531539183926-4, id: 0.32923531539183926-5, id: 0.32923531539183926-6, id: 0.32923531539183926-7, id: 0.32923531539183926-8, id: 0.32923531539183926-9, id: 0.32923531539183926-10, id: 0.32923531539183926-11, id: 0.32923531539183926-12, id: 0.32923531539183926-13, id: 0.32923531539183926-14, id: 0.32923531539183926-15, id: 0.32923531539183926-16, id: 0.32923531539183926-17, id: 0.32923531539183926-18, id: 0.32923531539183926-19, id: 0.32923531539183926-20, id: 0.32923531539183926-21, id: 0.32923531539183926-22]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.32923531539183926-2, id: 0.32923531539183926-3, id: 0.32923531539183926-4, id: 0.32923531539183926-5, id: 0.32923531539183926-6, id: 0.32923531539183926-7, id: 0.32923531539183926-8, id: 0.32923531539183926-9, id: 0.32923531539183926-10, id: 0.32923531539183926-11, id: 0.32923531539183926-12, id: 0.32923531539183926-13, id: 0.32923531539183926-14, id: 0.32923531539183926-15, id: 0.32923531539183926-16, id: 0.32923531539183926-17, id: 0.32923531539183926-18, id: 0.32923531539183926-19, id: 0.32923531539183926-20, id: 0.32923531539183926-21, id: 0.32923531539183926-22]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.32923531539183926-3&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.32923531539183926-3&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: Nitish Kumar: Setback for opposition unity, JD(U) to support Ram Nath Kovind
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;.//a[text()=&apos;top news&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=.//a[text()=&apos;top news&apos;], using=xpath}] Result: [id: 0.8986452702866743-1]
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_q0u93qv66p5r39298.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.8986452702866743-2, id: 0.8986452702866743-3, id: 0.8986452702866743-4, id: 0.8986452702866743-5, id: 0.8986452702866743-6, id: 0.8986452702866743-7, id: 0.8986452702866743-8, id: 0.8986452702866743-9, id: 0.8986452702866743-10, id: 0.8986452702866743-11, id: 0.8986452702866743-12, id: 0.8986452702866743-13, id: 0.8986452702866743-14, id: 0.8986452702866743-15, id: 0.8986452702866743-16, id: 0.8986452702866743-17, id: 0.8986452702866743-18, id: 0.8986452702866743-19, id: 0.8986452702866743-20, id: 0.8986452702866743-21, id: 0.8986452702866743-22]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.8986452702866743-2, id: 0.8986452702866743-3, id: 0.8986452702866743-4, id: 0.8986452702866743-5, id: 0.8986452702866743-6, id: 0.8986452702866743-7, id: 0.8986452702866743-8, id: 0.8986452702866743-9, id: 0.8986452702866743-10, id: 0.8986452702866743-11, id: 0.8986452702866743-12, id: 0.8986452702866743-13, id: 0.8986452702866743-14, id: 0.8986452702866743-15, id: 0.8986452702866743-16, id: 0.8986452702866743-17, id: 0.8986452702866743-18, id: 0.8986452702866743-19, id: 0.8986452702866743-20, id: 0.8986452702866743-21, id: 0.8986452702866743-22]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8986452702866743-4&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8986452702866743-4&quot;}] Result: unknown error: Element &lt;li&gt;...&lt;/li&gt; is not clickable at point (187, 621). Other element would receive the click: &lt;iframe id=&quot;google_ads_iframe_/7176/TOI_MWeb/TOI_MWeb_Home/TOI_MWeb_HP_PT_FBN_0&quot; title=&quot;3rd party ad content&quot; name=&quot;google_ads_iframe_/7176/TOI_MWeb/TOI_MWeb_Home/TOI_MWeb_HP_PT_FBN_0&quot; width=&quot;320&quot; height=&quot;50&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; frameborder=&quot;0&quot; style=&quot;border: 0px; vertical-align: bottom;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 104 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=true, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\TAPAS~1.PAD\AppData\Local\Temp\scoped_dir9320_2837}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=true, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 05e6a3ea9f9a63afc8998a600c5e0500
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_8em1gylp42qy39299.png
+</system-out>
+    <system-err>log4j:WARN No such property [follow] in org.apache.log4j.FileAppender.
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 29746
+Only local connections are allowed.
+</system-err>
+  </testcase>
+</testsuite>

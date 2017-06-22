@@ -1,0 +1,166 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://timesofindia.indiatimes.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3601
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1238
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[id: 0.7861977800757842-1]",
+      "subLogs": [],
+      "duration": 2865
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[id: 0.7861977800757842-1]",
+      "subLogs": [],
+      "duration": 63
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//a[text()='Enable'], using=xpath}"
+      ],
+      "result": "[id: 0.7861977800757842-2]",
+      "subLogs": [],
+      "duration": 209
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//a[text()='Not Now'], using=xpath}"
+      ],
+      "result": "[id: 0.7861977800757842-3]",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text()='Not Now'], using=xpath}"
+      ],
+      "result": "id: 0.7861977800757842-3",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[text()='Not Now']",
+        "{\"id\":\"0.7861977800757842-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 117
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Expected Notification Pop-Up present : Actual Notification Pop-Up present",
+      "type": "Pass",
+      "screenshot": "../img/sampleTest_z0y2nel7vamo6998.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected Not now button on Pop-Up present : Actual Not now button on Pop-Up present",
+      "type": "Pass",
+      "screenshot": "../img/sampleTest_1vqw025zhawho6999.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Declining popup - Not to receive notofications",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

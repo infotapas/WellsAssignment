@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Times Of India Page verification",
+        "groups": [],
+        "name": "toiPageVerification",
+        "sign": "RunnerClass.toiPageVerification()[pri:0, instance:com.pages.runner.RunnerClass@4abdb505]"
+      },
+      "dependsOn": [],
+      "startTime": 1496920186139,
+      "duration": 20770,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

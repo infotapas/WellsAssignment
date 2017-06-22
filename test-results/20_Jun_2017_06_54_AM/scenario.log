@@ -1,0 +1,10 @@
+12:24:53 Invoking Teststep: Decline notifications
+12:24:58 Completed Teststep: Decline notifications
+12:24:58 Invoking Teststep: Entertainment section verification
+12:24:58 Completed Teststep: Entertainment section verification
+12:24:58 Invoking Teststep: Extract entertainment section's news
+12:25:00 Completed Teststep: Extract entertainment section's news
+12:25:00 Invoking Teststep: Verify total number of image displayed
+12:25:07 Completed Teststep: Verify total number of image displayed
+12:25:12 Invoking Teststep: Reading sub news
+12:25:26 Completed Teststep: Reading sub news

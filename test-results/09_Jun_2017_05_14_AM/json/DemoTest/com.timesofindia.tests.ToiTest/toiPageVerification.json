@@ -1,0 +1,1113 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[id: 0.40444987928906895-1]",
+      "subLogs": [],
+      "duration": 2703
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[id: 0.40444987928906895-1]",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//a[text()='Enable'], using=xpath}"
+      ],
+      "result": "[id: 0.40444987928906895-2]",
+      "subLogs": [],
+      "duration": 61
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//a[text()='Not Now'], using=xpath}"
+      ],
+      "result": "[id: 0.40444987928906895-3]",
+      "subLogs": [],
+      "duration": 42
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text()='Not Now'], using=xpath}"
+      ],
+      "result": "id: 0.40444987928906895-3",
+      "subLogs": [],
+      "duration": 52
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[text()='Not Now']",
+        "{\"id\":\"0.40444987928906895-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 206
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.40444987928906895-4, id: 0.40444987928906895-5, id: 0.40444987928906895-6, id: 0.40444987928906895-7, id: 0.40444987928906895-8, id: 0.40444987928906895-9, id: 0.40444987928906895-10]",
+      "subLogs": [],
+      "duration": 54
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.40444987928906895-4, id: 0.40444987928906895-5, id: 0.40444987928906895-6, id: 0.40444987928906895-7, id: 0.40444987928906895-8, id: 0.40444987928906895-9, id: 0.40444987928906895-10]",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"0.40444987928906895-4\"}"
+      ],
+      "result": "getElementText:Infosys founders looking to sell stake in company",
+      "subLogs": [],
+      "duration": 50
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"0.40444987928906895-5\"}"
+      ],
+      "result": "getElementText:Live: It's official. Hung parliament in UK",
+      "subLogs": [],
+      "duration": 49
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"0.40444987928906895-6\"}"
+      ],
+      "result": "getElementText:Indian-origin candidates shine in UK polls",
+      "subLogs": [],
+      "duration": 49
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"0.40444987928906895-7\"}"
+      ],
+      "result": "getElementText:ISIS claims it killed two Chinese in Pakistan",
+      "subLogs": [],
+      "duration": 50
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"0.40444987928906895-8\"}"
+      ],
+      "result": "getElementText:Trump asked me to lay off Russia probe: Comey",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"0.40444987928906895-9\"}"
+      ],
+      "result": "getElementText:Day-long curfew relaxation in Mandsaur",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"0.40444987928906895-10\"}"
+      ],
+      "result": "getElementText:Asking Anil Kumble to go will be tough for CAC",
+      "subLogs": [],
+      "duration": 49
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.40444987928906895-4, id: 0.40444987928906895-5, id: 0.40444987928906895-6, id: 0.40444987928906895-7, id: 0.40444987928906895-8, id: 0.40444987928906895-9, id: 0.40444987928906895-10]",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.40444987928906895-4, id: 0.40444987928906895-5, id: 0.40444987928906895-6, id: 0.40444987928906895-7, id: 0.40444987928906895-8, id: 0.40444987928906895-9, id: 0.40444987928906895-10]",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"0.40444987928906895-4\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 35817
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "[id: 0.21848191374916626-1]",
+      "subLogs": [],
+      "duration": 269
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "id: 0.21848191374916626-1",
+      "subLogs": [],
+      "duration": 150
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='main-content']/section/h1",
+        "{\"id\":\"0.21848191374916626-1\"}"
+      ],
+      "result": "getElementText:Infosys founders looking to sell their stake in company",
+      "subLogs": [],
+      "duration": 126
+    },
+    {
+      "commandName": "goBack",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3538
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//span[text()='Sign In'], using=xpath}"
+      ],
+      "result": "[id: 0.5742520904670212-1]",
+      "subLogs": [],
+      "duration": 149
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.5742520904670212-2, id: 0.5742520904670212-3, id: 0.5742520904670212-4, id: 0.5742520904670212-5, id: 0.5742520904670212-6, id: 0.5742520904670212-7, id: 0.5742520904670212-8]",
+      "subLogs": [],
+      "duration": 672
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.5742520904670212-2, id: 0.5742520904670212-3, id: 0.5742520904670212-4, id: 0.5742520904670212-5, id: 0.5742520904670212-6, id: 0.5742520904670212-7, id: 0.5742520904670212-8]",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"0.5742520904670212-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 22918
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 87
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='main-content']/section/h1\"}\n  (Session info: chrome=58.0.3029.110)\n  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 84 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\\Users\\TAPAS~1.PAD\\AppData\\Local\\Temp\\scoped_dir8988_1609}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: a39e4e8eea2b2ed699ca5d0c9c48170e\n*** Element info: {Using=xpath, value=//div[@class='main-content']/section/h1}",
+      "subLogs": [],
+      "duration": 86
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='main-content']/section/h1\"}\n  (Session info: chrome=58.0.3029.110)\n  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 24 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\\Users\\TAPAS~1.PAD\\AppData\\Local\\Temp\\scoped_dir8988_1609}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: a39e4e8eea2b2ed699ca5d0c9c48170e\n*** Element info: {Using=xpath, value=//div[@class='main-content']/section/h1}",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='main-content']/section/h1\"}\n  (Session info: chrome=58.0.3029.110)\n  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 19 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\\Users\\TAPAS~1.PAD\\AppData\\Local\\Temp\\scoped_dir8988_1609}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: a39e4e8eea2b2ed699ca5d0c9c48170e\n*** Element info: {Using=xpath, value=//div[@class='main-content']/section/h1}",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='main-content']/section/h1\"}\n  (Session info: chrome=58.0.3029.110)\n  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 24 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\\Users\\TAPAS~1.PAD\\AppData\\Local\\Temp\\scoped_dir8988_1609}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: a39e4e8eea2b2ed699ca5d0c9c48170e\n*** Element info: {Using=xpath, value=//div[@class='main-content']/section/h1}",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='main-content']/section/h1\"}\n  (Session info: chrome=58.0.3029.110)\n  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 30 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\\Users\\TAPAS~1.PAD\\AppData\\Local\\Temp\\scoped_dir8988_1609}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: a39e4e8eea2b2ed699ca5d0c9c48170e\n*** Element info: {Using=xpath, value=//div[@class='main-content']/section/h1}",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='main-content']/section/h1\"}\n  (Session info: chrome=58.0.3029.110)\n  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 30 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\\Users\\TAPAS~1.PAD\\AppData\\Local\\Temp\\scoped_dir8988_1609}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: a39e4e8eea2b2ed699ca5d0c9c48170e\n*** Element info: {Using=xpath, value=//div[@class='main-content']/section/h1}",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='main-content']/section/h1\"}\n  (Session info: chrome=58.0.3029.110)\n  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 16 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\\Users\\TAPAS~1.PAD\\AppData\\Local\\Temp\\scoped_dir8988_1609}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: a39e4e8eea2b2ed699ca5d0c9c48170e\n*** Element info: {Using=xpath, value=//div[@class='main-content']/section/h1}",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='main-content']/section/h1\"}\n  (Session info: chrome=58.0.3029.110)\n  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 25 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\\Users\\TAPAS~1.PAD\\AppData\\Local\\Temp\\scoped_dir8988_1609}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: a39e4e8eea2b2ed699ca5d0c9c48170e\n*** Element info: {Using=xpath, value=//div[@class='main-content']/section/h1}",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='main-content']/section/h1\"}\n  (Session info: chrome=58.0.3029.110)\n  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 16 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\\Users\\TAPAS~1.PAD\\AppData\\Local\\Temp\\scoped_dir8988_1609}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: a39e4e8eea2b2ed699ca5d0c9c48170e\n*** Element info: {Using=xpath, value=//div[@class='main-content']/section/h1}",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='main-content']/section/h1\"}\n  (Session info: chrome=58.0.3029.110)\n  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 21 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\\Users\\TAPAS~1.PAD\\AppData\\Local\\Temp\\scoped_dir8988_1609}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: a39e4e8eea2b2ed699ca5d0c9c48170e\n*** Element info: {Using=xpath, value=//div[@class='main-content']/section/h1}",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='main-content']/section/h1\"}\n  (Session info: chrome=58.0.3029.110)\n  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 18 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\\Users\\TAPAS~1.PAD\\AppData\\Local\\Temp\\scoped_dir8988_1609}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: a39e4e8eea2b2ed699ca5d0c9c48170e\n*** Element info: {Using=xpath, value=//div[@class='main-content']/section/h1}",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='main-content']/section/h1",
+        "{\"id\":\"-1\"}"
+      ],
+      "result": "Timed out after 10 seconds waiting for presence of element located by: By.xpath: //div[@class='main-content']/section/h1\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: driver.version: QAFExtendedWebDriver",
+      "subLogs": [],
+      "duration": -1957815524
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Live: UK Election Results: British PM May loses overall majority in British parliament",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "goBack",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 2485
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//span[text()='Sign In'], using=xpath}"
+      ],
+      "result": "[id: 0.661832329989364-1]",
+      "subLogs": [],
+      "duration": 99
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.661832329989364-2, id: 0.661832329989364-3, id: 0.661832329989364-4, id: 0.661832329989364-5, id: 0.661832329989364-6, id: 0.661832329989364-7, id: 0.661832329989364-8]",
+      "subLogs": [],
+      "duration": 641
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.661832329989364-2, id: 0.661832329989364-3, id: 0.661832329989364-4, id: 0.661832329989364-5, id: 0.661832329989364-6, id: 0.661832329989364-7, id: 0.661832329989364-8]",
+      "subLogs": [],
+      "duration": 179
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"0.661832329989364-4\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 29361
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "[id: 0.03290591889304473-1]",
+      "subLogs": [],
+      "duration": 431
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "id: 0.03290591889304473-1",
+      "subLogs": [],
+      "duration": 202
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='main-content']/section/h1",
+        "{\"id\":\"0.03290591889304473-1\"}"
+      ],
+      "result": "getElementText:UK gets its first female Sikh MP in general election",
+      "subLogs": [],
+      "duration": 144
+    },
+    {
+      "commandName": "goBack",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 4973
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//span[text()='Sign In'], using=xpath}"
+      ],
+      "result": "[id: 0.6639994204986346-1]",
+      "subLogs": [],
+      "duration": 143
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.6639994204986346-2, id: 0.6639994204986346-3, id: 0.6639994204986346-4, id: 0.6639994204986346-5, id: 0.6639994204986346-6, id: 0.6639994204986346-7, id: 0.6639994204986346-8]",
+      "subLogs": [],
+      "duration": 146
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.6639994204986346-2, id: 0.6639994204986346-3, id: 0.6639994204986346-4, id: 0.6639994204986346-5, id: 0.6639994204986346-6, id: 0.6639994204986346-7, id: 0.6639994204986346-8]",
+      "subLogs": [],
+      "duration": 917
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"0.6639994204986346-5\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 23433
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "[id: 0.24886193882413754-1]",
+      "subLogs": [],
+      "duration": 121
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "id: 0.24886193882413754-1",
+      "subLogs": [],
+      "duration": 2528
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='main-content']/section/h1",
+        "{\"id\":\"0.24886193882413754-1\"}"
+      ],
+      "result": "getElementText:Islamic State claims it killed two Chinese in Pakistan",
+      "subLogs": [],
+      "duration": 90
+    },
+    {
+      "commandName": "goBack",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3205
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//span[text()='Sign In'], using=xpath}"
+      ],
+      "result": "[id: 0.058763304694758434-1]",
+      "subLogs": [],
+      "duration": 216
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.058763304694758434-2, id: 0.058763304694758434-3, id: 0.058763304694758434-4, id: 0.058763304694758434-5, id: 0.058763304694758434-6, id: 0.058763304694758434-7, id: 0.058763304694758434-8]",
+      "subLogs": [],
+      "duration": 833
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.058763304694758434-2, id: 0.058763304694758434-3, id: 0.058763304694758434-4, id: 0.058763304694758434-5, id: 0.058763304694758434-6, id: 0.058763304694758434-7, id: 0.058763304694758434-8]",
+      "subLogs": [],
+      "duration": 126
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"0.058763304694758434-6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 22732
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "[id: 0.47927855053331125-1]",
+      "subLogs": [],
+      "duration": 786
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "id: 0.47927855053331125-1",
+      "subLogs": [],
+      "duration": 167
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='main-content']/section/h1",
+        "{\"id\":\"0.47927855053331125-1\"}"
+      ],
+      "result": "getElementText:Trump asked me to lay off Russia probe: Ex-FBI director Comey",
+      "subLogs": [],
+      "duration": 914
+    },
+    {
+      "commandName": "goBack",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3114
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//span[text()='Sign In'], using=xpath}"
+      ],
+      "result": "[id: 0.3549259032252752-1]",
+      "subLogs": [],
+      "duration": 64
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.3549259032252752-2, id: 0.3549259032252752-3, id: 0.3549259032252752-4, id: 0.3549259032252752-5, id: 0.3549259032252752-6, id: 0.3549259032252752-7, id: 0.3549259032252752-8]",
+      "subLogs": [],
+      "duration": 844
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.3549259032252752-2, id: 0.3549259032252752-3, id: 0.3549259032252752-4, id: 0.3549259032252752-5, id: 0.3549259032252752-6, id: 0.3549259032252752-7, id: 0.3549259032252752-8]",
+      "subLogs": [],
+      "duration": 1192
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"0.3549259032252752-7\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 22347
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "[id: 0.7604207260564548-1]",
+      "subLogs": [],
+      "duration": 148
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "id: 0.7604207260564548-1",
+      "subLogs": [],
+      "duration": 104
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='main-content']/section/h1",
+        "{\"id\":\"0.7604207260564548-1\"}"
+      ],
+      "result": "getElementText:Day-long curfew relaxation in Mandsaur city, Pipliamandi",
+      "subLogs": [],
+      "duration": 3751
+    },
+    {
+      "commandName": "goBack",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3436
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//span[text()='Sign In'], using=xpath}"
+      ],
+      "result": "[id: 0.5353521222408542-1]",
+      "subLogs": [],
+      "duration": 179
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.5353521222408542-2, id: 0.5353521222408542-3, id: 0.5353521222408542-4, id: 0.5353521222408542-5, id: 0.5353521222408542-6, id: 0.5353521222408542-7, id: 0.5353521222408542-8]",
+      "subLogs": [],
+      "duration": 798
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.5353521222408542-2, id: 0.5353521222408542-3, id: 0.5353521222408542-4, id: 0.5353521222408542-5, id: 0.5353521222408542-6, id: 0.5353521222408542-7, id: 0.5353521222408542-8]",
+      "subLogs": [],
+      "duration": 728
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"0.5353521222408542-8\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 22300
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "[id: 0.9107635830703034-1]",
+      "subLogs": [],
+      "duration": 125
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='main-content']/section/h1, using=xpath}"
+      ],
+      "result": "id: 0.9107635830703034-1",
+      "subLogs": [],
+      "duration": 1931
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='main-content']/section/h1",
+        "{\"id\":\"0.9107635830703034-1\"}"
+      ],
+      "result": "getElementText:Asking Anil Kumble to go will be tough for CAC",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "goBack",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3294
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//span[text()='Sign In'], using=xpath}"
+      ],
+      "result": "[id: 0.4443799388295995-1]",
+      "subLogs": [],
+      "duration": 120
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.4443799388295995-2, id: 0.4443799388295995-3, id: 0.4443799388295995-4, id: 0.4443799388295995-5, id: 0.4443799388295995-6, id: 0.4443799388295995-7, id: 0.4443799388295995-8]",
+      "subLogs": [],
+      "duration": 139
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Expected Notification Pop-Up present : Actual Notification Pop-Up present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_1osnmgehauilh51504.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected Not now button on Pop-Up present : Actual Not now button on Pop-Up present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_931qzs8vi4q851505.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Declining popup - Not to receive notofications",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Infosys founders looking to sell stake in company",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Live: It's official. Hung parliament in UK",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Indian-origin candidates shine in UK polls",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "ISIS claims it killed two Chinese in Pakistan",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Trump asked me to lay off Russia probe: Comey",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Day-long curfew relaxation in Mandsaur",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Asking Anil Kumble to go will be tough for CAC",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected News header title present : Actual News header title present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_rezi1pomjy1b51506.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "News header is : Infosys founders looking to sell their stake in company",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected Top Story list present : Actual Top Story list present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_19jk6qhjqt4dr51507.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected News header title present : Actual News header title not present",
+      "type": "Fail",
+      "screenshot": "../img/toiPageVerification_q01vvhi7wurf51508.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Page title is : Live: UK Election Results: British PM May loses overall majority in British parliament",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected Top Story list present : Actual Top Story list present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_1ggw3kw0gxs1i51509.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected News header title present : Actual News header title present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_427fxe41j0y351510.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "News header is : UK gets its first female Sikh MP in general election",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected Top Story list present : Actual Top Story list present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_ytme4e7ii5sh51511.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected News header title present : Actual News header title present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_1fqvhudlr5k0g51512.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "News header is : Islamic State claims it killed two Chinese in Pakistan",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected Top Story list present : Actual Top Story list present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_1edgbibzaion651513.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected News header title present : Actual News header title present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_v59wmkalhcz951514.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "News header is : Trump asked me to lay off Russia probe: Ex-FBI director Comey",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected Top Story list present : Actual Top Story list present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_1jjdvx0o0ptba51515.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected News header title present : Actual News header title present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_4pppnz67733151516.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "News header is : Day-long curfew relaxation in Mandsaur city, Pipliamandi",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected Top Story list present : Actual Top Story list present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_stbir3r1305r51517.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected News header title present : Actual News header title present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_y2k6nbiz6jm151518.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "News header is : Asking Anil Kumble to go will be tough for CAC",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected Top Story list present : Actual Top Story list present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_1wwg88g4un8c751519.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

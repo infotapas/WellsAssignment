@@ -1,0 +1,6 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 64.013 sec <<< FAILURE!
+toiPageVerification(com.timesofindia.tests.ToiTest)  Time elapsed: 43.426 sec  <<< FAILURE!
+null

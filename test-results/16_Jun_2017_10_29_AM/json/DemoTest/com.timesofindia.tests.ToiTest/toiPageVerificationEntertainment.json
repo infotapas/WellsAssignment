@@ -1,0 +1,1107 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "declineNotifications",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[id: 0.07282510239976325-1]",
+          "subLogs": [],
+          "duration": 1016
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[id: 0.07282510239976325-1]",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[text()='Enable'], using=xpath}"
+          ],
+          "result": "[id: 0.07282510239976325-2]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[text()='Not Now'], using=xpath}"
+          ],
+          "result": "[id: 0.07282510239976325-3]",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Not Now'], using=xpath}"
+          ],
+          "result": "id: 0.07282510239976325-3",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[text()='Not Now']",
+            "{\"id\":\"0.07282510239976325-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 139
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyEntertainmentSection",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[id: 0.07282510239976325-4]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entrmnt-wdgt-outer'], using=xpath}"
+          ],
+          "result": "[id: 0.07282510239976325-5]",
+          "subLogs": [],
+          "duration": 29
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getEntertainmentNewsList",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.07282510239976325-6, id: 0.07282510239976325-7, id: 0.07282510239976325-8, id: 0.07282510239976325-9, id: 0.07282510239976325-10, id: 0.07282510239976325-11, id: 0.07282510239976325-12, id: 0.07282510239976325-13, id: 0.07282510239976325-14, id: 0.07282510239976325-15, id: 0.07282510239976325-16]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.07282510239976325-6, id: 0.07282510239976325-7, id: 0.07282510239976325-8, id: 0.07282510239976325-9, id: 0.07282510239976325-10, id: 0.07282510239976325-11, id: 0.07282510239976325-12, id: 0.07282510239976325-13, id: 0.07282510239976325-14, id: 0.07282510239976325-15, id: 0.07282510239976325-16]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-6\"}"
+          ],
+          "result": "getElementText:Pic: Love is in the air for Sunny Leone",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-6\"}"
+          ],
+          "result": "getElementText:Pic: Love is in the air for Sunny Leone",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-7\"}"
+          ],
+          "result": "getElementText:Pic: Milind Soman finds love with air hostess",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-7\"}"
+          ],
+          "result": "getElementText:Pic: Milind Soman finds love with air hostess",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-8\"}"
+          ],
+          "result": "getElementText:After ‘Dangal’, ‘Sultan’ to release in China",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-8\"}"
+          ],
+          "result": "getElementText:After ‘Dangal’, ‘Sultan’ to release in China",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-9\"}"
+          ],
+          "result": "getElementText:Watch: 'Indu Sarkar' trailer",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-9\"}"
+          ],
+          "result": "getElementText:Watch: 'Indu Sarkar' trailer",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-10\"}"
+          ],
+          "result": "getElementText:KBC 9: Celebs who should participate",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-10\"}"
+          ],
+          "result": "getElementText:KBC 9: Celebs who should participate",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-11\"}"
+          ],
+          "result": "getElementText:Unknown facts about director Imtiaz Ali",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-11\"}"
+          ],
+          "result": "getElementText:Unknown facts about director Imtiaz Ali",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-12\"}"
+          ],
+          "result": "getElementText:10 Bollywood items that were auctioned",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-12\"}"
+          ],
+          "result": "getElementText:10 Bollywood items that were auctioned",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-13\"}"
+          ],
+          "result": "getElementText:Pics: Katrina picks up the guns and swords",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-13\"}"
+          ],
+          "result": "getElementText:Pics: Katrina picks up the guns and swords",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-14\"}"
+          ],
+          "result": "getElementText:First look: Ileana is badass in 'Baadshaho'",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-14\"}"
+          ],
+          "result": "getElementText:First look: Ileana is badass in 'Baadshaho'",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-15\"}"
+          ],
+          "result": "getElementText:Movie Review: Bank Chor",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-15\"}"
+          ],
+          "result": "getElementText:Movie Review: Bank Chor",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-16\"}"
+          ],
+          "result": "getElementText:'I want to be the most influential woman of India'",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.07282510239976325-16\"}"
+          ],
+          "result": "getElementText:'I want to be the most influential woman of India'",
+          "subLogs": [],
+          "duration": 9
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyTotalNumberOfImage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entslides']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.07282510239976325-17, id: 0.07282510239976325-18, id: 0.07282510239976325-19, id: 0.07282510239976325-20, id: 0.07282510239976325-21, id: 0.07282510239976325-22, id: 0.07282510239976325-23, id: 0.07282510239976325-24, id: 0.07282510239976325-25, id: 0.07282510239976325-26, id: 0.07282510239976325-27, id: 0.07282510239976325-28, id: 0.07282510239976325-29, id: 0.07282510239976325-30, id: 0.07282510239976325-31]",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-17\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-18\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-19\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-20\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-21\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-22\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-23\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-24\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-25\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-26\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-27\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-28\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-29\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-30\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-31\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 39
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='sprite_bg next'], using=xpath}"
+          ],
+          "result": "id: 0.07282510239976325-32",
+          "subLogs": [],
+          "duration": 41
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //span[@class='sprite_bg next']",
+            "{\"id\":\"0.07282510239976325-32\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 104
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entslides']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.07282510239976325-17, id: 0.07282510239976325-18, id: 0.07282510239976325-19, id: 0.07282510239976325-20, id: 0.07282510239976325-21, id: 0.07282510239976325-22, id: 0.07282510239976325-23, id: 0.07282510239976325-24, id: 0.07282510239976325-25, id: 0.07282510239976325-26, id: 0.07282510239976325-27, id: 0.07282510239976325-28, id: 0.07282510239976325-29, id: 0.07282510239976325-30, id: 0.07282510239976325-31]",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-17\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-18\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-19\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-20\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-21\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-22\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-23\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-24\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-25\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-26\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-27\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-28\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-29\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-30\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-31\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='sprite_bg prev'], using=xpath}"
+          ],
+          "result": "id: 0.07282510239976325-33",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //span[@class='sprite_bg prev']",
+            "{\"id\":\"0.07282510239976325-33\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 69
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entslides']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.07282510239976325-17, id: 0.07282510239976325-18, id: 0.07282510239976325-19, id: 0.07282510239976325-20, id: 0.07282510239976325-21, id: 0.07282510239976325-22, id: 0.07282510239976325-23, id: 0.07282510239976325-24, id: 0.07282510239976325-25, id: 0.07282510239976325-26, id: 0.07282510239976325-27, id: 0.07282510239976325-28, id: 0.07282510239976325-29, id: 0.07282510239976325-30, id: 0.07282510239976325-31]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-17\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-18\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-19\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-20\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-21\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-22\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-23\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-24\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-25\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-26\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-27\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-28\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-29\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-30\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.07282510239976325-31\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 10
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='entrmnt-wdgt-outer'], using=xpath}"
+      ],
+      "result": "id: 0.07282510239976325-5",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "mouseMoveTo",
+      "args": [
+        "{element=0.07282510239976325-5}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 68
+    },
+    {
+      "commandName": "mouseClick",
+      "args": [
+        "{button=0}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 30
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Decline notifications",
+      "type": "TestStepPass",
+      "duration": 2035,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Notification Pop-Up present : Actual Notification Pop-Up present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerificationEntertainment_h7f85kw3d5j263191.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Not now button on Pop-Up present : Actual Not now button on Pop-Up present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerificationEntertainment_11odtou43cuvp63192.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Declining popup - Not to receive notofications",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Entertainment section verification",
+      "type": "TestStepPass",
+      "duration": 674,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Top news text present : Actual Top news text present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerificationEntertainment_kkukmw7vnr8o63193.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Entertainment news section present : Actual Entertainment news section present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerificationEntertainment_maatfmspu8nm63194.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Extract entertainment section's news",
+      "type": "TestStepPass",
+      "duration": 466,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Entertainment news size count is 11",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Pic: Love is in the air for Sunny Leone",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Pic: Milind Soman finds love with air hostess",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "After ‘Dangal’, ‘Sultan’ to release in China",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Watch: 'Indu Sarkar' trailer",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "KBC 9: Celebs who should participate",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Unknown facts about director Imtiaz Ali",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "10 Bollywood items that were auctioned",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Pics: Katrina picks up the guns and swords",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "First look: Ileana is badass in 'Baadshaho'",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Movie Review: Bank Chor",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "'I want to be the most influential woman of India'",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Verify total number of image displayed",
+      "type": "TestStepPass",
+      "duration": 5943,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Total number of image displayed : \nExpected: &lt;3&gt;\n     Actual: was &lt;3&gt;",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerificationEntertainment_1f80a6xec7en863195.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Verifying after clicking on Next button",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Total number of image displayed : \nExpected: &lt;3&gt;\n     Actual: was &lt;3&gt;",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerificationEntertainment_1c9bdnv075p4w63196.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Verifying after clicking on Back button",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Total number of image displayed : \nExpected: &lt;3&gt;\n     Actual: was &lt;3&gt;",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerificationEntertainment_6l06299cd9m863197.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "classes": [
+    "com.timesofindia.tests.ToiTest"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "password": "demo123",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "user": "is_user1@infostretch.com",
+      "deviceName": "883A694706D73CD320FEFEC47F3ECF69BD97C9CD",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "10",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "03-Jan-2017 14:01:00"
+    },
+    "run-parameters": {
+      "baseurl": "https://partners.perfectomobile.com/nexperience/perfectomobile/wd/hub",
+      "resources": "resources/mailer.properties"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_111",
+      "os.arch": "amd64",
+      "host": "icpl12186",
+      "os.name": "Windows 8.1",
+      "user.name": "tapas.padhi",
+      "os.version": "6.3"
+    }
+  },
+  "startTime": 1498117714379,
+  "endTime": 1498117714516
+}

@@ -1,0 +1,369 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "declineNotifications",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 31123
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyEntertainmentSection",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 1698
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 438
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 609
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 407
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 813
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 625
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 422
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entrmnt-wdgt-outer'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 704
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entrmnt-wdgt-outer'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 422
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entrmnt-wdgt-outer'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 438
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entrmnt-wdgt-outer'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 429
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entrmnt-wdgt-outer'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 1922
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entrmnt-wdgt-outer'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 828
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entrmnt-wdgt-outer'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 422
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getEntertainmentNewsList",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li, using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 438
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li, using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 813
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyTotalNumberOfImage",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entslides']/ul/li, using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 390
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='sprite_bg next'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//span[@class='sprite_bg next']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: '8b1e8ed8fdf7', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 422 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.toi.reader.activities, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747&_timestamp[0]=1498124096767, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml&ownerId=is_user1@infostretch.com&sharingCode=7df8ec26-691e-4e28-852e-6c6952f6d7e7, takesScreenshot=true, javascriptEnabled=true, platformName=Android, applicationName=TOI, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747&_timestamp[0]=1498124096767, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747, webdriver.remote.sessionid=fc9be57a-f050-4796-b43e-201e31ef84bd, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml&ownerId=is_user1@infostretch.com&sharingCode=7df8ec26-691e-4e28-852e-6c6952f6d7e7, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: fc9be57a-f050-4796-b43e-201e31ef84bd\n*** Element info: {Using=xpath, value=//span[@class='sprite_bg next']}",
+          "subLogs": [],
+          "duration": 438
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='sprite_bg next'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//span[@class='sprite_bg next']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: '8b1e8ed8fdf7', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 422 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.toi.reader.activities, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747&_timestamp[0]=1498124096767, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml&ownerId=is_user1@infostretch.com&sharingCode=7df8ec26-691e-4e28-852e-6c6952f6d7e7, takesScreenshot=true, javascriptEnabled=true, platformName=Android, applicationName=TOI, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747&_timestamp[0]=1498124096767, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747, webdriver.remote.sessionid=fc9be57a-f050-4796-b43e-201e31ef84bd, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml&ownerId=is_user1@infostretch.com&sharingCode=7df8ec26-691e-4e28-852e-6c6952f6d7e7, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: fc9be57a-f050-4796-b43e-201e31ef84bd\n*** Element info: {Using=xpath, value=//span[@class='sprite_bg next']}",
+          "subLogs": [],
+          "duration": 422
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='sprite_bg next'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//span[@class='sprite_bg next']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: '8b1e8ed8fdf7', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 438 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.toi.reader.activities, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747&_timestamp[0]=1498124096767, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml&ownerId=is_user1@infostretch.com&sharingCode=7df8ec26-691e-4e28-852e-6c6952f6d7e7, takesScreenshot=true, javascriptEnabled=true, platformName=Android, applicationName=TOI, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747&_timestamp[0]=1498124096767, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747, webdriver.remote.sessionid=fc9be57a-f050-4796-b43e-201e31ef84bd, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml&ownerId=is_user1@infostretch.com&sharingCode=7df8ec26-691e-4e28-852e-6c6952f6d7e7, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: fc9be57a-f050-4796-b43e-201e31ef84bd\n*** Element info: {Using=xpath, value=//span[@class='sprite_bg next']}",
+          "subLogs": [],
+          "duration": 438
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='sprite_bg next'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//span[@class='sprite_bg next']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: '8b1e8ed8fdf7', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 610 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.toi.reader.activities, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747&_timestamp[0]=1498124096767, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml&ownerId=is_user1@infostretch.com&sharingCode=7df8ec26-691e-4e28-852e-6c6952f6d7e7, takesScreenshot=true, javascriptEnabled=true, platformName=Android, applicationName=TOI, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747&_timestamp[0]=1498124096767, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747, webdriver.remote.sessionid=fc9be57a-f050-4796-b43e-201e31ef84bd, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml&ownerId=is_user1@infostretch.com&sharingCode=7df8ec26-691e-4e28-852e-6c6952f6d7e7, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: fc9be57a-f050-4796-b43e-201e31ef84bd\n*** Element info: {Using=xpath, value=//span[@class='sprite_bg next']}",
+          "subLogs": [],
+          "duration": 610
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='sprite_bg next'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//span[@class='sprite_bg next']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: '8b1e8ed8fdf7', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 437 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.toi.reader.activities, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747&_timestamp[0]=1498124096767, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml&ownerId=is_user1@infostretch.com&sharingCode=7df8ec26-691e-4e28-852e-6c6952f6d7e7, takesScreenshot=true, javascriptEnabled=true, platformName=Android, applicationName=TOI, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747&_timestamp[0]=1498124096767, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747, webdriver.remote.sessionid=fc9be57a-f050-4796-b43e-201e31ef84bd, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml&ownerId=is_user1@infostretch.com&sharingCode=7df8ec26-691e-4e28-852e-6c6952f6d7e7, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: fc9be57a-f050-4796-b43e-201e31ef84bd\n*** Element info: {Using=xpath, value=//span[@class='sprite_bg next']}",
+          "subLogs": [],
+          "duration": 437
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='sprite_bg next'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//span[@class='sprite_bg next']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: '8b1e8ed8fdf7', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 422 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.toi.reader.activities, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747&_timestamp[0]=1498124096767, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml&ownerId=is_user1@infostretch.com&sharingCode=7df8ec26-691e-4e28-852e-6c6952f6d7e7, takesScreenshot=true, javascriptEnabled=true, platformName=Android, applicationName=TOI, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747&_timestamp[0]=1498124096767, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747, webdriver.remote.sessionid=fc9be57a-f050-4796-b43e-201e31ef84bd, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml&ownerId=is_user1@infostretch.com&sharingCode=7df8ec26-691e-4e28-852e-6c6952f6d7e7, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: fc9be57a-f050-4796-b43e-201e31ef84bd\n*** Element info: {Using=xpath, value=//span[@class='sprite_bg next']}",
+          "subLogs": [],
+          "duration": 422
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='sprite_bg next'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//span[@class='sprite_bg next']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: '8b1e8ed8fdf7', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 625 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.toi.reader.activities, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747&_timestamp[0]=1498124096767, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml&ownerId=is_user1@infostretch.com&sharingCode=7df8ec26-691e-4e28-852e-6c6952f6d7e7, takesScreenshot=true, javascriptEnabled=true, platformName=Android, applicationName=TOI, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747&_timestamp[0]=1498124096767, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747, webdriver.remote.sessionid=fc9be57a-f050-4796-b43e-201e31ef84bd, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml&ownerId=is_user1@infostretch.com&sharingCode=7df8ec26-691e-4e28-852e-6c6952f6d7e7, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: fc9be57a-f050-4796-b43e-201e31ef84bd\n*** Element info: {Using=xpath, value=//span[@class='sprite_bg next']}",
+          "subLogs": [],
+          "duration": 625
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='sprite_bg next'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//span[@class='sprite_bg next']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: '8b1e8ed8fdf7', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 422 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.toi.reader.activities, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747&_timestamp[0]=1498124096767, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml&ownerId=is_user1@infostretch.com&sharingCode=7df8ec26-691e-4e28-852e-6c6952f6d7e7, takesScreenshot=true, javascriptEnabled=true, platformName=Android, applicationName=TOI, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747&_timestamp[0]=1498124096767, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747, webdriver.remote.sessionid=fc9be57a-f050-4796-b43e-201e31ef84bd, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml&ownerId=is_user1@infostretch.com&sharingCode=7df8ec26-691e-4e28-852e-6c6952f6d7e7, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: fc9be57a-f050-4796-b43e-201e31ef84bd\n*** Element info: {Using=xpath, value=//span[@class='sprite_bg next']}",
+          "subLogs": [],
+          "duration": 422
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Decline notifications",
+      "type": "TestStepPass",
+      "duration": 31154,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "No notification present",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Entertainment section verification",
+      "type": "TestStepFail",
+      "duration": 30487,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Top news text present : Actual Top news text not present",
+          "type": "Fail",
+          "screenshot": "img/toiPageVerificationEntertainment_1ayejyrk7v9314368.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Entertainment news section present : Actual Entertainment news section not present",
+          "type": "Fail",
+          "screenshot": "img/toiPageVerificationEntertainment_3ji0evxqvh9s14369.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Extract entertainment section's news",
+      "type": "TestStepPass",
+      "duration": 1266,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Entertainment news size count is 0",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Verify total number of image displayed",
+      "type": "TestStepFail",
+      "screenshot": "img/toiPageVerificationEntertainment_35rpwf9mr7ds14371.png",
+      "duration": 13998,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Total number of image displayed : \nExpected: &lt;0&gt;\n     Actual: was &lt;3&gt;",
+          "type": "Fail",
+          "screenshot": "img/toiPageVerificationEntertainment_a6eqtj45asni14370.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Verifying after clicking on Next button",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for presence of element located by: By.xpath: //span[@class='sprite_bg next']\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: driver.version: QAFExtendedWebDriver",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for presence of element located by: By.xpath: //span[@class='sprite_bg next']\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: driver.version: QAFExtendedWebDriver\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:214)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:284)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.getId(QAFExtendedWebElement.java:294)\r\n\tat org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:53)\r\n\tat com.google.common.collect.Iterators$8.transform(Iterators.java:817)\r\n\tat com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)\r\n\tat com.google.common.collect.Iterators.addAll(Iterators.java:365)\r\n\tat com.google.common.collect.Lists.newArrayList(Lists.java:162)\r\n\tat com.google.common.collect.Lists.newArrayList(Lists.java:146)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:521)\r\n\tat com.timesofindia.utils.CommonSteps.clickUsingJS(CommonSteps.java:18)\r\n\tat com.timesofindia.defs.HomePageDefs.verifyTotalNumberOfImage_aroundBody8(HomePageDefs.java:46)\r\n\tat com.timesofindia.defs.HomePageDefs$AjcClosure9.run(HomePageDefs.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)\r\n\tat com.timesofindia.defs.HomePageDefs.verifyTotalNumberOfImage(HomePageDefs.java:42)\r\n\tat com.timesofindia.tests.ToiTest.toiPageVerificationEntertainment(ToiTest.java:55)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:805)\r\n\tat org.testng.TestRunner.run(TestRunner.java:655)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:157)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:97)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)\r\n\tat org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)\r\n\tat org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Element with by xpath '//span[@class='sprite_bg next']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: '8b1e8ed8fdf7', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 422 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.toi.reader.activities, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747&_timestamp[0]=1498124096767, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml&ownerId=is_user1@infostretch.com&sharingCode=7df8ec26-691e-4e28-852e-6c6952f6d7e7, takesScreenshot=true, javascriptEnabled=true, platformName=Android, applicationName=TOI, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747&_timestamp[0]=1498124096767, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-06-22_09_34_56_2747, webdriver.remote.sessionid=fc9be57a-f050-4796-b43e-201e31ef84bd, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170622/RemoteWebDriver_17-06-22_09_34_56_2747.xml&ownerId=is_user1@infostretch.com&sharingCode=7df8ec26-691e-4e28-852e-6c6952f6d7e7, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: fc9be57a-f050-4796-b43e-201e31ef84bd\n*** Element info: {Using=xpath, value=//span[@class='sprite_bg next']}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:396)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:169)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\r\n\t... 53 more\r\nCaused by: org.openqa.selenium.NoSuchElementException: Element with by xpath '//span[@class='sprite_bg next']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: '8b1e8ed8fdf7', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: driver.version: EventFiringWebDriver\r\n\tat com.perfectomobile.selenium.MobileApplication.getSingleElement(MobileApplication.java:370)\r\n\tat com.perfectomobile.selenium.MobileApplication.findElementByXPath(MobileApplication.java:211)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat com.perfectomobile.selenium.MobileApplication.findElement(MobileApplication.java:150)\r\n\tat com.perfectomobile.selenium.server.PerfectoMobileDriver.findElement(PerfectoMobileDriver.java:774)\r\n\tat sun.reflect.GeneratedMethodAccessor2005.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:102)\r\n\tat com.sun.proxy.$Proxy291.findElement(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)\r\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)\r\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:33)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:188)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\r\n\tat java.lang.Thread.run(Thread.java:745)\r\n"
+}

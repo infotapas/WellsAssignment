@@ -1,0 +1,35 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "sampleTest",
+        "sign": "RunnerClass.sampleTest()[pri:0, instance:com.pages.runner.RunnerClass@7403c468]"
+      },
+      "dependsOn": [],
+      "startTime": 1496913600861,
+      "duration": 7289,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "sampleTest",
+        "resultFileName": "sampleTestwZabMazyrj",
+        "sign": "RunnerClass.sampleTest()[pri:0, instance:com.pages.runner.RunnerClass@7403c468]"
+      },
+      "dependsOn": [],
+      "startTime": 1496913619559,
+      "duration": 6327,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

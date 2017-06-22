@@ -1,0 +1,75 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "sampleTest",
+        "sign": "RunnerClass.sampleTest()[pri:0, instance:com.pages.runner.RunnerClass@134593bf]"
+      },
+      "dependsOn": [],
+      "startTime": 1496917585707,
+      "duration": 17718,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Times Of India Page verification",
+        "groups": [
+          "TOI_Regression"
+        ],
+        "name": "sampleTest",
+        "resultFileName": "sampleTestMSy",
+        "sign": "RunnerClass.sampleTest()[pri:0, instance:com.pages.runner.RunnerClass@4d826d77]",
+        "TestCaseID": "272049"
+      },
+      "dependsOn": [],
+      "startTime": 1496919348226,
+      "duration": 21980,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Times Of India Page verification",
+        "groups": [
+          "TOI_Regression"
+        ],
+        "name": "toiPageVerification",
+        "sign": "RunnerClass.toiPageVerification()[pri:0, instance:com.pages.runner.RunnerClass@4d826d77]",
+        "TestCaseID": "272049"
+      },
+      "dependsOn": [],
+      "startTime": 1496919862502,
+      "duration": 19383,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Times Of India Page verification",
+        "groups": [],
+        "name": "toiPageVerification",
+        "resultFileName": "toiPageVerificationEvf",
+        "sign": "RunnerClass.toiPageVerification()[pri:0, instance:com.pages.runner.RunnerClass@134593bf]"
+      },
+      "dependsOn": [],
+      "startTime": 1496920049954,
+      "duration": 23100,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

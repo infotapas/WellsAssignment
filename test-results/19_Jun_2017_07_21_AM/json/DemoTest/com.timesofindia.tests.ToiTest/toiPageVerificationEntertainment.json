@@ -1,0 +1,1087 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "declineNotifications",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[id: 0.2565574226926288-1]",
+          "subLogs": [],
+          "duration": 1019
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[id: 0.2565574226926288-1]",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[text()='Enable'], using=xpath}"
+          ],
+          "result": "[id: 0.2565574226926288-2]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[text()='Not Now'], using=xpath}"
+          ],
+          "result": "[id: 0.2565574226926288-3]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Not Now'], using=xpath}"
+          ],
+          "result": "id: 0.2565574226926288-3",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[text()='Not Now']",
+            "{\"id\":\"0.2565574226926288-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 96
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyEntertainmentSection",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[id: 0.2565574226926288-4]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entrmnt-wdgt-outer'], using=xpath}"
+          ],
+          "result": "[id: 0.2565574226926288-5]",
+          "subLogs": [],
+          "duration": 21
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getEntertainmentNewsList",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.2565574226926288-6, id: 0.2565574226926288-7, id: 0.2565574226926288-8, id: 0.2565574226926288-9, id: 0.2565574226926288-10, id: 0.2565574226926288-11, id: 0.2565574226926288-12, id: 0.2565574226926288-13, id: 0.2565574226926288-14, id: 0.2565574226926288-15, id: 0.2565574226926288-16]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.2565574226926288-6, id: 0.2565574226926288-7, id: 0.2565574226926288-8, id: 0.2565574226926288-9, id: 0.2565574226926288-10, id: 0.2565574226926288-11, id: 0.2565574226926288-12, id: 0.2565574226926288-13, id: 0.2565574226926288-14, id: 0.2565574226926288-15, id: 0.2565574226926288-16]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-6\"}"
+          ],
+          "result": "getElementText:Then and now: Arjun Kapoor is unrecognisable",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-6\"}"
+          ],
+          "result": "getElementText:Then and now: Arjun Kapoor is unrecognisable",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-7\"}"
+          ],
+          "result": "getElementText:Aryan shares beautiful pic with mom Gauri Khan",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-7\"}"
+          ],
+          "result": "getElementText:Aryan shares beautiful pic with mom Gauri Khan",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-8\"}"
+          ],
+          "result": "getElementText:Kabir Khan supports Salman’s anti-war comment",
+          "subLogs": [],
+          "duration": 41
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-8\"}"
+          ],
+          "result": "getElementText:Kabir Khan supports Salman’s anti-war comment",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-9\"}"
+          ],
+          "result": "getElementText:Pic: Suhana steals the limelight from SRK",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-9\"}"
+          ],
+          "result": "getElementText:Pic: Suhana steals the limelight from SRK",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-10\"}"
+          ],
+          "result": "getElementText:Celebs come out in support of Team India",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-10\"}"
+          ],
+          "result": "getElementText:Celebs come out in support of Team India",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-11\"}"
+          ],
+          "result": "getElementText:SRK to have a cameo in 'Jagga Jasoos'?",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-11\"}"
+          ],
+          "result": "getElementText:SRK to have a cameo in 'Jagga Jasoos'?",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-12\"}"
+          ],
+          "result": "getElementText:10 lesser known facts about Lisa Haydon",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-12\"}"
+          ],
+          "result": "getElementText:10 lesser known facts about Lisa Haydon",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-13\"}"
+          ],
+          "result": "getElementText:Bruised Sanjay Mishra in 'Baadshaho' poster",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-13\"}"
+          ],
+          "result": "getElementText:Bruised Sanjay Mishra in 'Baadshaho' poster",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-14\"}"
+          ],
+          "result": "getElementText:Akshay shares an adorable pic with his son Aarav",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-14\"}"
+          ],
+          "result": "getElementText:Akshay shares an adorable pic with his son Aarav",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-15\"}"
+          ],
+          "result": "getElementText:Sunny Leone and Daniel's PDA on the sets",
+          "subLogs": [],
+          "duration": 41
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-15\"}"
+          ],
+          "result": "getElementText:Sunny Leone and Daniel's PDA on the sets",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-16\"}"
+          ],
+          "result": "getElementText:Model criticized for not being too black",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.2565574226926288-16\"}"
+          ],
+          "result": "getElementText:Model criticized for not being too black",
+          "subLogs": [],
+          "duration": 9
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyTotalNumberOfImage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entslides']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.2565574226926288-17, id: 0.2565574226926288-18, id: 0.2565574226926288-19, id: 0.2565574226926288-20, id: 0.2565574226926288-21, id: 0.2565574226926288-22, id: 0.2565574226926288-23, id: 0.2565574226926288-24, id: 0.2565574226926288-25, id: 0.2565574226926288-26, id: 0.2565574226926288-27, id: 0.2565574226926288-28, id: 0.2565574226926288-29, id: 0.2565574226926288-30, id: 0.2565574226926288-31]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-17\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-18\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-19\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-20\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-21\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-22\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-23\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-24\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-25\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-26\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-27\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-28\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-29\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-30\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-31\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='sprite_bg next'], using=xpath}"
+          ],
+          "result": "id: 0.2565574226926288-32",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entslides']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.2565574226926288-17, id: 0.2565574226926288-18, id: 0.2565574226926288-19, id: 0.2565574226926288-20, id: 0.2565574226926288-21, id: 0.2565574226926288-22, id: 0.2565574226926288-23, id: 0.2565574226926288-24, id: 0.2565574226926288-25, id: 0.2565574226926288-26, id: 0.2565574226926288-27, id: 0.2565574226926288-28, id: 0.2565574226926288-29, id: 0.2565574226926288-30, id: 0.2565574226926288-31]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-17\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-18\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-19\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-20\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-21\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-22\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-23\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-24\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-25\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-26\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-27\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-28\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-29\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-30\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-31\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='sprite_bg prev'], using=xpath}"
+          ],
+          "result": "id: 0.2565574226926288-33",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entslides']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.2565574226926288-17, id: 0.2565574226926288-18, id: 0.2565574226926288-19, id: 0.2565574226926288-20, id: 0.2565574226926288-21, id: 0.2565574226926288-22, id: 0.2565574226926288-23, id: 0.2565574226926288-24, id: 0.2565574226926288-25, id: 0.2565574226926288-26, id: 0.2565574226926288-27, id: 0.2565574226926288-28, id: 0.2565574226926288-29, id: 0.2565574226926288-30, id: 0.2565574226926288-31]",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-17\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-18\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-19\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-20\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-21\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-22\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-23\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-24\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-25\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-26\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-27\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-28\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-29\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-30\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='entslides']/ul/li",
+            "{\"id\":\"0.2565574226926288-31\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 11
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='nav-entertainment'], using=xpath}"
+      ],
+      "result": "id: 0.2565574226926288-34",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "mouseMoveTo",
+      "args": [
+        "{element=0.2565574226926288-34}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//ul[@id='rnaventertainment']/li/a, using=xpath}"
+      ],
+      "result": "[id: 0.2565574226926288-35, id: 0.2565574226926288-36, id: 0.2565574226926288-37, id: 0.2565574226926288-38, id: 0.2565574226926288-39, id: 0.2565574226926288-40, id: 0.2565574226926288-41, id: 0.2565574226926288-42, id: 0.2565574226926288-43, id: 0.2565574226926288-44, id: 0.2565574226926288-45, id: 0.2565574226926288-46, id: 0.2565574226926288-47, id: 0.2565574226926288-48]",
+      "subLogs": [],
+      "duration": 24
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Decline notifications",
+      "type": "TestStepPass",
+      "duration": 2321,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Notification Pop-Up present : Actual Notification Pop-Up present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerificationEntertainment_11w8g5nzzemld64041.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Not now button on Pop-Up present : Actual Not now button on Pop-Up present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerificationEntertainment_1hrpgysegp8w364042.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Declining popup - Not to receive notofications",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Entertainment section verification",
+      "type": "TestStepPass",
+      "duration": 871,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Top news text present : Actual Top news text present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerificationEntertainment_kh0gjk8d3u8c64043.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Entertainment news section present : Actual Entertainment news section present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerificationEntertainment_19jrkp9opfvze64044.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Extract entertainment section's news",
+      "type": "TestStepPass",
+      "duration": 512,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Entertainment news size count is 11",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Then and now: Arjun Kapoor is unrecognisable",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Aryan shares beautiful pic with mom Gauri Khan",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Kabir Khan supports Salman’s anti-war comment",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Pic: Suhana steals the limelight from SRK",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Celebs come out in support of Team India",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "SRK to have a cameo in 'Jagga Jasoos'?",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "10 lesser known facts about Lisa Haydon",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Bruised Sanjay Mishra in 'Baadshaho' poster",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Akshay shares an adorable pic with his son Aarav",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Sunny Leone and Daniel's PDA on the sets",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Model criticized for not being too black",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Verify total number of image displayed",
+      "type": "TestStepPass",
+      "duration": 6161,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Total number of image displayed : \nExpected: &lt;3&gt;\n     Actual: was &lt;3&gt;",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerificationEntertainment_q5hyt9p73f6t64045.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Verifying after clicking on Next button",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Total number of image displayed : \nExpected: &lt;3&gt;\n     Actual: was &lt;3&gt;",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerificationEntertainment_kk36wxoip71c64046.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Verifying after clicking on Back button",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Total number of image displayed : \nExpected: &lt;3&gt;\n     Actual: was &lt;3&gt;",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerificationEntertainment_1th9s798rgpnk64047.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

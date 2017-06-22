@@ -1,0 +1,446 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "declineNotifications",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 327
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 362
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 391
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 318
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 354
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 374
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 371
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 342
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 328
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getTopStoriesList",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 714aae45-bc6f-47e8-8e25-e7dcb662b7af, id: b79981a2-5560-4b77-b272-3c04264a1fbb, id: 217e022a-2ca6-43c1-a181-8cb046e02e76, id: 0935f75e-6b63-45aa-94c2-b8742ad2b6ff, id: a06cae55-b488-41fa-8f0a-b4f7058f345e, id: 8b787cfd-043f-4eac-9a73-943d06ac12df, id: e0a20aa0-d0b0-45bb-9140-90ea99a94cc2]",
+          "subLogs": [],
+          "duration": 105
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 714aae45-bc6f-47e8-8e25-e7dcb662b7af, id: b79981a2-5560-4b77-b272-3c04264a1fbb, id: 217e022a-2ca6-43c1-a181-8cb046e02e76, id: 0935f75e-6b63-45aa-94c2-b8742ad2b6ff, id: a06cae55-b488-41fa-8f0a-b4f7058f345e, id: 8b787cfd-043f-4eac-9a73-943d06ac12df, id: e0a20aa0-d0b0-45bb-9140-90ea99a94cc2]",
+          "subLogs": [],
+          "duration": 64
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"714aae45-bc6f-47e8-8e25-e7dcb662b7af\"}"
+          ],
+          "result": "getElementText:UK: Labour Party will seek to form minority govt",
+          "subLogs": [],
+          "duration": 68
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"b79981a2-5560-4b77-b272-3c04264a1fbb\"}"
+          ],
+          "result": "getElementText:Modi meets Xi Jinping on SCO sidelines",
+          "subLogs": [],
+          "duration": 73
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"217e022a-2ca6-43c1-a181-8cb046e02e76\"}"
+          ],
+          "result": "getElementText:Indian-origin candidates shine in UK polls",
+          "subLogs": [],
+          "duration": 71
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"0935f75e-6b63-45aa-94c2-b8742ad2b6ff\"}"
+          ],
+          "result": "getElementText:ISIS claims it killed two Chinese in Pakistan",
+          "subLogs": [],
+          "duration": 69
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"a06cae55-b488-41fa-8f0a-b4f7058f345e\"}"
+          ],
+          "result": "getElementText:CAC seeks more time to decide on Kumble's future",
+          "subLogs": [],
+          "duration": 70
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"8b787cfd-043f-4eac-9a73-943d06ac12df\"}"
+          ],
+          "result": "getElementText:Kapil Mishra stopped from entering Kejri's home",
+          "subLogs": [],
+          "duration": 70
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"e0a20aa0-d0b0-45bb-9140-90ea99a94cc2\"}"
+          ],
+          "result": "getElementText:Nine iOS 11 features Apple didn’t talk about",
+          "subLogs": [],
+          "duration": 61
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyNewsTitle",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 714aae45-bc6f-47e8-8e25-e7dcb662b7af, id: b79981a2-5560-4b77-b272-3c04264a1fbb, id: 217e022a-2ca6-43c1-a181-8cb046e02e76, id: 0935f75e-6b63-45aa-94c2-b8742ad2b6ff, id: a06cae55-b488-41fa-8f0a-b4f7058f345e, id: 8b787cfd-043f-4eac-9a73-943d06ac12df, id: e0a20aa0-d0b0-45bb-9140-90ea99a94cc2]",
+          "subLogs": [],
+          "duration": 58
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 714aae45-bc6f-47e8-8e25-e7dcb662b7af, id: b79981a2-5560-4b77-b272-3c04264a1fbb, id: 217e022a-2ca6-43c1-a181-8cb046e02e76, id: 0935f75e-6b63-45aa-94c2-b8742ad2b6ff, id: a06cae55-b488-41fa-8f0a-b4f7058f345e, id: 8b787cfd-043f-4eac-9a73-943d06ac12df, id: e0a20aa0-d0b0-45bb-9140-90ea99a94cc2]",
+          "subLogs": [],
+          "duration": 61
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"714aae45-bc6f-47e8-8e25-e7dcb662b7af\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1608
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "News: India News, Latest Bollywood News, Sports News, Business & Political News, National & International News | Times of India",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 244
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 302
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 374
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 335
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 344
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 334
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 384
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 368
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 346
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 346
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 337
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Decline notifications",
+      "type": "TestStepPass",
+      "duration": 11206,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "No notification present",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Get List of top-stories and print",
+      "type": "TestStepPass",
+      "duration": 673,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "UK: Labour Party will seek to form minority govt",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Modi meets Xi Jinping on SCO sidelines",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Indian-origin candidates shine in UK polls",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "ISIS claims it killed two Chinese in Pakistan",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "CAC seeks more time to decide on Kumble's future",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Kapil Mishra stopped from entering Kejri's home",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Nine iOS 11 features Apple didn’t talk about",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "verifyNewsTitle",
+      "type": "TestStepFail",
+      "screenshot": "../img/toiPageVerification_1vkyjp3024pks50860.png",
+      "duration": 13983,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "News title is : News: India News, Latest Bollywood News, Sports News, Business & Political News, National & International News | Times of India",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_1vkyjp3024pks50860.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

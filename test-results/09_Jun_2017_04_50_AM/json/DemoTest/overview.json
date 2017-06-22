@@ -1,0 +1,35 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "classes": [
+    "com.timesofindia.tests.ToiTest"
+  ],
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "10",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "03-Jan-2017 14:01:00"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "driver.name": "IEDriver",
+      "baseurl": "http://timesofindia.indiatimes.com/"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_111",
+      "os.arch": "amd64",
+      "host": "icpl12186",
+      "os.name": "Windows 8.1",
+      "user.name": "tapas.padhi",
+      "os.version": "6.3"
+    }
+  },
+  "startTime": 1496983852469,
+  "endTime": 1496983852585
+}

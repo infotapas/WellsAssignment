@@ -1,0 +1,742 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "declineNotifications",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 39
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 42
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 41
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 37
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 62
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getTopStoriesList",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.3508764776976765-1, id: 0.3508764776976765-2, id: 0.3508764776976765-3, id: 0.3508764776976765-4, id: 0.3508764776976765-5, id: 0.3508764776976765-6, id: 0.3508764776976765-7, id: 0.3508764776976765-8, id: 0.3508764776976765-9, id: 0.3508764776976765-10, id: 0.3508764776976765-11, id: 0.3508764776976765-12, id: 0.3508764776976765-13, id: 0.3508764776976765-14, id: 0.3508764776976765-15, id: 0.3508764776976765-16, id: 0.3508764776976765-17, id: 0.3508764776976765-18, id: 0.3508764776976765-19, id: 0.3508764776976765-20, id: 0.3508764776976765-21]",
+          "subLogs": [],
+          "duration": 59
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.3508764776976765-1, id: 0.3508764776976765-2, id: 0.3508764776976765-3, id: 0.3508764776976765-4, id: 0.3508764776976765-5, id: 0.3508764776976765-6, id: 0.3508764776976765-7, id: 0.3508764776976765-8, id: 0.3508764776976765-9, id: 0.3508764776976765-10, id: 0.3508764776976765-11, id: 0.3508764776976765-12, id: 0.3508764776976765-13, id: 0.3508764776976765-14, id: 0.3508764776976765-15, id: 0.3508764776976765-16, id: 0.3508764776976765-17, id: 0.3508764776976765-18, id: 0.3508764776976765-19, id: 0.3508764776976765-20, id: 0.3508764776976765-21]",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-1\"}"
+          ],
+          "result": "getElementText:We are not invincible, says Virat Kohli ahead of 'virtual quarters'\n39 mins ago",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-2\"}"
+          ],
+          "result": "getElementText:Britain, Brexit in disarray as PM May's election gamble backfires\n48 mins ago",
+          "subLogs": [],
+          "duration": 45
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-3\"}"
+          ],
+          "result": "getElementText:PM Modi meets Chinese President Xi Jinping on SCO sidelines\n2 hrs ago",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-4\"}"
+          ],
+          "result": "getElementText:Live: Labour Party will seek to form minority govt in UK\n12 hrs ago",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-5\"}"
+          ],
+          "result": "getElementText:Labour's Indian-origin candidates shine in UK polls\n2 hrs ago",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-6\"}"
+          ],
+          "result": "getElementText:Islamic State claims it killed two Chinese in Pakistan\n42 mins ago",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-7\"}"
+          ],
+          "result": "getElementText:Infosys founders looking to sell their stake in company\n2 hrs ago",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-8\"}"
+          ],
+          "result": "getElementText:iPhone 6 available at a discount of over Rs 14,000\n1 hr ago",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-9\"}"
+          ],
+          "result": "getElementText:UP Board Class 12th Result 2017 declared\n10 mins ago",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-10\"}"
+          ],
+          "result": "getElementText:UP Board Class 10th Result 2017 declared\n8 mins ago",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-11\"}"
+          ],
+          "result": "getElementText:Day-long curfew relaxation in Mandsaur city, Pipliamandi\n2 hrs ago",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-12\"}"
+          ],
+          "result": "getElementText:CAC seeks more time to decide on Anil Kumble's future\n3 hrs ago",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-13\"}"
+          ],
+          "result": "getElementText:Air India plane overshoots runway in Jammu while landing, airport closed\n1 hr ago",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-14\"}"
+          ],
+          "result": "getElementText:Partnership is best way to describe Indo-US relationship: Navtej Sarna\n5 hrs ago",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-15\"}"
+          ],
+          "result": "getElementText:Delhi: Pharmacist helps deliver baby, leaves needle inside patient's body\n5 hrs ago",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-16\"}"
+          ],
+          "result": "getElementText:Do not panic, embassy tells Indians in Qatar\n11 hrs ago",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-17\"}"
+          ],
+          "result": "getElementText:Chhota Shakeel's aide arrested, was planning to target Tarek Fateh\n1 hr ago",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-18\"}"
+          ],
+          "result": "getElementText:Raabta movie review\n2 hrs ago",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-19\"}"
+          ],
+          "result": "getElementText:Pakistani model bares it all in these pictures\n5 hrs ago",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-20\"}"
+          ],
+          "result": "getElementText:Telangana snaps power to Andhra Pradesh over Rs 1,600 crore dues\n5 hrs ago",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-21\"}"
+          ],
+          "result": "getElementText:This Chennai bus conductor plants 38,000 trees\n38 mins ago",
+          "subLogs": [],
+          "duration": 29
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyNewsTitle",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.3508764776976765-1, id: 0.3508764776976765-2, id: 0.3508764776976765-3, id: 0.3508764776976765-4, id: 0.3508764776976765-5, id: 0.3508764776976765-6, id: 0.3508764776976765-7, id: 0.3508764776976765-8, id: 0.3508764776976765-9, id: 0.3508764776976765-10, id: 0.3508764776976765-11, id: 0.3508764776976765-12, id: 0.3508764776976765-13, id: 0.3508764776976765-14, id: 0.3508764776976765-15, id: 0.3508764776976765-16, id: 0.3508764776976765-17, id: 0.3508764776976765-18, id: 0.3508764776976765-19, id: 0.3508764776976765-20, id: 0.3508764776976765-21]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.3508764776976765-1, id: 0.3508764776976765-2, id: 0.3508764776976765-3, id: 0.3508764776976765-4, id: 0.3508764776976765-5, id: 0.3508764776976765-6, id: 0.3508764776976765-7, id: 0.3508764776976765-8, id: 0.3508764776976765-9, id: 0.3508764776976765-10, id: 0.3508764776976765-11, id: 0.3508764776976765-12, id: 0.3508764776976765-13, id: 0.3508764776976765-14, id: 0.3508764776976765-15, id: 0.3508764776976765-16, id: 0.3508764776976765-17, id: 0.3508764776976765-18, id: 0.3508764776976765-19, id: 0.3508764776976765-20, id: 0.3508764776976765-21]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.3508764776976765-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2933
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Champions Trophy: Great scenario to have two quarter-finals: Virat Kohli - The Times of India on Mobile",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2941
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[id: 0.5315706303571195-1]",
+          "subLogs": [],
+          "duration": 57
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.5315706303571195-2, id: 0.5315706303571195-3, id: 0.5315706303571195-4, id: 0.5315706303571195-5, id: 0.5315706303571195-6, id: 0.5315706303571195-7, id: 0.5315706303571195-8, id: 0.5315706303571195-9, id: 0.5315706303571195-10, id: 0.5315706303571195-11, id: 0.5315706303571195-12, id: 0.5315706303571195-13, id: 0.5315706303571195-14, id: 0.5315706303571195-15, id: 0.5315706303571195-16, id: 0.5315706303571195-17, id: 0.5315706303571195-18, id: 0.5315706303571195-19, id: 0.5315706303571195-20, id: 0.5315706303571195-21, id: 0.5315706303571195-22]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.5315706303571195-2, id: 0.5315706303571195-3, id: 0.5315706303571195-4, id: 0.5315706303571195-5, id: 0.5315706303571195-6, id: 0.5315706303571195-7, id: 0.5315706303571195-8, id: 0.5315706303571195-9, id: 0.5315706303571195-10, id: 0.5315706303571195-11, id: 0.5315706303571195-12, id: 0.5315706303571195-13, id: 0.5315706303571195-14, id: 0.5315706303571195-15, id: 0.5315706303571195-16, id: 0.5315706303571195-17, id: 0.5315706303571195-18, id: 0.5315706303571195-19, id: 0.5315706303571195-20, id: 0.5315706303571195-21, id: 0.5315706303571195-22]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.5315706303571195-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 3668
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Theresa May: UK election deals May a crushing blow, blurring Brexit talks - The Times of India on Mobile",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1934
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@id='logo'], using=xpath}"
+          ],
+          "result": "[id: 0.9239470425567755-1]",
+          "subLogs": [],
+          "duration": 39
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.9239470425567755-2, id: 0.9239470425567755-3, id: 0.9239470425567755-4, id: 0.9239470425567755-5, id: 0.9239470425567755-6, id: 0.9239470425567755-7, id: 0.9239470425567755-8, id: 0.9239470425567755-9, id: 0.9239470425567755-10, id: 0.9239470425567755-11, id: 0.9239470425567755-12, id: 0.9239470425567755-13, id: 0.9239470425567755-14, id: 0.9239470425567755-15, id: 0.9239470425567755-16, id: 0.9239470425567755-17, id: 0.9239470425567755-18, id: 0.9239470425567755-19, id: 0.9239470425567755-20, id: 0.9239470425567755-21, id: 0.9239470425567755-22]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='remaning_news clearfix']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.9239470425567755-2, id: 0.9239470425567755-3, id: 0.9239470425567755-4, id: 0.9239470425567755-5, id: 0.9239470425567755-6, id: 0.9239470425567755-7, id: 0.9239470425567755-8, id: 0.9239470425567755-9, id: 0.9239470425567755-10, id: 0.9239470425567755-11, id: 0.9239470425567755-12, id: 0.9239470425567755-13, id: 0.9239470425567755-14, id: 0.9239470425567755-15, id: 0.9239470425567755-16, id: 0.9239470425567755-17, id: 0.9239470425567755-18, id: 0.9239470425567755-19, id: 0.9239470425567755-20, id: 0.9239470425567755-21, id: 0.9239470425567755-22]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='remaning_news clearfix']/ul/li",
+            "{\"id\":\"0.9239470425567755-4\"}"
+          ],
+          "result": "unknown error: Element <li>...</li> is not clickable at point (187, 624). Other element would receive the click: <iframe id=\"google_ads_iframe_/7176/TOI_MWeb/TOI_MWeb_Home/TOI_MWeb_HP_PT_FBN_0\" title=\"3rd party ad content\" name=\"google_ads_iframe_/7176/TOI_MWeb/TOI_MWeb_Home/TOI_MWeb_HP_PT_FBN_0\" width=\"320\" height=\"50\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" style=\"border: 0px; vertical-align: bottom;\"></iframe>\n  (Session info: chrome=58.0.3029.110)\n  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 100 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=true, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\\Users\\TAPAS~1.PAD\\AppData\\Local\\Temp\\scoped_dir9304_7648}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=true, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: e6eeea16ae7a8dcd7fe2145787690fa6",
+          "subLogs": [],
+          "duration": 102
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Decline notifications",
+      "type": "TestStepPass",
+      "duration": 10460,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "No notification present",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Get List of top-stories and print",
+      "type": "TestStepPass",
+      "duration": 696,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "We are not invincible, says Virat Kohli ahead of 'virtual quarters'\n39 mins ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Britain, Brexit in disarray as PM May's election gamble backfires\n48 mins ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "PM Modi meets Chinese President Xi Jinping on SCO sidelines\n2 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Live: Labour Party will seek to form minority govt in UK\n12 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Labour's Indian-origin candidates shine in UK polls\n2 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Islamic State claims it killed two Chinese in Pakistan\n42 mins ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Infosys founders looking to sell their stake in company\n2 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "iPhone 6 available at a discount of over Rs 14,000\n1 hr ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "UP Board Class 12th Result 2017 declared\n10 mins ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "UP Board Class 10th Result 2017 declared\n8 mins ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Day-long curfew relaxation in Mandsaur city, Pipliamandi\n2 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "CAC seeks more time to decide on Anil Kumble's future\n3 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Air India plane overshoots runway in Jammu while landing, airport closed\n1 hr ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Partnership is best way to describe Indo-US relationship: Navtej Sarna\n5 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Delhi: Pharmacist helps deliver baby, leaves needle inside patient's body\n5 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Do not panic, embassy tells Indians in Qatar\n11 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Chhota Shakeel's aide arrested, was planning to target Tarek Fateh\n1 hr ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Raabta movie review\n2 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Pakistani model bares it all in these pictures\n5 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Telangana snaps power to Andhra Pradesh over Rs 1,600 crore dues\n5 hrs ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "This Chennai bus conductor plants 38,000 trees\n38 mins ago",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "verifyNewsTitle",
+      "type": "TestStepFail",
+      "screenshot": "../img/toiPageVerification_64i4jxlnj4xa23349.png",
+      "duration": 12351,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "News title is : Champions Trophy: Great scenario to have two quarter-finals: Virat Kohli - The Times of India on Mobile",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_518wihmi91m623347.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Theresa May: UK election deals May a crushing blow, blurring Brexit talks - The Times of India on Mobile",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_1s47tsflu99hx23348.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "org.openqa.selenium.WebDriverException: unknown error: Element <li>...</li> is not clickable at point (187, 624). Other element would receive the click: <iframe id=\"google_ads_iframe_/7176/TOI_MWeb/TOI_MWeb_Home/TOI_MWeb_HP_PT_FBN_0\" title=\"3rd party ad content\" name=\"google_ads_iframe_/7176/TOI_MWeb/TOI_MWeb_Home/TOI_MWeb_HP_PT_FBN_0\" width=\"320\" height=\"50\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" style=\"border: 0px; vertical-align: bottom;\"></iframe>\n  (Session info: chrome=58.0.3029.110)\n  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 100 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=true, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\\Users\\TAPAS~1.PAD\\AppData\\Local\\Temp\\scoped_dir9304_7648}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=true, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: e6eeea16ae7a8dcd7fe2145787690fa6",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: unknown error: Element <li>...</li> is not clickable at point (187, 624). Other element would receive the click: <iframe id=\"google_ads_iframe_/7176/TOI_MWeb/TOI_MWeb_Home/TOI_MWeb_HP_PT_FBN_0\" title=\"3rd party ad content\" name=\"google_ads_iframe_/7176/TOI_MWeb/TOI_MWeb_Home/TOI_MWeb_HP_PT_FBN_0\" width=\"320\" height=\"50\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" style=\"border: 0px; vertical-align: bottom;\"></iframe>\n  (Session info: chrome=58.0.3029.110)\n  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 100 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=true, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\\Users\\TAPAS~1.PAD\\AppData\\Local\\Temp\\scoped_dir9304_7648}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=true, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: e6eeea16ae7a8dcd7fe2145787690fa6\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:256)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:252)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\r\n\tat com.timesofindia.defs.DetailsNewsDefs.verifyNewsTitle_aroundBody0(DetailsNewsDefs.java:21)\r\n\tat com.timesofindia.defs.DetailsNewsDefs$AjcClosure1.run(DetailsNewsDefs.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)\r\n\tat com.timesofindia.defs.DetailsNewsDefs.verifyNewsTitle(DetailsNewsDefs.java:16)\r\n\tat com.timesofindia.tests.ToiTest.toiPageVerification(ToiTest.java:30)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:805)\r\n\tat org.testng.TestRunner.run(TestRunner.java:655)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)\r\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)\r\n\tat org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)\r\n\tat org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)\r\n"
+}

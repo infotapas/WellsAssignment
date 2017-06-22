@@ -1,0 +1,6 @@
+timesofindia.notification.popup = {\"locator\":\"xpath=.//div[@class='homenotification']\",\"desc\":\"Notification content\"}
+timesofindia.notification.popup.enable.button = {\"locator\":\"xpath=//a[text()='Enable']\",\"desc\":\"Notification enable content\"}
+timesofindia.notification.popup.notnow.button = {\"locator\":\"xpath=//a[text()='Not Now']\",\"desc\":\"Notification not now content\"}
+timesofindia.topstory.list = {\"locator\":\"xpath=//div[@class='remaning_news clearfix']/ul/li\",\"desc\":\"Top Story list\"}
+timesofindia.logo = {\"locator\":\"xpath=//a[@id='logo']\",\"desc\":\"Top Story list\"}
+timesofindia.topnews.text = {\"locator\":\"xpath=.//a[text()='top news']\",\"desc\":\"Top News\"}

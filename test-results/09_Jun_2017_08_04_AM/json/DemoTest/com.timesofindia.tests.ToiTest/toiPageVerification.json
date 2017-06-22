@@ -1,0 +1,737 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "declineNotifications",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 414
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 339
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 369
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 371
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 352
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 352
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 356
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 341
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 357
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getTopStoriesList",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 58527445-92cc-4deb-a255-391ae1755167, id: f74ffb5b-10c7-45f9-8e12-b42025892b64, id: 03b90eb3-2187-4369-878d-73e6907b4759, id: 29f60a48-3a78-4713-9e9b-f274ddfbcad5, id: 42fe31f5-c66d-4746-9181-ce05c4db822e, id: c4a5e965-953c-4d82-a4f9-b552d72616c4, id: 3d57ad3b-292a-4a68-9ee6-04fcd6a6d3af]",
+          "subLogs": [],
+          "duration": 83
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 58527445-92cc-4deb-a255-391ae1755167, id: f74ffb5b-10c7-45f9-8e12-b42025892b64, id: 03b90eb3-2187-4369-878d-73e6907b4759, id: 29f60a48-3a78-4713-9e9b-f274ddfbcad5, id: 42fe31f5-c66d-4746-9181-ce05c4db822e, id: c4a5e965-953c-4d82-a4f9-b552d72616c4, id: 3d57ad3b-292a-4a68-9ee6-04fcd6a6d3af]",
+          "subLogs": [],
+          "duration": 76
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"58527445-92cc-4deb-a255-391ae1755167\"}"
+          ],
+          "result": "getElementText:UK: Labour Party will seek to form minority govt",
+          "subLogs": [],
+          "duration": 63
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"f74ffb5b-10c7-45f9-8e12-b42025892b64\"}"
+          ],
+          "result": "getElementText:Modi meets Xi Jinping on SCO sidelines",
+          "subLogs": [],
+          "duration": 77
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"03b90eb3-2187-4369-878d-73e6907b4759\"}"
+          ],
+          "result": "getElementText:Indian-origin candidates shine in UK polls",
+          "subLogs": [],
+          "duration": 65
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"29f60a48-3a78-4713-9e9b-f274ddfbcad5\"}"
+          ],
+          "result": "getElementText:ISIS claims it killed two Chinese in Pakistan",
+          "subLogs": [],
+          "duration": 57
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"42fe31f5-c66d-4746-9181-ce05c4db822e\"}"
+          ],
+          "result": "getElementText:CAC seeks more time to decide on Kumble's future",
+          "subLogs": [],
+          "duration": 58
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"c4a5e965-953c-4d82-a4f9-b552d72616c4\"}"
+          ],
+          "result": "getElementText:Kapil Mishra stopped from entering Kejri's home",
+          "subLogs": [],
+          "duration": 74
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"3d57ad3b-292a-4a68-9ee6-04fcd6a6d3af\"}"
+          ],
+          "result": "getElementText:Nine iOS 11 features Apple didn’t talk about",
+          "subLogs": [],
+          "duration": 71
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyNewsTitle",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 58527445-92cc-4deb-a255-391ae1755167, id: f74ffb5b-10c7-45f9-8e12-b42025892b64, id: 03b90eb3-2187-4369-878d-73e6907b4759, id: 29f60a48-3a78-4713-9e9b-f274ddfbcad5, id: 42fe31f5-c66d-4746-9181-ce05c4db822e, id: c4a5e965-953c-4d82-a4f9-b552d72616c4, id: 3d57ad3b-292a-4a68-9ee6-04fcd6a6d3af]",
+          "subLogs": [],
+          "duration": 59
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 58527445-92cc-4deb-a255-391ae1755167, id: f74ffb5b-10c7-45f9-8e12-b42025892b64, id: 03b90eb3-2187-4369-878d-73e6907b4759, id: 29f60a48-3a78-4713-9e9b-f274ddfbcad5, id: 42fe31f5-c66d-4746-9181-ce05c4db822e, id: c4a5e965-953c-4d82-a4f9-b552d72616c4, id: 3d57ad3b-292a-4a68-9ee6-04fcd6a6d3af]",
+          "subLogs": [],
+          "duration": 48
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"58527445-92cc-4deb-a255-391ae1755167\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 10490
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Live: UK Election Results: British PM May loses overall majority in British parliament",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 9127
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[id: 16b2e044-1478-4446-9dfc-446679503080]",
+          "subLogs": [],
+          "duration": 59
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 351a47cf-4a43-4f24-943b-c88e4d697714, id: 1e9ddab0-9e0c-4a6b-81ca-6b624fea04cf, id: 70cd31d0-2003-4289-b705-cb0c1085d466, id: 6adb60c8-812c-4642-b859-4c9750aa2189, id: 944555e9-ceeb-4c31-aaec-04b627be5757, id: b4168230-0722-449a-9f92-276f567ffec3, id: 2c94e07d-14f3-4d15-965b-f24b4459dc44]",
+          "subLogs": [],
+          "duration": 87
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 351a47cf-4a43-4f24-943b-c88e4d697714, id: 1e9ddab0-9e0c-4a6b-81ca-6b624fea04cf, id: 70cd31d0-2003-4289-b705-cb0c1085d466, id: 6adb60c8-812c-4642-b859-4c9750aa2189, id: 944555e9-ceeb-4c31-aaec-04b627be5757, id: b4168230-0722-449a-9f92-276f567ffec3, id: 2c94e07d-14f3-4d15-965b-f24b4459dc44]",
+          "subLogs": [],
+          "duration": 50
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"1e9ddab0-9e0c-4a6b-81ca-6b624fea04cf\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 16314
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Narendra Modi: PM Modi meets Chinese President Xi Jinping on SCO sidelines | India News - Times of India",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 9484
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[id: c9230c6a-5d5a-4170-b81c-26c6e4dc0289]",
+          "subLogs": [],
+          "duration": 67
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 6a6aadb8-aa5f-4107-8f2d-8d7d0d15a2d4, id: e5c14f52-41af-4517-9e0c-233fa9f73a5b, id: 27f12d66-0d3c-4611-8179-6d693bd829cd, id: 5bbe2632-96ef-4c0f-92bc-b9963b40042a, id: 2189a8de-9af2-4324-bbe1-eecbf9625b4b, id: c8373b88-d502-42d9-8c33-e73f6e41d06f, id: 83ac48f3-0e5c-4c9b-8bc1-c5edea658c53]",
+          "subLogs": [],
+          "duration": 181
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 6a6aadb8-aa5f-4107-8f2d-8d7d0d15a2d4, id: e5c14f52-41af-4517-9e0c-233fa9f73a5b, id: 27f12d66-0d3c-4611-8179-6d693bd829cd, id: 5bbe2632-96ef-4c0f-92bc-b9963b40042a, id: 2189a8de-9af2-4324-bbe1-eecbf9625b4b, id: c8373b88-d502-42d9-8c33-e73f6e41d06f, id: 83ac48f3-0e5c-4c9b-8bc1-c5edea658c53]",
+          "subLogs": [],
+          "duration": 49
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"27f12d66-0d3c-4611-8179-6d693bd829cd\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 8343
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Preet Gill: UK gets its first female Sikh MP in general election - Times of India",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 137
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[id: acc15c70-4d40-4687-9373-9f25629f3165]",
+          "subLogs": [],
+          "duration": 116
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: a56075c6-7969-4132-ba71-604bc9111a51, id: d18a3f80-7fa0-42fb-8c51-5bc342c6da9d, id: 7d478c56-c047-4857-a10a-5471d7963143, id: 5bad644c-129c-4c86-b060-db1d3554997b, id: 8330c522-4291-49c8-8d4c-3e14e042f2e3, id: 8ed433dc-a6fd-4037-acde-3f12af331b52, id: b4869c0c-16bd-47c4-9961-70df8b7335ff]",
+          "subLogs": [],
+          "duration": 1358
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: a56075c6-7969-4132-ba71-604bc9111a51, id: d18a3f80-7fa0-42fb-8c51-5bc342c6da9d, id: 7d478c56-c047-4857-a10a-5471d7963143, id: 5bad644c-129c-4c86-b060-db1d3554997b, id: 8330c522-4291-49c8-8d4c-3e14e042f2e3, id: 8ed433dc-a6fd-4037-acde-3f12af331b52, id: b4869c0c-16bd-47c4-9961-70df8b7335ff]",
+          "subLogs": [],
+          "duration": 331
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"5bad644c-129c-4c86-b060-db1d3554997b\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 15303
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "CPEC: Islamic State claims it killed two Chinese in Pakistan - Times of India",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 10609
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[id: 5dc49871-de90-4e01-8bbb-f0a078db0b43]",
+          "subLogs": [],
+          "duration": 70
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 6768ed84-f8f8-4e87-8e6e-b2bda0cce877, id: a1bc4cb8-c880-4e2e-8621-7eee624786d7, id: 879ce2ce-3872-48a6-9576-b6bbc951b704, id: 786f650e-7466-402c-a08d-d14ef57ccf89, id: 3cccbee8-06da-4bf7-a181-272d33b34cd0, id: bff328cc-f37e-44e7-9a53-7f8656762241, id: fc26932b-79ff-4461-b22c-8406d2f4024c]",
+          "subLogs": [],
+          "duration": 61
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 6768ed84-f8f8-4e87-8e6e-b2bda0cce877, id: a1bc4cb8-c880-4e2e-8621-7eee624786d7, id: 879ce2ce-3872-48a6-9576-b6bbc951b704, id: 786f650e-7466-402c-a08d-d14ef57ccf89, id: 3cccbee8-06da-4bf7-a181-272d33b34cd0, id: bff328cc-f37e-44e7-9a53-7f8656762241, id: fc26932b-79ff-4461-b22c-8406d2f4024c]",
+          "subLogs": [],
+          "duration": 57
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"3cccbee8-06da-4bf7-a181-272d33b34cd0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 15214
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Kumble: CAC seeks more time to decide on Anil Kumble's future - Times of India",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 9233
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[id: fd71fba3-45a5-4865-bb9e-15374b09c12e]",
+          "subLogs": [],
+          "duration": 226
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: cf5f8948-c56e-4bb3-838f-858f58046220, id: d8c59dc1-a6dc-4399-be4a-8d2932063f5e, id: 052a1159-d1b5-4436-bd8a-5ac3c53c96bf, id: 21cc5e4d-c5a8-40c4-b00a-b6625b4275f4, id: d400fbba-179d-49f5-8671-a441032bb9e5, id: b7160858-4ddb-4789-af0d-89df32403924, id: 9cd80d25-6449-428b-bee3-e5df9d154dcb]",
+          "subLogs": [],
+          "duration": 301
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: cf5f8948-c56e-4bb3-838f-858f58046220, id: d8c59dc1-a6dc-4399-be4a-8d2932063f5e, id: 052a1159-d1b5-4436-bd8a-5ac3c53c96bf, id: 21cc5e4d-c5a8-40c4-b00a-b6625b4275f4, id: d400fbba-179d-49f5-8671-a441032bb9e5, id: b7160858-4ddb-4789-af0d-89df32403924, id: 9cd80d25-6449-428b-bee3-e5df9d154dcb]",
+          "subLogs": [],
+          "duration": 51
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"b7160858-4ddb-4789-af0d-89df32403924\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 15342
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Kapil Mishra: Kapil Mishra stopped from entering Arvind Kejriwal's residence | India News - Times of India",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 81
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[id: b13ac5e1-aa7d-4014-b194-0efcc427d422]",
+          "subLogs": [],
+          "duration": 57
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "The xpath expression '//div[@class='top-story']/ul/li' cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 104 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:5081/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]\nSession ID: d7d9f630-7a57-4784-9ab4-28cad2300694\n*** Element info: {Using=xpath, value=//div[@class='top-story']/ul/li}",
+          "subLogs": [],
+          "duration": 106
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Decline notifications",
+      "type": "TestStepPass",
+      "duration": 11282,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "No notification present",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Get List of top-stories and print",
+      "type": "TestStepPass",
+      "duration": 641,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "UK: Labour Party will seek to form minority govt",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Modi meets Xi Jinping on SCO sidelines",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Indian-origin candidates shine in UK polls",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "ISIS claims it killed two Chinese in Pakistan",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "CAC seeks more time to decide on Kumble's future",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Kapil Mishra stopped from entering Kejri's home",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Nine iOS 11 features Apple didn’t talk about",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "verifyNewsTitle",
+      "type": "TestStepFail",
+      "screenshot": "../img/toiPageVerification_1eavwerckydf245465.png",
+      "duration": 126087,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "News title is : Live: UK Election Results: British PM May loses overall majority in British parliament",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_uqqjne4p276n45459.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Narendra Modi: PM Modi meets Chinese President Xi Jinping on SCO sidelines | India News - Times of India",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_1ac5o78xvo2qp45460.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Preet Gill: UK gets its first female Sikh MP in general election - Times of India",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_1ac3n2cxxb7qz45461.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : CPEC: Islamic State claims it killed two Chinese in Pakistan - Times of India",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_12zz5jeubzzgb45462.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Kumble: CAC seeks more time to decide on Anil Kumble's future - Times of India",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_1aorgzeh79edd45463.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "News title is : Kapil Mishra: Kapil Mishra stopped from entering Arvind Kejriwal's residence | India News - Times of India",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerification_trik15delhrn45464.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "org.openqa.selenium.InvalidSelectorException: The xpath expression '//div[@class='top-story']/ul/li' cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 104 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:5081/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]\nSession ID: d7d9f630-7a57-4784-9ab4-28cad2300694\n*** Element info: {Using=xpath, value=//div[@class='top-story']/ul/li}",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.InvalidSelectorException: The xpath expression '//div[@class='top-story']/ul/li' cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 104 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'icpl12186', ip: '10.11.28.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:5081/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]\nSession ID: d7d9f630-7a57-4784-9ab4-28cad2300694\n*** Element info: {Using=xpath, value=//div[@class='top-story']/ul/li}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:388)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:504)\r\n\tat org.openqa.selenium.By$ByXPath.findElements(By.java:356)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:351)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.ComponentListHandler.invoke(ComponentListHandler.java:97)\r\n\tat com.sun.proxy.$Proxy13.size(Unknown Source)\r\n\tat com.timesofindia.defs.DetailsNewsDefs.verifyNewsTitle_aroundBody0(DetailsNewsDefs.java:20)\r\n\tat com.timesofindia.defs.DetailsNewsDefs$AjcClosure1.run(DetailsNewsDefs.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)\r\n\tat com.timesofindia.defs.DetailsNewsDefs.verifyNewsTitle(DetailsNewsDefs.java:16)\r\n\tat com.timesofindia.tests.ToiTest.toiPageVerification(ToiTest.java:30)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:805)\r\n\tat org.testng.TestRunner.run(TestRunner.java:655)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)\r\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)\r\n\tat org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)\r\n\tat org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)\r\n"
+}

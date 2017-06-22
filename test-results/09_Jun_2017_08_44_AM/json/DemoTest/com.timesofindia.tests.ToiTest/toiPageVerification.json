@@ -1,0 +1,437 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "declineNotifications",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 562
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 359
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 369
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 324
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 384
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 305
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 378
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 400
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getTopStoriesList",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 810e23e0-5269-4839-9c16-eaf976bac737, id: 25cff0d7-3c32-4d62-9642-9dc671b7d510, id: 3651fe5f-78ec-40fd-b08c-a9dbcbecf298, id: 8ea27c53-bee4-425e-bab9-8d072ec4e7b5, id: b8b96d4c-f5e7-49bc-b2f5-b564631697c9, id: 9db60b34-ed06-47ee-b6a3-03ea49989a73, id: f4f66ec0-540a-4181-9266-57a5191fa629]",
+          "subLogs": [],
+          "duration": 90
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 810e23e0-5269-4839-9c16-eaf976bac737, id: 25cff0d7-3c32-4d62-9642-9dc671b7d510, id: 3651fe5f-78ec-40fd-b08c-a9dbcbecf298, id: 8ea27c53-bee4-425e-bab9-8d072ec4e7b5, id: b8b96d4c-f5e7-49bc-b2f5-b564631697c9, id: 9db60b34-ed06-47ee-b6a3-03ea49989a73, id: f4f66ec0-540a-4181-9266-57a5191fa629]",
+          "subLogs": [],
+          "duration": 83
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"810e23e0-5269-4839-9c16-eaf976bac737\"}"
+          ],
+          "result": "getElementText:UK PM May's election gamble backfires",
+          "subLogs": [],
+          "duration": 85
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"25cff0d7-3c32-4d62-9642-9dc671b7d510\"}"
+          ],
+          "result": "getElementText:UK: Labour Party will seek to form minority govt",
+          "subLogs": [],
+          "duration": 84
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"3651fe5f-78ec-40fd-b08c-a9dbcbecf298\"}"
+          ],
+          "result": "getElementText:Live: PM Modi addresses at SCO summit",
+          "subLogs": [],
+          "duration": 79
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"8ea27c53-bee4-425e-bab9-8d072ec4e7b5\"}"
+          ],
+          "result": "getElementText:Modi meets Xi Jinping on SCO sidelines",
+          "subLogs": [],
+          "duration": 77
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"b8b96d4c-f5e7-49bc-b2f5-b564631697c9\"}"
+          ],
+          "result": "getElementText:Indian-origin candidates shine in UK polls",
+          "subLogs": [],
+          "duration": 81
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"9db60b34-ed06-47ee-b6a3-03ea49989a73\"}"
+          ],
+          "result": "getElementText:ISIS claims it killed two Chinese in Pakistan",
+          "subLogs": [],
+          "duration": 82
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"f4f66ec0-540a-4181-9266-57a5191fa629\"}"
+          ],
+          "result": "getElementText:CAC seeks more time to decide on Kumble's future",
+          "subLogs": [],
+          "duration": 89
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyNewsTitle",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 810e23e0-5269-4839-9c16-eaf976bac737, id: 25cff0d7-3c32-4d62-9642-9dc671b7d510, id: 3651fe5f-78ec-40fd-b08c-a9dbcbecf298, id: 8ea27c53-bee4-425e-bab9-8d072ec4e7b5, id: b8b96d4c-f5e7-49bc-b2f5-b564631697c9, id: 9db60b34-ed06-47ee-b6a3-03ea49989a73, id: f4f66ec0-540a-4181-9266-57a5191fa629]",
+          "subLogs": [],
+          "duration": 63
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 810e23e0-5269-4839-9c16-eaf976bac737, id: 25cff0d7-3c32-4d62-9642-9dc671b7d510, id: 3651fe5f-78ec-40fd-b08c-a9dbcbecf298, id: 8ea27c53-bee4-425e-bab9-8d072ec4e7b5, id: b8b96d4c-f5e7-49bc-b2f5-b564631697c9, id: 9db60b34-ed06-47ee-b6a3-03ea49989a73, id: f4f66ec0-540a-4181-9266-57a5191fa629]",
+          "subLogs": [],
+          "duration": 62
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"810e23e0-5269-4839-9c16-eaf976bac737\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1519
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "News: India News, Latest Bollywood News, Sports News, Business & Political News, National & International News | Times of India",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 247
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 340
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 324
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 365
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 309
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 338
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 354
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 365
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 394
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 328
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 305
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Decline notifications",
+      "type": "TestStepPass",
+      "duration": 10113,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "No notification present",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Get List of top-stories and print",
+      "type": "TestStepPass",
+      "duration": 769,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "UK PM May's election gamble backfires",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "UK: Labour Party will seek to form minority govt",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Live: PM Modi addresses at SCO summit",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Modi meets Xi Jinping on SCO sidelines",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Indian-origin candidates shine in UK polls",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "ISIS claims it killed two Chinese in Pakistan",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "CAC seeks more time to decide on Kumble's future",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "verifyNewsTitle",
+      "type": "TestStepFail",
+      "screenshot": "../img/toiPageVerification_1m2uvgqz5tdiy24575.png",
+      "duration": 32492,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "News title is : News: India News, Latest Bollywood News, Sports News, Business & Political News, National & International News | Times of India",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_1m2uvgqz5tdiy24575.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

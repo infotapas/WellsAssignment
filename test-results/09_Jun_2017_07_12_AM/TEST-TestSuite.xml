@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="TestSuite" time="43.045" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\TAPAS~1.PAD\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Users\tapas.padhi\gmworkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3023425108098207566.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Perforce\DVCS\;C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security 10 for Windows SP2\;C:\Software\eclipse-jee-neon-2-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\tapas.padhi"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="tapas.padhi"/>
+    <property name="java.class.path" value="/C:/Software/eclipse-jee-neon-2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.timesofindia.tests.ToiTest" name="toiPageVerification" time="13.078">
+    <failure/>
+    <system-out>[ConfigurationManager] - ISFW build info: {qaf-Type=core, qaf-Revision=10, qaf-Version=2.1, qaf-Build-Time=03-Jan-2017 14:01:00}
+[ConfigurationManager] - Resource dir: C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources. Found property files to load: 3
+[ConfigurationManager] - Resource dir: C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources. Found property files to load: 0
+[QAFTestBase] - Initializing Driver...browser_str:chromeDriver,base_url:http://timesofindia.indiatimes.com/,sel_server:localhost,port:4444
+[UiDriverFactory] - Driver: chromeDriver
+driver init done
+[WebDriverCommandLogger] - Executing get parameters: {&quot;url&quot;:&quot;http://timesofindia.indiatimes.com/&quot;}
+[WebDriverCommandLogger] - command: get[ param-1: {url=http://timesofindia.indiatimes.com/}] Result: null
+[WebDriverCommandLogger] - Executing maximizeWindow parameters: {&quot;windowHandle&quot;:&quot;current&quot;}
+[WebDriverCommandLogger] - command: maximizeWindow[ param-1: {windowHandle=current}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: [id: 0.15517022563766236-1]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: [id: 0.15517022563766236-1]
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_2su1odas7f4g54355.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[text()=&apos;Enable&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[text()=&apos;Enable&apos;], using=xpath}] Result: [id: 0.15517022563766236-2]
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_1dzvnyl3frsti54356.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[text()=&apos;Not Now&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[text()=&apos;Not Now&apos;], using=xpath}] Result: [id: 0.15517022563766236-3]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[text()=&apos;Not Now&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//a[text()=&apos;Not Now&apos;], using=xpath}] Result: id: 0.15517022563766236-3
+[WebDriverCommandLogger] - Executing executeScript parameters: {&quot;args&quot;:[{&quot;element-6066-11e4-a52e-4f735466cecf&quot;:&quot;0.15517022563766236-3&quot;,&quot;ELEMENT&quot;:&quot;0.15517022563766236-3&quot;}],&quot;script&quot;:&quot;arguments[0].click();&quot;}
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: 0.15517022563766236-4, id: 0.15517022563766236-5, id: 0.15517022563766236-6, id: 0.15517022563766236-7, id: 0.15517022563766236-8, id: 0.15517022563766236-9, id: 0.15517022563766236-10]
+TopStory size count is 7
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: 0.15517022563766236-4, id: 0.15517022563766236-5, id: 0.15517022563766236-6, id: 0.15517022563766236-7, id: 0.15517022563766236-8, id: 0.15517022563766236-9, id: 0.15517022563766236-10]
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.15517022563766236-4&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.15517022563766236-4&quot;}] Result: getElementText:Modi meets Xi Jinping on SCO sidelines
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.15517022563766236-5&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.15517022563766236-5&quot;}] Result: getElementText:Infosys founders looking to sell stake in company
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.15517022563766236-6&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.15517022563766236-6&quot;}] Result: getElementText:Live: May won&apos;t resign, say British media
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.15517022563766236-7&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.15517022563766236-7&quot;}] Result: getElementText:Indian-origin candidates shine in UK polls
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.15517022563766236-8&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.15517022563766236-8&quot;}] Result: getElementText:ISIS claims it killed two Chinese in Pakistan
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.15517022563766236-9&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.15517022563766236-9&quot;}] Result: getElementText:Trump asked me to lay off Russia probe: Comey
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.15517022563766236-10&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.15517022563766236-10&quot;}] Result: getElementText:Day-long curfew relaxation in Mandsaur
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: 0.15517022563766236-4, id: 0.15517022563766236-5, id: 0.15517022563766236-6, id: 0.15517022563766236-7, id: 0.15517022563766236-8, id: 0.15517022563766236-9, id: 0.15517022563766236-10]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: 0.15517022563766236-4, id: 0.15517022563766236-5, id: 0.15517022563766236-6, id: 0.15517022563766236-7, id: 0.15517022563766236-8, id: 0.15517022563766236-9, id: 0.15517022563766236-10]
+[WebDriverCommandLogger] - Executing executeScript parameters: {&quot;args&quot;:[{&quot;element-6066-11e4-a52e-4f735466cecf&quot;:&quot;0.15517022563766236-4&quot;,&quot;ELEMENT&quot;:&quot;0.15517022563766236-4&quot;}],&quot;script&quot;:&quot;arguments[0].click();&quot;}
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: News: India News, Latest Bollywood News, Sports News, Business &amp; Political News, National &amp; International News | Times of India
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_bkpbe2577nc254357.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: []
+</system-out>
+    <system-err>log4j:WARN No such property [follow] in org.apache.log4j.FileAppender.
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 2068
+Only local connections are allowed.
+</system-err>
+  </testcase>
+</testsuite>

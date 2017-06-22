@@ -1,0 +1,720 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "declineNotifications",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[id: 0.11219067223540446-1]",
+          "subLogs": [],
+          "duration": 5314
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[id: 0.11219067223540446-1]",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[text()='Enable'], using=xpath}"
+          ],
+          "result": "[id: 0.11219067223540446-2]",
+          "subLogs": [],
+          "duration": 50
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[text()='Not Now'], using=xpath}"
+          ],
+          "result": "[id: 0.11219067223540446-3]",
+          "subLogs": [],
+          "duration": 688
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Not Now'], using=xpath}"
+          ],
+          "result": "id: 0.11219067223540446-3",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[text()='Not Now']",
+            "{\"id\":\"0.11219067223540446-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 154
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyEntertainmentSection",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[text()='TOP NEWS STORIES'], using=xpath}"
+          ],
+          "result": "[id: 0.11219067223540446-4]",
+          "subLogs": [],
+          "duration": 44
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entrmnt-wdgt-outer'], using=xpath}"
+          ],
+          "result": "[id: 0.11219067223540446-5]",
+          "subLogs": [],
+          "duration": 40
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getEntertainmentNewsList",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.11219067223540446-6, id: 0.11219067223540446-7, id: 0.11219067223540446-8, id: 0.11219067223540446-9, id: 0.11219067223540446-10, id: 0.11219067223540446-11, id: 0.11219067223540446-12, id: 0.11219067223540446-13, id: 0.11219067223540446-14, id: 0.11219067223540446-15, id: 0.11219067223540446-16]",
+          "subLogs": [],
+          "duration": 46
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 0.11219067223540446-6, id: 0.11219067223540446-7, id: 0.11219067223540446-8, id: 0.11219067223540446-9, id: 0.11219067223540446-10, id: 0.11219067223540446-11, id: 0.11219067223540446-12, id: 0.11219067223540446-13, id: 0.11219067223540446-14, id: 0.11219067223540446-15, id: 0.11219067223540446-16]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-6\"}"
+          ],
+          "result": "getElementText:Pic: Milind Soman finds love with air hostess",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-6\"}"
+          ],
+          "result": "getElementText:Pic: Milind Soman finds love with air hostess",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-7\"}"
+          ],
+          "result": "getElementText:Pics: Katrina picks up the guns and swords",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-7\"}"
+          ],
+          "result": "getElementText:Pics: Katrina picks up the guns and swords",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-8\"}"
+          ],
+          "result": "getElementText:When Salman laughed on Katrina Kaif",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-8\"}"
+          ],
+          "result": "getElementText:When Salman laughed on Katrina Kaif",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-9\"}"
+          ],
+          "result": "getElementText:First look: Ileana is badass in 'Baadshaho'",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-9\"}"
+          ],
+          "result": "getElementText:First look: Ileana is badass in 'Baadshaho'",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-10\"}"
+          ],
+          "result": "getElementText:KBC 9: Celebs who should participate",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-10\"}"
+          ],
+          "result": "getElementText:KBC 9: Celebs who should participate",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-11\"}"
+          ],
+          "result": "getElementText:Saif not happy with Sara’s Bollywood dream",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-11\"}"
+          ],
+          "result": "getElementText:Saif not happy with Sara’s Bollywood dream",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-12\"}"
+          ],
+          "result": "getElementText:10 Bollywood items that were auctioned",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-12\"}"
+          ],
+          "result": "getElementText:10 Bollywood items that were auctioned",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-13\"}"
+          ],
+          "result": "getElementText:Sohail Khan on SRK’s cameo in ‘Tubelight’",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-13\"}"
+          ],
+          "result": "getElementText:Sohail Khan on SRK’s cameo in ‘Tubelight’",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-14\"}"
+          ],
+          "result": "getElementText:Drug found near Kritika Chaudhary’s body",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-14\"}"
+          ],
+          "result": "getElementText:Drug found near Kritika Chaudhary’s body",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-15\"}"
+          ],
+          "result": "getElementText:Movie review: Despicable Me 3",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-15\"}"
+          ],
+          "result": "getElementText:Movie review: Despicable Me 3",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-16\"}"
+          ],
+          "result": "getElementText:'I want to be the most influential woman of India'",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='entrmnt-wdgt-outer']//div[@class='stories']/ul/li",
+            "{\"id\":\"0.11219067223540446-16\"}"
+          ],
+          "result": "getElementText:'I want to be the most influential woman of India'",
+          "subLogs": [],
+          "duration": 13
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='entslides']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.11219067223540446-17, id: 0.11219067223540446-18, id: 0.11219067223540446-19, id: 0.11219067223540446-20, id: 0.11219067223540446-21, id: 0.11219067223540446-22, id: 0.11219067223540446-23, id: 0.11219067223540446-24, id: 0.11219067223540446-25, id: 0.11219067223540446-26, id: 0.11219067223540446-27, id: 0.11219067223540446-28, id: 0.11219067223540446-29, id: 0.11219067223540446-30, id: 0.11219067223540446-31]",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //div[@class='entslides']/ul/li",
+        "{\"id\":\"0.11219067223540446-17\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //div[@class='entslides']/ul/li",
+        "{\"id\":\"0.11219067223540446-18\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //div[@class='entslides']/ul/li",
+        "{\"id\":\"0.11219067223540446-19\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //div[@class='entslides']/ul/li",
+        "{\"id\":\"0.11219067223540446-20\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //div[@class='entslides']/ul/li",
+        "{\"id\":\"0.11219067223540446-21\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //div[@class='entslides']/ul/li",
+        "{\"id\":\"0.11219067223540446-22\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //div[@class='entslides']/ul/li",
+        "{\"id\":\"0.11219067223540446-23\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //div[@class='entslides']/ul/li",
+        "{\"id\":\"0.11219067223540446-24\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //div[@class='entslides']/ul/li",
+        "{\"id\":\"0.11219067223540446-25\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //div[@class='entslides']/ul/li",
+        "{\"id\":\"0.11219067223540446-26\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //div[@class='entslides']/ul/li",
+        "{\"id\":\"0.11219067223540446-27\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //div[@class='entslides']/ul/li",
+        "{\"id\":\"0.11219067223540446-28\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //div[@class='entslides']/ul/li",
+        "{\"id\":\"0.11219067223540446-29\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //div[@class='entslides']/ul/li",
+        "{\"id\":\"0.11219067223540446-30\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //div[@class='entslides']/ul/li",
+        "{\"id\":\"0.11219067223540446-31\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 26
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Decline notifications",
+      "type": "TestStepPass",
+      "duration": 14963,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Notification Pop-Up present : Actual Notification Pop-Up present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerificationEntertainment_1i60rg35frdi819158.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Not now button on Pop-Up present : Actual Not now button on Pop-Up present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerificationEntertainment_afwxotcra7be19159.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Declining popup - Not to receive notofications",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Entertainment section verification",
+      "type": "TestStepPass",
+      "duration": 800,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Top news text present : Actual Top news text present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerificationEntertainment_1mjiet9lyxgyc19160.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Entertainment news section present : Actual Entertainment news section present",
+          "type": "Pass",
+          "screenshot": "../img/toiPageVerificationEntertainment_xfyn98nwh29419161.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Extract entertainment section's news",
+      "type": "TestStepPass",
+      "duration": 617,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Entertainment news size count is 11",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Pic: Milind Soman finds love with air hostess",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Pics: Katrina picks up the guns and swords",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "When Salman laughed on Katrina Kaif",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "First look: Ileana is badass in 'Baadshaho'",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "KBC 9: Celebs who should participate",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Saif not happy with Sara’s Bollywood dream",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "10 Bollywood items that were auctioned",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Sohail Khan on SRK’s cameo in ‘Tubelight’",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Drug found near Kritika Chaudhary’s body",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Movie review: Despicable Me 3",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "'I want to be the most influential woman of India'",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

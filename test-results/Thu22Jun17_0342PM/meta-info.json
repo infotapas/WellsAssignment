@@ -1,0 +1,13 @@
+{
+  "name": "Command line suite",
+  "status": "fail",
+  "tests": [
+    "Commandlinetest"
+  ],
+  "total": 2,
+  "pass": 0,
+  "fail": 1,
+  "skip": 1,
+  "startTime": 1498126320856,
+  "endTime": 1498126365037
+}

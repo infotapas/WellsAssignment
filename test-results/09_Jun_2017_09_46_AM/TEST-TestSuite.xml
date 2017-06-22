@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="TestSuite" time="308.908" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\TAPAS~1.PAD\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Users\tapas.padhi\gmworkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4834224174064623289.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Perforce\DVCS\;C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security 10 for Windows SP2\;C:\Software\eclipse-jee-neon-2-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\tapas.padhi"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="tapas.padhi"/>
+    <property name="java.class.path" value="/C:/Software/eclipse-jee-neon-2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.timesofindia.tests.ToiTest" name="toiPageVerification" time="288.628">
+    <failure/>
+    <system-out>[ConfigurationManager] - ISFW build info: {qaf-Type=core, qaf-Revision=10, qaf-Version=2.1, qaf-Build-Time=03-Jan-2017 14:01:00}
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\mailer.properties not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\test_data not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\mobile_web\object_repository not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\mobile_web\configuration not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\mobile_web\translations.properties not exist!
+[ConfigurationManager] - Resource dir: C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\mobile_web. Found property files to load: 1
+[ConfigurationManager] - Resource dir: C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\mobile_web. Found property files to load: 0
+[QAFTestBase] - Initializing Driver...browser_str:chromeDriver,base_url:http://m.timesofindia.com,sel_server:localhost,port:4444
+[UiDriverFactory] - Driver: chromeDriver
+driver init done
+[WebDriverCommandLogger] - Executing get parameters: {&quot;url&quot;:&quot;http://m.timesofindia.com&quot;}
+[WebDriverCommandLogger] - command: get[ param-1: {url=http://m.timesofindia.com}] Result: null
+[WebDriverCommandLogger] - Executing maximizeWindow parameters: {&quot;windowHandle&quot;:&quot;current&quot;}
+[WebDriverCommandLogger] - command: maximizeWindow[ param-1: {windowHandle=current}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.8340699856461675-1, id: 0.8340699856461675-2, id: 0.8340699856461675-3, id: 0.8340699856461675-4, id: 0.8340699856461675-5, id: 0.8340699856461675-6, id: 0.8340699856461675-7, id: 0.8340699856461675-8, id: 0.8340699856461675-9, id: 0.8340699856461675-10, id: 0.8340699856461675-11, id: 0.8340699856461675-12, id: 0.8340699856461675-13, id: 0.8340699856461675-14, id: 0.8340699856461675-15, id: 0.8340699856461675-16, id: 0.8340699856461675-17, id: 0.8340699856461675-18, id: 0.8340699856461675-19, id: 0.8340699856461675-20, id: 0.8340699856461675-21]
+TopStory size count is 21
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.8340699856461675-1, id: 0.8340699856461675-2, id: 0.8340699856461675-3, id: 0.8340699856461675-4, id: 0.8340699856461675-5, id: 0.8340699856461675-6, id: 0.8340699856461675-7, id: 0.8340699856461675-8, id: 0.8340699856461675-9, id: 0.8340699856461675-10, id: 0.8340699856461675-11, id: 0.8340699856461675-12, id: 0.8340699856461675-13, id: 0.8340699856461675-14, id: 0.8340699856461675-15, id: 0.8340699856461675-16, id: 0.8340699856461675-17, id: 0.8340699856461675-18, id: 0.8340699856461675-19, id: 0.8340699856461675-20, id: 0.8340699856461675-21]
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-1&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-1&quot;}] Result: getElementText:Britain, Brexit in disarray as PM May&apos;s election gamble backfires
+50 mins ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-2&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-2&quot;}] Result: getElementText:Live: Labour Party will seek to form minority govt in UK
+12 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-3&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-3&quot;}] Result: getElementText:PM Modi meets Chinese President Xi Jinping on SCO sidelines
+2 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-4&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-4&quot;}] Result: getElementText:We are not invincible, says Virat Kohli ahead of &apos;virtual quarters&apos;
+41 mins ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-5&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-5&quot;}] Result: getElementText:Labour&apos;s Indian-origin candidates shine in UK polls
+2 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-6&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-6&quot;}] Result: getElementText:Islamic State claims it killed two Chinese in Pakistan
+44 mins ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-7&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-7&quot;}] Result: getElementText:iPhone 6 available at a discount of over Rs 14,000
+1 hr ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-8&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-8&quot;}] Result: getElementText:Day-long curfew relaxation in Mandsaur city, Pipliamandi
+2 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-9&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-9&quot;}] Result: getElementText:UP Board Class 12th Result 2017 declared
+12 mins ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-10&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-10&quot;}] Result: getElementText:UP Board Class 10th Result 2017 declared
+10 mins ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-11&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-11&quot;}] Result: getElementText:CAC seeks more time to decide on Anil Kumble&apos;s future
+3 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-12&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-12&quot;}] Result: getElementText:Air India plane overshoots runway in Jammu while landing, airport closed
+1 hr ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-13&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-13&quot;}] Result: getElementText:Partnership is best way to describe Indo-US relationship: Navtej Sarna
+5 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-14&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-14&quot;}] Result: getElementText:Delhi: Pharmacist helps deliver baby, leaves needle inside patient&apos;s body
+5 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-15&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-15&quot;}] Result: getElementText:Do not panic, embassy tells Indians in Qatar
+11 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-16&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-16&quot;}] Result: getElementText:Chhota Shakeel&apos;s aide arrested, was planning to target Tarek Fateh
+1 hr ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-17&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-17&quot;}] Result: getElementText:Raabta movie review
+2 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-18&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-18&quot;}] Result: getElementText:Pakistani model bares it all in these pictures
+5 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-19&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-19&quot;}] Result: getElementText:Telangana snaps power to Andhra Pradesh over Rs 1,600 crore dues
+5 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-20&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-20&quot;}] Result: getElementText:Infosys founders looking to sell their stake in company
+2 hrs ago
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-21&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-21&quot;}] Result: getElementText:This Chennai bus conductor plants 38,000 trees
+40 mins ago
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.8340699856461675-1, id: 0.8340699856461675-2, id: 0.8340699856461675-3, id: 0.8340699856461675-4, id: 0.8340699856461675-5, id: 0.8340699856461675-6, id: 0.8340699856461675-7, id: 0.8340699856461675-8, id: 0.8340699856461675-9, id: 0.8340699856461675-10, id: 0.8340699856461675-11, id: 0.8340699856461675-12, id: 0.8340699856461675-13, id: 0.8340699856461675-14, id: 0.8340699856461675-15, id: 0.8340699856461675-16, id: 0.8340699856461675-17, id: 0.8340699856461675-18, id: 0.8340699856461675-19, id: 0.8340699856461675-20, id: 0.8340699856461675-21]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.8340699856461675-1, id: 0.8340699856461675-2, id: 0.8340699856461675-3, id: 0.8340699856461675-4, id: 0.8340699856461675-5, id: 0.8340699856461675-6, id: 0.8340699856461675-7, id: 0.8340699856461675-8, id: 0.8340699856461675-9, id: 0.8340699856461675-10, id: 0.8340699856461675-11, id: 0.8340699856461675-12, id: 0.8340699856461675-13, id: 0.8340699856461675-14, id: 0.8340699856461675-15, id: 0.8340699856461675-16, id: 0.8340699856461675-17, id: 0.8340699856461675-18, id: 0.8340699856461675-19, id: 0.8340699856461675-20, id: 0.8340699856461675-21]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8340699856461675-1&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8340699856461675-1&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: Theresa May: UK election deals May a crushing blow, blurring Brexit talks - The Times of India on Mobile
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_dhtd39eoqdoq185.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.5211486418941258-1, id: 0.5211486418941258-2, id: 0.5211486418941258-3, id: 0.5211486418941258-4, id: 0.5211486418941258-5, id: 0.5211486418941258-6, id: 0.5211486418941258-7, id: 0.5211486418941258-8, id: 0.5211486418941258-9, id: 0.5211486418941258-10, id: 0.5211486418941258-11, id: 0.5211486418941258-12, id: 0.5211486418941258-13, id: 0.5211486418941258-14, id: 0.5211486418941258-15, id: 0.5211486418941258-16, id: 0.5211486418941258-17, id: 0.5211486418941258-18, id: 0.5211486418941258-19, id: 0.5211486418941258-20, id: 0.5211486418941258-21]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.5211486418941258-1, id: 0.5211486418941258-2, id: 0.5211486418941258-3, id: 0.5211486418941258-4, id: 0.5211486418941258-5, id: 0.5211486418941258-6, id: 0.5211486418941258-7, id: 0.5211486418941258-8, id: 0.5211486418941258-9, id: 0.5211486418941258-10, id: 0.5211486418941258-11, id: 0.5211486418941258-12, id: 0.5211486418941258-13, id: 0.5211486418941258-14, id: 0.5211486418941258-15, id: 0.5211486418941258-16, id: 0.5211486418941258-17, id: 0.5211486418941258-18, id: 0.5211486418941258-19, id: 0.5211486418941258-20, id: 0.5211486418941258-21]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.5211486418941258-2&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.5211486418941258-2&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: Live: UK Election Results: With 153 seats out of 650 declared in British election, Conservatives on 57 and Labour on 76
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_z047t7h9cvet186.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.7578907729615358-1, id: 0.7578907729615358-2, id: 0.7578907729615358-3, id: 0.7578907729615358-4, id: 0.7578907729615358-5, id: 0.7578907729615358-6, id: 0.7578907729615358-7, id: 0.7578907729615358-8, id: 0.7578907729615358-9, id: 0.7578907729615358-10, id: 0.7578907729615358-11, id: 0.7578907729615358-12, id: 0.7578907729615358-13, id: 0.7578907729615358-14, id: 0.7578907729615358-15, id: 0.7578907729615358-16, id: 0.7578907729615358-17, id: 0.7578907729615358-18, id: 0.7578907729615358-19, id: 0.7578907729615358-20, id: 0.7578907729615358-21]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.7578907729615358-1, id: 0.7578907729615358-2, id: 0.7578907729615358-3, id: 0.7578907729615358-4, id: 0.7578907729615358-5, id: 0.7578907729615358-6, id: 0.7578907729615358-7, id: 0.7578907729615358-8, id: 0.7578907729615358-9, id: 0.7578907729615358-10, id: 0.7578907729615358-11, id: 0.7578907729615358-12, id: 0.7578907729615358-13, id: 0.7578907729615358-14, id: 0.7578907729615358-15, id: 0.7578907729615358-16, id: 0.7578907729615358-17, id: 0.7578907729615358-18, id: 0.7578907729615358-19, id: 0.7578907729615358-20, id: 0.7578907729615358-21]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7578907729615358-3&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7578907729615358-3&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: Narendra Modi: PM Modi meets Chinese President Xi Jinping on SCO sidelines - The Times of India on Mobile
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_7myk0k89lzbt187.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.5824110697445322-1, id: 0.5824110697445322-2, id: 0.5824110697445322-3, id: 0.5824110697445322-4, id: 0.5824110697445322-5, id: 0.5824110697445322-6, id: 0.5824110697445322-7, id: 0.5824110697445322-8, id: 0.5824110697445322-9, id: 0.5824110697445322-10, id: 0.5824110697445322-11, id: 0.5824110697445322-12, id: 0.5824110697445322-13, id: 0.5824110697445322-14, id: 0.5824110697445322-15, id: 0.5824110697445322-16, id: 0.5824110697445322-17, id: 0.5824110697445322-18, id: 0.5824110697445322-19, id: 0.5824110697445322-20, id: 0.5824110697445322-21]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.5824110697445322-1, id: 0.5824110697445322-2, id: 0.5824110697445322-3, id: 0.5824110697445322-4, id: 0.5824110697445322-5, id: 0.5824110697445322-6, id: 0.5824110697445322-7, id: 0.5824110697445322-8, id: 0.5824110697445322-9, id: 0.5824110697445322-10, id: 0.5824110697445322-11, id: 0.5824110697445322-12, id: 0.5824110697445322-13, id: 0.5824110697445322-14, id: 0.5824110697445322-15, id: 0.5824110697445322-16, id: 0.5824110697445322-17, id: 0.5824110697445322-18, id: 0.5824110697445322-19, id: 0.5824110697445322-20, id: 0.5824110697445322-21]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.5824110697445322-4&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.5824110697445322-4&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: Champions Trophy: Great scenario to have two quarter-finals: Virat Kohli - The Times of India on Mobile
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_1ob2d9xh90eym188.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.03802897037373976-1, id: 0.03802897037373976-2, id: 0.03802897037373976-3, id: 0.03802897037373976-4, id: 0.03802897037373976-5, id: 0.03802897037373976-6, id: 0.03802897037373976-7, id: 0.03802897037373976-8, id: 0.03802897037373976-9, id: 0.03802897037373976-10, id: 0.03802897037373976-11, id: 0.03802897037373976-12, id: 0.03802897037373976-13, id: 0.03802897037373976-14, id: 0.03802897037373976-15, id: 0.03802897037373976-16, id: 0.03802897037373976-17, id: 0.03802897037373976-18, id: 0.03802897037373976-19, id: 0.03802897037373976-20, id: 0.03802897037373976-21]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.03802897037373976-1, id: 0.03802897037373976-2, id: 0.03802897037373976-3, id: 0.03802897037373976-4, id: 0.03802897037373976-5, id: 0.03802897037373976-6, id: 0.03802897037373976-7, id: 0.03802897037373976-8, id: 0.03802897037373976-9, id: 0.03802897037373976-10, id: 0.03802897037373976-11, id: 0.03802897037373976-12, id: 0.03802897037373976-13, id: 0.03802897037373976-14, id: 0.03802897037373976-15, id: 0.03802897037373976-16, id: 0.03802897037373976-17, id: 0.03802897037373976-18, id: 0.03802897037373976-19, id: 0.03802897037373976-20, id: 0.03802897037373976-21]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.03802897037373976-5&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.03802897037373976-5&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: Preet Gill: UK gets its first female Sikh MP in general election - The Times of India on Mobile
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_mbobbdb2dft6189.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.36186286273056245-1, id: 0.36186286273056245-2, id: 0.36186286273056245-3, id: 0.36186286273056245-4, id: 0.36186286273056245-5, id: 0.36186286273056245-6, id: 0.36186286273056245-7, id: 0.36186286273056245-8, id: 0.36186286273056245-9, id: 0.36186286273056245-10, id: 0.36186286273056245-11, id: 0.36186286273056245-12, id: 0.36186286273056245-13, id: 0.36186286273056245-14, id: 0.36186286273056245-15, id: 0.36186286273056245-16, id: 0.36186286273056245-17, id: 0.36186286273056245-18, id: 0.36186286273056245-19, id: 0.36186286273056245-20, id: 0.36186286273056245-21]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.36186286273056245-1, id: 0.36186286273056245-2, id: 0.36186286273056245-3, id: 0.36186286273056245-4, id: 0.36186286273056245-5, id: 0.36186286273056245-6, id: 0.36186286273056245-7, id: 0.36186286273056245-8, id: 0.36186286273056245-9, id: 0.36186286273056245-10, id: 0.36186286273056245-11, id: 0.36186286273056245-12, id: 0.36186286273056245-13, id: 0.36186286273056245-14, id: 0.36186286273056245-15, id: 0.36186286273056245-16, id: 0.36186286273056245-17, id: 0.36186286273056245-18, id: 0.36186286273056245-19, id: 0.36186286273056245-20, id: 0.36186286273056245-21]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.36186286273056245-6&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.36186286273056245-6&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: CPEC: Islamic State claims it killed two Chinese in Pakistan - The Times of India on Mobile
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_t7s0kahn9xba190.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.2682668162291122-1, id: 0.2682668162291122-2, id: 0.2682668162291122-3, id: 0.2682668162291122-4, id: 0.2682668162291122-5, id: 0.2682668162291122-6, id: 0.2682668162291122-7, id: 0.2682668162291122-8, id: 0.2682668162291122-9, id: 0.2682668162291122-10, id: 0.2682668162291122-11, id: 0.2682668162291122-12, id: 0.2682668162291122-13, id: 0.2682668162291122-14, id: 0.2682668162291122-15, id: 0.2682668162291122-16, id: 0.2682668162291122-17, id: 0.2682668162291122-18, id: 0.2682668162291122-19, id: 0.2682668162291122-20, id: 0.2682668162291122-21]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.2682668162291122-1, id: 0.2682668162291122-2, id: 0.2682668162291122-3, id: 0.2682668162291122-4, id: 0.2682668162291122-5, id: 0.2682668162291122-6, id: 0.2682668162291122-7, id: 0.2682668162291122-8, id: 0.2682668162291122-9, id: 0.2682668162291122-10, id: 0.2682668162291122-11, id: 0.2682668162291122-12, id: 0.2682668162291122-13, id: 0.2682668162291122-14, id: 0.2682668162291122-15, id: 0.2682668162291122-16, id: 0.2682668162291122-17, id: 0.2682668162291122-18, id: 0.2682668162291122-19, id: 0.2682668162291122-20, id: 0.2682668162291122-21]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.2682668162291122-7&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.2682668162291122-7&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: Flipkart Father’s Day sale: Pick up Apple iPhone 6 at Rs 21,999 | Gadgets Now
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_kzwn1ejwexm0191.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.6101965539103724-1, id: 0.6101965539103724-2, id: 0.6101965539103724-3, id: 0.6101965539103724-4, id: 0.6101965539103724-5, id: 0.6101965539103724-6, id: 0.6101965539103724-7, id: 0.6101965539103724-8, id: 0.6101965539103724-9, id: 0.6101965539103724-10, id: 0.6101965539103724-11, id: 0.6101965539103724-12, id: 0.6101965539103724-13, id: 0.6101965539103724-14, id: 0.6101965539103724-15, id: 0.6101965539103724-16, id: 0.6101965539103724-17, id: 0.6101965539103724-18, id: 0.6101965539103724-19, id: 0.6101965539103724-20, id: 0.6101965539103724-21]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.6101965539103724-1, id: 0.6101965539103724-2, id: 0.6101965539103724-3, id: 0.6101965539103724-4, id: 0.6101965539103724-5, id: 0.6101965539103724-6, id: 0.6101965539103724-7, id: 0.6101965539103724-8, id: 0.6101965539103724-9, id: 0.6101965539103724-10, id: 0.6101965539103724-11, id: 0.6101965539103724-12, id: 0.6101965539103724-13, id: 0.6101965539103724-14, id: 0.6101965539103724-15, id: 0.6101965539103724-16, id: 0.6101965539103724-17, id: 0.6101965539103724-18, id: 0.6101965539103724-19, id: 0.6101965539103724-20, id: 0.6101965539103724-21]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.6101965539103724-8&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.6101965539103724-8&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: MP farmers protest: Day-long curfew relaxation in Mandsaur city, Pipliamandi - The Times of India on Mobile
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_1cfimrm3pgwy1192.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.7593590472117546-1, id: 0.7593590472117546-2, id: 0.7593590472117546-3, id: 0.7593590472117546-4, id: 0.7593590472117546-5, id: 0.7593590472117546-6, id: 0.7593590472117546-7, id: 0.7593590472117546-8, id: 0.7593590472117546-9, id: 0.7593590472117546-10, id: 0.7593590472117546-11, id: 0.7593590472117546-12, id: 0.7593590472117546-13, id: 0.7593590472117546-14, id: 0.7593590472117546-15, id: 0.7593590472117546-16, id: 0.7593590472117546-17, id: 0.7593590472117546-18, id: 0.7593590472117546-19, id: 0.7593590472117546-20, id: 0.7593590472117546-21]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.7593590472117546-1, id: 0.7593590472117546-2, id: 0.7593590472117546-3, id: 0.7593590472117546-4, id: 0.7593590472117546-5, id: 0.7593590472117546-6, id: 0.7593590472117546-7, id: 0.7593590472117546-8, id: 0.7593590472117546-9, id: 0.7593590472117546-10, id: 0.7593590472117546-11, id: 0.7593590472117546-12, id: 0.7593590472117546-13, id: 0.7593590472117546-14, id: 0.7593590472117546-15, id: 0.7593590472117546-16, id: 0.7593590472117546-17, id: 0.7593590472117546-18, id: 0.7593590472117546-19, id: 0.7593590472117546-20, id: 0.7593590472117546-21]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7593590472117546-9&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7593590472117546-9&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: UP Board Intermediate Class 12th Results 2017 at upresults.nic.in: UP Board Class 12th results declared at upresults.nic.in
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_1phszu3lvmgq1193.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.8406423909638059-1, id: 0.8406423909638059-2, id: 0.8406423909638059-3, id: 0.8406423909638059-4, id: 0.8406423909638059-5, id: 0.8406423909638059-6, id: 0.8406423909638059-7, id: 0.8406423909638059-8, id: 0.8406423909638059-9, id: 0.8406423909638059-10, id: 0.8406423909638059-11, id: 0.8406423909638059-12, id: 0.8406423909638059-13, id: 0.8406423909638059-14, id: 0.8406423909638059-15, id: 0.8406423909638059-16, id: 0.8406423909638059-17, id: 0.8406423909638059-18, id: 0.8406423909638059-19, id: 0.8406423909638059-20, id: 0.8406423909638059-21]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.8406423909638059-1, id: 0.8406423909638059-2, id: 0.8406423909638059-3, id: 0.8406423909638059-4, id: 0.8406423909638059-5, id: 0.8406423909638059-6, id: 0.8406423909638059-7, id: 0.8406423909638059-8, id: 0.8406423909638059-9, id: 0.8406423909638059-10, id: 0.8406423909638059-11, id: 0.8406423909638059-12, id: 0.8406423909638059-13, id: 0.8406423909638059-14, id: 0.8406423909638059-15, id: 0.8406423909638059-16, id: 0.8406423909638059-17, id: 0.8406423909638059-18, id: 0.8406423909638059-19, id: 0.8406423909638059-20, id: 0.8406423909638059-21]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.8406423909638059-10&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.8406423909638059-10&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: UP Board High School Class 10th Results 2017 at upresults.nic.in: UP Board Class 10th results declared at upresults.nic.in
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_129ku1cfauhbm194.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.6746187885780006-1, id: 0.6746187885780006-2, id: 0.6746187885780006-3, id: 0.6746187885780006-4, id: 0.6746187885780006-5, id: 0.6746187885780006-6, id: 0.6746187885780006-7, id: 0.6746187885780006-8, id: 0.6746187885780006-9, id: 0.6746187885780006-10, id: 0.6746187885780006-11, id: 0.6746187885780006-12, id: 0.6746187885780006-13, id: 0.6746187885780006-14, id: 0.6746187885780006-15, id: 0.6746187885780006-16, id: 0.6746187885780006-17, id: 0.6746187885780006-18, id: 0.6746187885780006-19, id: 0.6746187885780006-20, id: 0.6746187885780006-21]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.6746187885780006-1, id: 0.6746187885780006-2, id: 0.6746187885780006-3, id: 0.6746187885780006-4, id: 0.6746187885780006-5, id: 0.6746187885780006-6, id: 0.6746187885780006-7, id: 0.6746187885780006-8, id: 0.6746187885780006-9, id: 0.6746187885780006-10, id: 0.6746187885780006-11, id: 0.6746187885780006-12, id: 0.6746187885780006-13, id: 0.6746187885780006-14, id: 0.6746187885780006-15, id: 0.6746187885780006-16, id: 0.6746187885780006-17, id: 0.6746187885780006-18, id: 0.6746187885780006-19, id: 0.6746187885780006-20, id: 0.6746187885780006-21]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.6746187885780006-11&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.6746187885780006-11&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: Kumble: CAC seeks more time to decide on Anil Kumble&apos;s future - The Times of India on Mobile
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_1rhqidb4z1z5n195.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.957948512033568-1, id: 0.957948512033568-2, id: 0.957948512033568-3, id: 0.957948512033568-4, id: 0.957948512033568-5, id: 0.957948512033568-6, id: 0.957948512033568-7, id: 0.957948512033568-8, id: 0.957948512033568-9, id: 0.957948512033568-10, id: 0.957948512033568-11, id: 0.957948512033568-12, id: 0.957948512033568-13, id: 0.957948512033568-14, id: 0.957948512033568-15, id: 0.957948512033568-16, id: 0.957948512033568-17, id: 0.957948512033568-18, id: 0.957948512033568-19, id: 0.957948512033568-20, id: 0.957948512033568-21]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.957948512033568-1, id: 0.957948512033568-2, id: 0.957948512033568-3, id: 0.957948512033568-4, id: 0.957948512033568-5, id: 0.957948512033568-6, id: 0.957948512033568-7, id: 0.957948512033568-8, id: 0.957948512033568-9, id: 0.957948512033568-10, id: 0.957948512033568-11, id: 0.957948512033568-12, id: 0.957948512033568-13, id: 0.957948512033568-14, id: 0.957948512033568-15, id: 0.957948512033568-16, id: 0.957948512033568-17, id: 0.957948512033568-18, id: 0.957948512033568-19, id: 0.957948512033568-20, id: 0.957948512033568-21]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.957948512033568-12&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.957948512033568-12&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: Air India: Air India plane overshoots runway in Jammu while landing, airport closed - The Times of India on Mobile
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_1s8kuhbcixa9m196.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.5554743916728289-1, id: 0.5554743916728289-2, id: 0.5554743916728289-3, id: 0.5554743916728289-4, id: 0.5554743916728289-5, id: 0.5554743916728289-6, id: 0.5554743916728289-7, id: 0.5554743916728289-8, id: 0.5554743916728289-9, id: 0.5554743916728289-10, id: 0.5554743916728289-11, id: 0.5554743916728289-12, id: 0.5554743916728289-13, id: 0.5554743916728289-14, id: 0.5554743916728289-15, id: 0.5554743916728289-16, id: 0.5554743916728289-17, id: 0.5554743916728289-18, id: 0.5554743916728289-19, id: 0.5554743916728289-20, id: 0.5554743916728289-21]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.5554743916728289-1, id: 0.5554743916728289-2, id: 0.5554743916728289-3, id: 0.5554743916728289-4, id: 0.5554743916728289-5, id: 0.5554743916728289-6, id: 0.5554743916728289-7, id: 0.5554743916728289-8, id: 0.5554743916728289-9, id: 0.5554743916728289-10, id: 0.5554743916728289-11, id: 0.5554743916728289-12, id: 0.5554743916728289-13, id: 0.5554743916728289-14, id: 0.5554743916728289-15, id: 0.5554743916728289-16, id: 0.5554743916728289-17, id: 0.5554743916728289-18, id: 0.5554743916728289-19, id: 0.5554743916728289-20, id: 0.5554743916728289-21]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.5554743916728289-13&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.5554743916728289-13&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: India-US relations: Partnership is best way to describe Indo-US relationship: Navtej Sarna - The Times of India on Mobile
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_1gx5w5fhc4xyz197.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.7163203674848724-1, id: 0.7163203674848724-2, id: 0.7163203674848724-3, id: 0.7163203674848724-4, id: 0.7163203674848724-5, id: 0.7163203674848724-6, id: 0.7163203674848724-7, id: 0.7163203674848724-8, id: 0.7163203674848724-9, id: 0.7163203674848724-10, id: 0.7163203674848724-11, id: 0.7163203674848724-12, id: 0.7163203674848724-13, id: 0.7163203674848724-14, id: 0.7163203674848724-15, id: 0.7163203674848724-16, id: 0.7163203674848724-17, id: 0.7163203674848724-18, id: 0.7163203674848724-19, id: 0.7163203674848724-20, id: 0.7163203674848724-21]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.7163203674848724-1, id: 0.7163203674848724-2, id: 0.7163203674848724-3, id: 0.7163203674848724-4, id: 0.7163203674848724-5, id: 0.7163203674848724-6, id: 0.7163203674848724-7, id: 0.7163203674848724-8, id: 0.7163203674848724-9, id: 0.7163203674848724-10, id: 0.7163203674848724-11, id: 0.7163203674848724-12, id: 0.7163203674848724-13, id: 0.7163203674848724-14, id: 0.7163203674848724-15, id: 0.7163203674848724-16, id: 0.7163203674848724-17, id: 0.7163203674848724-18, id: 0.7163203674848724-19, id: 0.7163203674848724-20, id: 0.7163203674848724-21]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7163203674848724-14&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7163203674848724-14&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: Delhi: Pharmacist helps deliver baby, leaves needle inside patient&apos;s body - The Times of India on Mobile
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_lv5sdmaahejc198.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.7368265275014829-1, id: 0.7368265275014829-2, id: 0.7368265275014829-3, id: 0.7368265275014829-4, id: 0.7368265275014829-5, id: 0.7368265275014829-6, id: 0.7368265275014829-7, id: 0.7368265275014829-8, id: 0.7368265275014829-9, id: 0.7368265275014829-10, id: 0.7368265275014829-11, id: 0.7368265275014829-12, id: 0.7368265275014829-13, id: 0.7368265275014829-14, id: 0.7368265275014829-15, id: 0.7368265275014829-16, id: 0.7368265275014829-17, id: 0.7368265275014829-18, id: 0.7368265275014829-19, id: 0.7368265275014829-20, id: 0.7368265275014829-21]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.7368265275014829-1, id: 0.7368265275014829-2, id: 0.7368265275014829-3, id: 0.7368265275014829-4, id: 0.7368265275014829-5, id: 0.7368265275014829-6, id: 0.7368265275014829-7, id: 0.7368265275014829-8, id: 0.7368265275014829-9, id: 0.7368265275014829-10, id: 0.7368265275014829-11, id: 0.7368265275014829-12, id: 0.7368265275014829-13, id: 0.7368265275014829-14, id: 0.7368265275014829-15, id: 0.7368265275014829-16, id: 0.7368265275014829-17, id: 0.7368265275014829-18, id: 0.7368265275014829-19, id: 0.7368265275014829-20, id: 0.7368265275014829-21]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7368265275014829-15&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7368265275014829-15&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: Do not panic, embassy tells Indians in Qatar - The Times of India on Mobile
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_k2n35ylzh4st199.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.4844130007783092-1, id: 0.4844130007783092-2, id: 0.4844130007783092-3, id: 0.4844130007783092-4, id: 0.4844130007783092-5, id: 0.4844130007783092-6, id: 0.4844130007783092-7, id: 0.4844130007783092-8, id: 0.4844130007783092-9, id: 0.4844130007783092-10, id: 0.4844130007783092-11, id: 0.4844130007783092-12, id: 0.4844130007783092-13, id: 0.4844130007783092-14, id: 0.4844130007783092-15, id: 0.4844130007783092-16, id: 0.4844130007783092-17, id: 0.4844130007783092-18, id: 0.4844130007783092-19, id: 0.4844130007783092-20, id: 0.4844130007783092-21]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.4844130007783092-1, id: 0.4844130007783092-2, id: 0.4844130007783092-3, id: 0.4844130007783092-4, id: 0.4844130007783092-5, id: 0.4844130007783092-6, id: 0.4844130007783092-7, id: 0.4844130007783092-8, id: 0.4844130007783092-9, id: 0.4844130007783092-10, id: 0.4844130007783092-11, id: 0.4844130007783092-12, id: 0.4844130007783092-13, id: 0.4844130007783092-14, id: 0.4844130007783092-15, id: 0.4844130007783092-16, id: 0.4844130007783092-17, id: 0.4844130007783092-18, id: 0.4844130007783092-19, id: 0.4844130007783092-20, id: 0.4844130007783092-21]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.4844130007783092-16&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.4844130007783092-16&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: junaid chowdhry: Chhota Shakeel&apos;s aide arrested, was planning to target Tarek Fateh - The Times of India on Mobile
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_2h66kli6pz9n200.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.6068559574495707-1, id: 0.6068559574495707-2, id: 0.6068559574495707-3, id: 0.6068559574495707-4, id: 0.6068559574495707-5, id: 0.6068559574495707-6, id: 0.6068559574495707-7, id: 0.6068559574495707-8, id: 0.6068559574495707-9, id: 0.6068559574495707-10, id: 0.6068559574495707-11, id: 0.6068559574495707-12, id: 0.6068559574495707-13, id: 0.6068559574495707-14, id: 0.6068559574495707-15, id: 0.6068559574495707-16, id: 0.6068559574495707-17, id: 0.6068559574495707-18, id: 0.6068559574495707-19, id: 0.6068559574495707-20, id: 0.6068559574495707-21]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.6068559574495707-1, id: 0.6068559574495707-2, id: 0.6068559574495707-3, id: 0.6068559574495707-4, id: 0.6068559574495707-5, id: 0.6068559574495707-6, id: 0.6068559574495707-7, id: 0.6068559574495707-8, id: 0.6068559574495707-9, id: 0.6068559574495707-10, id: 0.6068559574495707-11, id: 0.6068559574495707-12, id: 0.6068559574495707-13, id: 0.6068559574495707-14, id: 0.6068559574495707-15, id: 0.6068559574495707-16, id: 0.6068559574495707-17, id: 0.6068559574495707-18, id: 0.6068559574495707-19, id: 0.6068559574495707-20, id: 0.6068559574495707-21]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.6068559574495707-17&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.6068559574495707-17&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: Raabta Review {2.5/5}: If sparks flew more organically, it would have been easier to make a connection with this epic tale of love
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_10kbwu4ify1ii201.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.7111779963988409-1, id: 0.7111779963988409-2, id: 0.7111779963988409-3, id: 0.7111779963988409-4, id: 0.7111779963988409-5, id: 0.7111779963988409-6, id: 0.7111779963988409-7, id: 0.7111779963988409-8, id: 0.7111779963988409-9, id: 0.7111779963988409-10, id: 0.7111779963988409-11, id: 0.7111779963988409-12, id: 0.7111779963988409-13, id: 0.7111779963988409-14, id: 0.7111779963988409-15, id: 0.7111779963988409-16, id: 0.7111779963988409-17, id: 0.7111779963988409-18, id: 0.7111779963988409-19, id: 0.7111779963988409-20, id: 0.7111779963988409-21]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: [id: 0.7111779963988409-1, id: 0.7111779963988409-2, id: 0.7111779963988409-3, id: 0.7111779963988409-4, id: 0.7111779963988409-5, id: 0.7111779963988409-6, id: 0.7111779963988409-7, id: 0.7111779963988409-8, id: 0.7111779963988409-9, id: 0.7111779963988409-10, id: 0.7111779963988409-11, id: 0.7111779963988409-12, id: 0.7111779963988409-13, id: 0.7111779963988409-14, id: 0.7111779963988409-15, id: 0.7111779963988409-16, id: 0.7111779963988409-17, id: 0.7111779963988409-18, id: 0.7111779963988409-19, id: 0.7111779963988409-20, id: 0.7111779963988409-21]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.7111779963988409-18&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;remaning_news clearfix&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.7111779963988409-18&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: Pakistani beauty queens bare it all in these pictures Miss India | Femina Miss India 2015
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@id=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@id=&apos;logo&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_1hrvpyn2qyf26202.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;remaning_news clearfix&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;remaning_news clearfix&apos;]/ul/li, using=xpath}] Result: []
+</system-out>
+    <system-err>log4j:WARN No such property [follow] in org.apache.log4j.FileAppender.
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 28233
+Only local connections are allowed.
+</system-err>
+  </testcase>
+</testsuite>

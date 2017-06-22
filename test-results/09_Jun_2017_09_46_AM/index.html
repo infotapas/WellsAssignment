@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-QAS_Demo">
+              <span class="suite-name border-failed">QAS Demo</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-QAS_Demo">
+                    <span>C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\config\testrun_config.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-QAS_Demo">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-QAS_Demo">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-QAS_Demo">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-QAS_Demo">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-QAS_Demo">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-QAS_Demo">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-QAS_Demo" class="hide-methods failed suite-QAS_Demo"> (hide)</a> <!-- hide-methods failed suite-QAS_Demo -->
+                      <a href="#" panel-name="suite-QAS_Demo" class="show-methods failed suite-QAS_Demo"> (show)</a> <!-- show-methods failed suite-QAS_Demo -->
+                    </span>
+                    <div class="method-list-content failed suite-QAS_Demo">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAS_Demo" title="com.timesofindia.tests.ToiTest" hash-for-method="toiPageVerification">toiPageVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-QAS_Demo -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-QAS_Demo" class="panel QAS_Demo">
+          <div class="suite-QAS_Demo-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.timesofindia.tests.ToiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="toiPageVerification">
+                  </a> <!-- toiPageVerification -->
+                  <span class="method-name">toiPageVerification</span>
+                  <em>
+(Times Of India Page verification)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QAS_Demo-class-failed -->
+        </div> <!-- panel QAS_Demo -->
+        <div panel-name="test-xml-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\config\testrun_config.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;QAS Demo&quot;&gt;
+  &lt;test name=&quot;DemoTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.timesofindia.tests.ToiTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;toiPageVerification&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.timesofindia.tests.ToiTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DemoTest --&gt;
+&lt;/suite&gt; &lt;!-- QAS Demo --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for QAS Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">DemoTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for QAS Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">TOI_Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">toiPageVerification</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for QAS Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_QAS_Demo');
+function tableData_QAS_Demo() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'toiPageVerification')
+data.setCell(0, 2, 'com.timesofindia.tests.ToiTest')
+data.setCell(0, 3, 288582);
+window.suiteTableData['QAS_Demo']= { tableData: data, tableDiv: 'times-div-QAS_Demo'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-QAS_Demo">
+              </div> <!-- times-div-QAS_Demo -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for QAS Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">toiPageVerification</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Decline notifications</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>No notification present</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Get List of top-stories and print</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Britain, Brexit in disarray as PM May's election gamble backfires
+50 mins ago</div><div  class="info"><span class="info-label">I </span>Live: Labour Party will seek to form minority govt in UK
+12 hrs ago</div><div  class="info"><span class="info-label">I </span>PM Modi meets Chinese President Xi Jinping on SCO sidelines
+2 hrs ago</div><div  class="info"><span class="info-label">I </span>We are not invincible, says Virat Kohli ahead of 'virtual quarters'
+41 mins ago</div><div  class="info"><span class="info-label">I </span>Labour's Indian-origin candidates shine in UK polls
+2 hrs ago</div><div  class="info"><span class="info-label">I </span>Islamic State claims it killed two Chinese in Pakistan
+44 mins ago</div><div  class="info"><span class="info-label">I </span>iPhone 6 available at a discount of over Rs 14,000
+1 hr ago</div><div  class="info"><span class="info-label">I </span>Day-long curfew relaxation in Mandsaur city, Pipliamandi
+2 hrs ago</div><div  class="info"><span class="info-label">I </span>UP Board Class 12th Result 2017 declared
+12 mins ago</div><div  class="info"><span class="info-label">I </span>UP Board Class 10th Result 2017 declared
+10 mins ago</div><div  class="info"><span class="info-label">I </span>CAC seeks more time to decide on Anil Kumble's future
+3 hrs ago</div><div  class="info"><span class="info-label">I </span>Air India plane overshoots runway in Jammu while landing, airport closed
+1 hr ago</div><div  class="info"><span class="info-label">I </span>Partnership is best way to describe Indo-US relationship: Navtej Sarna
+5 hrs ago</div><div  class="info"><span class="info-label">I </span>Delhi: Pharmacist helps deliver baby, leaves needle inside patient's body
+5 hrs ago</div><div  class="info"><span class="info-label">I </span>Do not panic, embassy tells Indians in Qatar
+11 hrs ago</div><div  class="info"><span class="info-label">I </span>Chhota Shakeel's aide arrested, was planning to target Tarek Fateh
+1 hr ago</div><div  class="info"><span class="info-label">I </span>Raabta movie review
+2 hrs ago</div><div  class="info"><span class="info-label">I </span>Pakistani model bares it all in these pictures
+5 hrs ago</div><div  class="info"><span class="info-label">I </span>Telangana snaps power to Andhra Pradesh over Rs 1,600 crore dues
+5 hrs ago</div><div  class="info"><span class="info-label">I </span>Infosys founders looking to sell their stake in company
+2 hrs ago</div><div  class="info"><span class="info-label">I </span>This Chennai bus conductor plants 38,000 trees
+40 mins ago</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>verifyNewsTitle <a href="../img/toiPageVerification_1hrvpyn2qyf26202.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>News title is : Theresa May: UK election deals May a crushing blow, blurring Brexit talks - The Times of India on Mobile</div><div  class="fail"><span class="fail-label">F </span>Expected Top Story list present : Actual Top Story list not present <a href="../img/toiPageVerification_dhtd39eoqdoq185.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>News title is : Live: UK Election Results: With 153 seats out of 650 declared in British election, Conservatives on 57 and Labour on 76</div><div  class="fail"><span class="fail-label">F </span>Expected Top Story list present : Actual Top Story list not present <a href="../img/toiPageVerification_z047t7h9cvet186.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>News title is : Narendra Modi: PM Modi meets Chinese President Xi Jinping on SCO sidelines - The Times of India on Mobile</div><div  class="fail"><span class="fail-label">F </span>Expected Top Story list present : Actual Top Story list not present <a href="../img/toiPageVerification_7myk0k89lzbt187.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>News title is : Champions Trophy: Great scenario to have two quarter-finals: Virat Kohli - The Times of India on Mobile</div><div  class="fail"><span class="fail-label">F </span>Expected Top Story list present : Actual Top Story list not present <a href="../img/toiPageVerification_1ob2d9xh90eym188.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>News title is : Preet Gill: UK gets its first female Sikh MP in general election - The Times of India on Mobile</div><div  class="fail"><span class="fail-label">F </span>Expected Top Story list present : Actual Top Story list not present <a href="../img/toiPageVerification_mbobbdb2dft6189.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>News title is : CPEC: Islamic State claims it killed two Chinese in Pakistan - The Times of India on Mobile</div><div  class="fail"><span class="fail-label">F </span>Expected Top Story list present : Actual Top Story list not present <a href="../img/toiPageVerification_t7s0kahn9xba190.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>News title is : Flipkart Father’s Day sale: Pick up Apple iPhone 6 at Rs 21,999 | Gadgets Now</div><div  class="fail"><span class="fail-label">F </span>Expected Top Story list present : Actual Top Story list not present <a href="../img/toiPageVerification_kzwn1ejwexm0191.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>News title is : MP farmers protest: Day-long curfew relaxation in Mandsaur city, Pipliamandi - The Times of India on Mobile</div><div  class="fail"><span class="fail-label">F </span>Expected Top Story list present : Actual Top Story list not present <a href="../img/toiPageVerification_1cfimrm3pgwy1192.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>News title is : UP Board Intermediate Class 12th Results 2017 at upresults.nic.in: UP Board Class 12th results declared at upresults.nic.in</div><div  class="fail"><span class="fail-label">F </span>Expected Top Story list present : Actual Top Story list not present <a href="../img/toiPageVerification_1phszu3lvmgq1193.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>News title is : UP Board High School Class 10th Results 2017 at upresults.nic.in: UP Board Class 10th results declared at upresults.nic.in</div><div  class="fail"><span class="fail-label">F </span>Expected Top Story list present : Actual Top Story list not present <a href="../img/toiPageVerification_129ku1cfauhbm194.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>News title is : Kumble: CAC seeks more time to decide on Anil Kumble's future - The Times of India on Mobile</div><div  class="fail"><span class="fail-label">F </span>Expected Top Story list present : Actual Top Story list not present <a href="../img/toiPageVerification_1rhqidb4z1z5n195.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>News title is : Air India: Air India plane overshoots runway in Jammu while landing, airport closed - The Times of India on Mobile</div><div  class="fail"><span class="fail-label">F </span>Expected Top Story list present : Actual Top Story list not present <a href="../img/toiPageVerification_1s8kuhbcixa9m196.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>News title is : India-US relations: Partnership is best way to describe Indo-US relationship: Navtej Sarna - The Times of India on Mobile</div><div  class="fail"><span class="fail-label">F </span>Expected Top Story list present : Actual Top Story list not present <a href="../img/toiPageVerification_1gx5w5fhc4xyz197.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>News title is : Delhi: Pharmacist helps deliver baby, leaves needle inside patient's body - The Times of India on Mobile</div><div  class="fail"><span class="fail-label">F </span>Expected Top Story list present : Actual Top Story list not present <a href="../img/toiPageVerification_lv5sdmaahejc198.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>News title is : Do not panic, embassy tells Indians in Qatar - The Times of India on Mobile</div><div  class="fail"><span class="fail-label">F </span>Expected Top Story list present : Actual Top Story list not present <a href="../img/toiPageVerification_k2n35ylzh4st199.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>News title is : junaid chowdhry: Chhota Shakeel's aide arrested, was planning to target Tarek Fateh - The Times of India on Mobile</div><div  class="fail"><span class="fail-label">F </span>Expected Top Story list present : Actual Top Story list not present <a href="../img/toiPageVerification_2h66kli6pz9n200.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>News title is : Raabta Review {2.5/5}: If sparks flew more organically, it would have been easier to make a connection with this epic tale of love</div><div  class="fail"><span class="fail-label">F </span>Expected Top Story list present : Actual Top Story list not present <a href="../img/toiPageVerification_10kbwu4ify1ii201.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>News title is : Pakistani beauty queens bare it all in these pictures Miss India | Femina Miss India 2015</div><div  class="fail"><span class="fail-label">F </span>Expected Top Story list present : Actual Top Story list not present <a href="../img/toiPageVerification_1hrvpyn2qyf26202.png" target="_blank">[View Screenshot]</a> </div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.timesofindia.tests.ToiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuit(org.testng.TestRunner@c540f5a)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest(org.testng.TestRunner@c540f5a)</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@c540f5a)</span>
+                <span class="method-start">17515 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.timesofindia.tests.ToiTest.toiPageVerification(), org.testng.TestRunner@c540f5a)</span>
+                <span class="method-start">17521 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">toiPageVerification</span>
+                <span class="method-start">17523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@c540f5a, [TestResult name=toiPageVerification status=FAILURE method=ToiTest.to...)</span>
+                <span class="method-start">306145 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@c540f5a)</span>
+                <span class="method-start">306146 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@c540f5a)</span>
+                <span class="method-start">306160 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuit(org.testng.TestRunner@c540f5a)</span>
+                <span class="method-start">308005 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

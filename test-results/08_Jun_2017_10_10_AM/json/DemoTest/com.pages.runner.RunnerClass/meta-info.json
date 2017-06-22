@@ -1,0 +1,146 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "sampleTest",
+        "sign": "RunnerClass.sampleTest()[pri:0, instance:com.pages.runner.RunnerClass@7ba18f1b]"
+      },
+      "dependsOn": [],
+      "startTime": 1496916962380,
+      "duration": 18479,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "sampleTest",
+        "resultFileName": "sampleTestBTY",
+        "sign": "RunnerClass.sampleTest()[pri:0, instance:com.pages.runner.RunnerClass@7ba18f1b]"
+      },
+      "dependsOn": [],
+      "startTime": 1496917149367,
+      "duration": 1226,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "sampleTest",
+        "resultFileName": "sampleTestAeo",
+        "sign": "RunnerClass.sampleTest()[pri:0, instance:com.pages.runner.RunnerClass@7ba18f1b]"
+      },
+      "dependsOn": [],
+      "startTime": 1496917191768,
+      "duration": 808,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "sampleTest",
+        "resultFileName": "sampleTestgKm",
+        "sign": "RunnerClass.sampleTest()[pri:0, instance:com.pages.runner.RunnerClass@7ba18f1b]"
+      },
+      "dependsOn": [],
+      "startTime": 1496917377147,
+      "duration": 20073,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Times Of India Page verification",
+        "groups": [
+          "TOI_Regression"
+        ],
+        "name": "sampleTest",
+        "resultFileName": "sampleTestZCl",
+        "sign": "RunnerClass.sampleTest()[pri:0, instance:com.pages.runner.RunnerClass@77e9807f]",
+        "TestCaseID": "272049"
+      },
+      "dependsOn": [],
+      "startTime": 1496918088638,
+      "duration": 20963,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Times Of India Page verification",
+        "groups": [
+          "TOI_Regression"
+        ],
+        "name": "sampleTest",
+        "resultFileName": "sampleTestijq",
+        "sign": "RunnerClass.sampleTest()[pri:0, instance:com.pages.runner.RunnerClass@4d826d77]",
+        "TestCaseID": "272049"
+      },
+      "dependsOn": [],
+      "startTime": 1496919427982,
+      "duration": 19146,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Times Of India Page verification",
+        "groups": [
+          "TOI_Regression"
+        ],
+        "name": "sampleTest",
+        "resultFileName": "sampleTesthSh",
+        "sign": "RunnerClass.sampleTest()[pri:0, instance:com.pages.runner.RunnerClass@77e9807f]",
+        "TestCaseID": "272049"
+      },
+      "dependsOn": [],
+      "startTime": 1496919580149,
+      "duration": 19257,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Times Of India Page verification",
+        "groups": [
+          "TOI_Regression"
+        ],
+        "name": "toiPageVerification",
+        "sign": "RunnerClass.toiPageVerification()[pri:0, instance:com.pages.runner.RunnerClass@44a664f2]",
+        "TestCaseID": "272049"
+      },
+      "dependsOn": [],
+      "startTime": 1496919962022,
+      "duration": 18796,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [QAS Demo]">
+  <parameter name="driver.name" value="chromeDriver"/>
+  <test name="DemoTest">
+    <parameter name="driver.name" value="chromeDriver"/>
+    <classes>
+      <class name="com.pages.runner.RunnerClass">
+        <methods>
+          <include name="toiPageVerification"/>
+        </methods>
+      </class> <!-- com.pages.runner.RunnerClass -->
+    </classes>
+  </test> <!-- DemoTest -->
+</suite> <!-- Failed suite [QAS Demo] -->

@@ -1,0 +1,14 @@
+#surefire
+#Fri Jun 09 12:34:02 IST 2017
+selenium.screenshots.dir=test-results/09_Jun_2017_07_03_AM/img
+json.report.dir=test-results/09_Jun_2017_07_03_AM/json
+outputDir=test-results/09_Jun_2017_07_03_AM
+log4j.configuration=file\:///C\:\\Users\\tapas.padhi\\WellsAssignment\\WellsAssignmentProject/resources/log4j.properties
+selenium.screenshots.relative.path=../img
+org.uncommons.reportng.xml-dialect=testng
+user.dir=C\:\\Users\\tapas.padhi\\WellsAssignment\\WellsAssignmentProject
+localRepository=C\:\\Users\\tapas.padhi\\.m2\\repository
+basedir=C\:\\Users\\tapas.padhi\\WellsAssignment\\WellsAssignmentProject
+test.results.dir=test-results/09_Jun_2017_07_03_AM/html
+org.uncommons.reportng.escape-output=false
+json.report.root.dir=test-results

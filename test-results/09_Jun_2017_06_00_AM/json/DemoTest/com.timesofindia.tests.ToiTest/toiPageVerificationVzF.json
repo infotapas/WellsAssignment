@@ -1,0 +1,728 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 333
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 510
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 405
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 429
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 422
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 399
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 400
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='ntfc_content'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 415
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: ac7a6b6d-bbb4-47b9-91b5-11043abdd96c, id: 2a3c8aa0-b795-4b09-a118-80ef3f503998, id: 94bded2c-cc4e-44ed-85bd-cc2808176059, id: d562e2fe-336b-49f8-a12b-dae19fcf304b, id: 64c04bb3-ba81-47b2-9535-e2ab9d4cef52, id: bb3d8e47-1453-4f0a-ae63-ea5fb0f9b484, id: fbcb244c-cafb-493f-aad4-6f1597dfa07c]",
+      "subLogs": [],
+      "duration": 200
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: ac7a6b6d-bbb4-47b9-91b5-11043abdd96c, id: 2a3c8aa0-b795-4b09-a118-80ef3f503998, id: 94bded2c-cc4e-44ed-85bd-cc2808176059, id: d562e2fe-336b-49f8-a12b-dae19fcf304b, id: 64c04bb3-ba81-47b2-9535-e2ab9d4cef52, id: bb3d8e47-1453-4f0a-ae63-ea5fb0f9b484, id: fbcb244c-cafb-493f-aad4-6f1597dfa07c]",
+      "subLogs": [],
+      "duration": 121
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"ac7a6b6d-bbb4-47b9-91b5-11043abdd96c\"}"
+      ],
+      "result": "getElementText:Modi meets Xi Jinping on SCO sidelines",
+      "subLogs": [],
+      "duration": 206
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"2a3c8aa0-b795-4b09-a118-80ef3f503998\"}"
+      ],
+      "result": "getElementText:Infosys founders looking to sell stake in company",
+      "subLogs": [],
+      "duration": 192
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"94bded2c-cc4e-44ed-85bd-cc2808176059\"}"
+      ],
+      "result": "getElementText:Live: It's official. Hung parliament in UK",
+      "subLogs": [],
+      "duration": 204
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"d562e2fe-336b-49f8-a12b-dae19fcf304b\"}"
+      ],
+      "result": "getElementText:Indian-origin candidates shine in UK polls",
+      "subLogs": [],
+      "duration": 142
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"64c04bb3-ba81-47b2-9535-e2ab9d4cef52\"}"
+      ],
+      "result": "getElementText:ISIS claims it killed two Chinese in Pakistan",
+      "subLogs": [],
+      "duration": 113
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"bb3d8e47-1453-4f0a-ae63-ea5fb0f9b484\"}"
+      ],
+      "result": "getElementText:Nine iOS 11 features Apple didn’t talk about",
+      "subLogs": [],
+      "duration": 124
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"fbcb244c-cafb-493f-aad4-6f1597dfa07c\"}"
+      ],
+      "result": "getElementText:Trump asked me to lay off Russia probe: Comey",
+      "subLogs": [],
+      "duration": 190
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: ac7a6b6d-bbb4-47b9-91b5-11043abdd96c, id: 2a3c8aa0-b795-4b09-a118-80ef3f503998, id: 94bded2c-cc4e-44ed-85bd-cc2808176059, id: d562e2fe-336b-49f8-a12b-dae19fcf304b, id: 64c04bb3-ba81-47b2-9535-e2ab9d4cef52, id: bb3d8e47-1453-4f0a-ae63-ea5fb0f9b484, id: fbcb244c-cafb-493f-aad4-6f1597dfa07c]",
+      "subLogs": [],
+      "duration": 145
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: ac7a6b6d-bbb4-47b9-91b5-11043abdd96c, id: 2a3c8aa0-b795-4b09-a118-80ef3f503998, id: 94bded2c-cc4e-44ed-85bd-cc2808176059, id: d562e2fe-336b-49f8-a12b-dae19fcf304b, id: 64c04bb3-ba81-47b2-9535-e2ab9d4cef52, id: bb3d8e47-1453-4f0a-ae63-ea5fb0f9b484, id: fbcb244c-cafb-493f-aad4-6f1597dfa07c]",
+      "subLogs": [],
+      "duration": 67
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"ac7a6b6d-bbb4-47b9-91b5-11043abdd96c\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 17000
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Champions Trophy: Great scenario to have two quarter-finals: Virat Kohli - Times of India",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "goBack",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 11934
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='logo'], using=xpath}"
+      ],
+      "result": "[id: afb7219f-7254-4348-991f-f345ded7e113]",
+      "subLogs": [],
+      "duration": 183
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 7d43e9d3-e1e4-4193-b288-1de27ee8eaa8, id: e54d5c83-72ba-4d26-a121-a2cb12a3ff33, id: 4f7fc3c6-9650-4e02-aab5-8e686525c8a6, id: 10e20fee-f2a0-4d09-b370-5492155ab34b, id: 27ff544b-8289-4160-aee5-4eb8bcf4d4b2, id: b87eaa4d-d1c2-479f-8b56-30059c2a628b, id: b10cc76b-c7e0-4c76-92c8-030ac19c04e7]",
+      "subLogs": [],
+      "duration": 72
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 7d43e9d3-e1e4-4193-b288-1de27ee8eaa8, id: e54d5c83-72ba-4d26-a121-a2cb12a3ff33, id: 4f7fc3c6-9650-4e02-aab5-8e686525c8a6, id: 10e20fee-f2a0-4d09-b370-5492155ab34b, id: 27ff544b-8289-4160-aee5-4eb8bcf4d4b2, id: b87eaa4d-d1c2-479f-8b56-30059c2a628b, id: b10cc76b-c7e0-4c76-92c8-030ac19c04e7]",
+      "subLogs": [],
+      "duration": 63
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"e54d5c83-72ba-4d26-a121-a2cb12a3ff33\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 8495
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Infosys news: Infosys founders looking to sell their stake in company - Times of India",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "goBack",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 123
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='logo'], using=xpath}"
+      ],
+      "result": "[id: e45d7092-1264-46a7-a31f-095999d97d33]",
+      "subLogs": [],
+      "duration": 83
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 69d35f5f-2d51-4b23-8924-0b46e83191b0, id: d7575bec-ae10-4aab-a271-5b7c1e5eedaf, id: ca9af02b-900a-4f78-bb83-71b2a3528a85, id: 35d9b9b7-b7d7-4f38-928c-7189292c477c, id: 37524de0-00ff-4e01-a7ba-c74d24f77e78, id: 992f51ed-723a-4016-9959-74477318ef99, id: 6a011d6f-f43d-4169-afd7-45797a15074b]",
+      "subLogs": [],
+      "duration": 1268
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 69d35f5f-2d51-4b23-8924-0b46e83191b0, id: d7575bec-ae10-4aab-a271-5b7c1e5eedaf, id: ca9af02b-900a-4f78-bb83-71b2a3528a85, id: 35d9b9b7-b7d7-4f38-928c-7189292c477c, id: 37524de0-00ff-4e01-a7ba-c74d24f77e78, id: 992f51ed-723a-4016-9959-74477318ef99, id: 6a011d6f-f43d-4169-afd7-45797a15074b]",
+      "subLogs": [],
+      "duration": 286
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"ca9af02b-900a-4f78-bb83-71b2a3528a85\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 16746
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Live: UK Election Results: British PM May loses overall majority in British parliament",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "goBack",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 11311
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='logo'], using=xpath}"
+      ],
+      "result": "[id: 49ef77ec-b395-4ec3-ab6e-fb866ff95cde]",
+      "subLogs": [],
+      "duration": 62
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 866719ba-aa5c-4ce2-bef3-677830db2280, id: bf78426f-002e-4d96-b1cd-6a0b34d6bb17, id: 9f42b15f-d8fa-4138-8d35-368a281c5d5d, id: d9f74fe1-de40-4847-9656-6c7e55a63500, id: 42e6ff3a-a8c9-4f52-98df-899a276a3006, id: 65973805-7ca7-43f4-a89e-235fcde0cd8b, id: 409be66d-78bc-4788-8e3b-ee166f0c7915]",
+      "subLogs": [],
+      "duration": 72
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 866719ba-aa5c-4ce2-bef3-677830db2280, id: bf78426f-002e-4d96-b1cd-6a0b34d6bb17, id: 9f42b15f-d8fa-4138-8d35-368a281c5d5d, id: d9f74fe1-de40-4847-9656-6c7e55a63500, id: 42e6ff3a-a8c9-4f52-98df-899a276a3006, id: 65973805-7ca7-43f4-a89e-235fcde0cd8b, id: 409be66d-78bc-4788-8e3b-ee166f0c7915]",
+      "subLogs": [],
+      "duration": 61
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"d9f74fe1-de40-4847-9656-6c7e55a63500\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 15472
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Preet Gill: UK gets its first female Sikh MP in general election - Times of India",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "goBack",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 9720
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='logo'], using=xpath}"
+      ],
+      "result": "[id: 3adfd271-61ac-4a4e-a1f9-8fb0fc97273e]",
+      "subLogs": [],
+      "duration": 401
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0c08eb71-7fe5-449a-bd61-fc16a5db1ba7, id: 50b2cb80-5f97-4553-a016-b2cb8923bbad, id: d89ada6b-3054-46a3-b9d7-5e24cccaa5ca, id: 921bea8c-4f66-46be-9284-17cc3b0e99ea, id: 9bf2c661-e74d-44f8-b662-7a5d011d78ec, id: 193af630-110f-47c0-8475-caa2f271292c, id: b6d3e168-eea6-421b-9754-5536e227c49e]",
+      "subLogs": [],
+      "duration": 564
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0c08eb71-7fe5-449a-bd61-fc16a5db1ba7, id: 50b2cb80-5f97-4553-a016-b2cb8923bbad, id: d89ada6b-3054-46a3-b9d7-5e24cccaa5ca, id: 921bea8c-4f66-46be-9284-17cc3b0e99ea, id: 9bf2c661-e74d-44f8-b662-7a5d011d78ec, id: 193af630-110f-47c0-8475-caa2f271292c, id: b6d3e168-eea6-421b-9754-5536e227c49e]",
+      "subLogs": [],
+      "duration": 60
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"9bf2c661-e74d-44f8-b662-7a5d011d78ec\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 15456
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "CPEC: Islamic State claims it killed two Chinese in Pakistan - Times of India",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "goBack",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 9369
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='logo'], using=xpath}"
+      ],
+      "result": "[id: b97856b0-b3f1-4ab6-9681-6bce63dd470e]",
+      "subLogs": [],
+      "duration": 93
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: bfc0282c-e412-4666-b4e3-7d0ef867b474, id: 123d9928-6c90-4ca3-bbfb-4490db466f4e, id: 5e64d5e6-2e25-4fdc-812f-e45468ca8ae9, id: 8d4847e5-6abd-42f7-bb0f-4afba28a214c, id: 141a4d40-3cb3-45ce-adfb-7d36c3992936, id: 593f7809-7fab-4667-a448-31037c0a0759, id: ce2211eb-5d0f-4e7c-921d-c20e5e133708]",
+      "subLogs": [],
+      "duration": 204
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[id: bfc0282c-e412-4666-b4e3-7d0ef867b474, id: 123d9928-6c90-4ca3-bbfb-4490db466f4e, id: 5e64d5e6-2e25-4fdc-812f-e45468ca8ae9, id: 8d4847e5-6abd-42f7-bb0f-4afba28a214c, id: 141a4d40-3cb3-45ce-adfb-7d36c3992936, id: 593f7809-7fab-4667-a448-31037c0a0759, id: ce2211eb-5d0f-4e7c-921d-c20e5e133708]",
+      "subLogs": [],
+      "duration": 59
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[@class='top-story']/ul/li",
+        "{\"id\":\"593f7809-7fab-4667-a448-31037c0a0759\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1095
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "News: India News, Latest Bollywood News, Sports News, Business & Political News, National & International News | Times of India",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "goBack",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 258
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='logo'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 380
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='logo'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 378
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='logo'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 373
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='logo'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 395
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='logo'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 379
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='logo'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 385
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='logo'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 389
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='logo'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 385
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='top-story']/ul/li, using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 349
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "No notification present",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Modi meets Xi Jinping on SCO sidelines",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Infosys founders looking to sell stake in company",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Live: It's official. Hung parliament in UK",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Indian-origin candidates shine in UK polls",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "ISIS claims it killed two Chinese in Pakistan",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Nine iOS 11 features Apple didn’t talk about",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Trump asked me to lay off Russia probe: Comey",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "News title is : Champions Trophy: Great scenario to have two quarter-finals: Virat Kohli - Times of India",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected Top Story list present : Actual Top Story list present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_1fqljr4z1ous712875.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "News title is : Infosys news: Infosys founders looking to sell their stake in company - Times of India",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected Top Story list present : Actual Top Story list present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_p7sra38d54v112876.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "News title is : Live: UK Election Results: British PM May loses overall majority in British parliament",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected Top Story list present : Actual Top Story list present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_12bgzqbwha3uz12877.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "News title is : Preet Gill: UK gets its first female Sikh MP in general election - Times of India",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected Top Story list present : Actual Top Story list present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_iiu5hmfl5ace12878.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "News title is : CPEC: Islamic State claims it killed two Chinese in Pakistan - Times of India",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected Top Story list present : Actual Top Story list present",
+      "type": "Pass",
+      "screenshot": "../img/toiPageVerification_1b5otzf3goqlz12879.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "News title is : News: India News, Latest Bollywood News, Sports News, Business & Political News, National & International News | Times of India",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected Top Story list present : Actual Top Story list not present",
+      "type": "Fail",
+      "screenshot": "../img/toiPageVerification_1syoocxf61dz512880.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

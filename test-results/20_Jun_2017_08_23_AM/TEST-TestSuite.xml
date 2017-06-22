@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="TestSuite" time="57.119" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\TAPAS~1.PAD\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Users\tapas.padhi\gmworkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1375540274178419237.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Perforce\DVCS\;C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security 10 for Windows SP2\;C:\Software\eclipse-jee-neon-2-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\tapas.padhi"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="tapas.padhi"/>
+    <property name="java.class.path" value="/C:/Software/eclipse-jee-neon-2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.timesofindia.tests.ToiTest" name="toiPageVerificationEntertainment" time="47.136">
+    <failure message="Timed out after 10 seconds waiting for presence of element located by: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: QAFExtendedWebDriver" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for presence of element located by: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: QAFExtendedWebDriver
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:214)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:284)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.getId(QAFExtendedWebElement.java:294)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.onFailure(QAFExtendedWebElement.java:456)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:260)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:179)
+	at com.timesofindia.pages.HomePage.clickOnLanguageAndValidatePage(HomePage.java:227)
+	at com.timesofindia.tests.ToiTest.toiPageVerificationEntertainment(ToiTest.java:48)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\TAPAS~1.PAD\AppData\Local\Temp\scoped_dir7812_29857}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9445330bb221a859823764d905d7c7ce
+*** Element info: {Using=xpath, value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:396)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:169)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 41 more
+</failure>
+    <system-out>[ConfigurationManager] - ISFW build info: {qaf-Type=core, qaf-Revision=10, qaf-Version=2.1, qaf-Build-Time=03-Jan-2017 14:01:00}
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\mailer.properties not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\test_data not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\desktop_web\object_repository not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\desktop_web\configuration not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\desktop_web\translations.properties not exist!
+[ConfigurationManager] - Resource dir: C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\desktop_web. Found property files to load: 1
+[ConfigurationManager] - Resource dir: C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\desktop_web. Found property files to load: 0
+[QAFTestBase] - Initializing Driver...browser_str:chromeDriver,base_url:http://timesofindia.indiatimes.com/,sel_server:localhost,port:4444
+[UiDriverFactory] - Driver: chromeDriver
+driver init done
+[WebDriverCommandLogger] - Executing get parameters: {&quot;url&quot;:&quot;http://timesofindia.indiatimes.com/&quot;}
+[WebDriverCommandLogger] - command: get[ param-1: {url=http://timesofindia.indiatimes.com/}] Result: null
+[WebDriverCommandLogger] - Executing maximizeWindow parameters: {&quot;windowHandle&quot;:&quot;current&quot;}
+[WebDriverCommandLogger] - command: maximizeWindow[ param-1: {windowHandle=current}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: [id: 0.021775480276349457-1]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: [id: 0.021775480276349457-1]
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerificationEntertainment_klyb5gzy2y2g60986.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[text()=&apos;Enable&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[text()=&apos;Enable&apos;], using=xpath}] Result: [id: 0.021775480276349457-2]
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerificationEntertainment_19cxw3v42a5nb60987.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[text()=&apos;Not Now&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[text()=&apos;Not Now&apos;], using=xpath}] Result: [id: 0.021775480276349457-3]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[text()=&apos;Not Now&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//a[text()=&apos;Not Now&apos;], using=xpath}] Result: id: 0.021775480276349457-3
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //a[text()=&apos;Not Now&apos;] parameters: {&quot;id&quot;:&quot;0.021775480276349457-3&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //a[text()=&apos;Not Now&apos;] param-2: {&quot;id&quot;:&quot;0.021775480276349457-3&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//h1[text()=&apos;TOP NEWS STORIES&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//h1[text()=&apos;TOP NEWS STORIES&apos;], using=xpath}] Result: [id: 0.021775480276349457-4]
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerificationEntertainment_1knuvcszh4n6o60988.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;entrmnt-wdgt-outer&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;entrmnt-wdgt-outer&apos;], using=xpath}] Result: [id: 0.021775480276349457-5]
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerificationEntertainment_143alwuprsea560989.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li, using=xpath}] Result: [id: 0.021775480276349457-6, id: 0.021775480276349457-7, id: 0.021775480276349457-8, id: 0.021775480276349457-9, id: 0.021775480276349457-10, id: 0.021775480276349457-11, id: 0.021775480276349457-12, id: 0.021775480276349457-13, id: 0.021775480276349457-14, id: 0.021775480276349457-15, id: 0.021775480276349457-16]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li, using=xpath}] Result: [id: 0.021775480276349457-6, id: 0.021775480276349457-7, id: 0.021775480276349457-8, id: 0.021775480276349457-9, id: 0.021775480276349457-10, id: 0.021775480276349457-11, id: 0.021775480276349457-12, id: 0.021775480276349457-13, id: 0.021775480276349457-14, id: 0.021775480276349457-15, id: 0.021775480276349457-16]
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-6&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-6&quot;}] Result: getElementText:Prabhas, Varun recreate iconic ‘Baahubali’ pose
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-6&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-6&quot;}] Result: getElementText:Prabhas, Varun recreate iconic ‘Baahubali’ pose
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-7&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-7&quot;}] Result: getElementText:Shahid-Mira look regal at a wedding in London
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-7&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-7&quot;}] Result: getElementText:Shahid-Mira look regal at a wedding in London
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-8&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-8&quot;}] Result: getElementText:‘Toilet: Ek Prem Katha’ tax-free in few states
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-8&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-8&quot;}] Result: getElementText:‘Toilet: Ek Prem Katha’ tax-free in few states
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-9&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-9&quot;}] Result: getElementText:Shilpa Shetty’s endearing throwback with mum
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-9&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-9&quot;}] Result: getElementText:Shilpa Shetty’s endearing throwback with mum
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-10&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-10&quot;}] Result: getElementText:Prabhas-Rana, Sid-Alia at KJo’s dinner night
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-10&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-10&quot;}] Result: getElementText:Prabhas-Rana, Sid-Alia at KJo’s dinner night
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-11&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-11&quot;}] Result: getElementText:Priyanka delays Bhansali&apos;s &apos;Gustakhiyan&apos;?
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-11&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-11&quot;}] Result: getElementText:Priyanka delays Bhansali&apos;s &apos;Gustakhiyan&apos;?
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-12&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-12&quot;}] Result: getElementText:11 interesting facts about &apos;Tubelight&apos;
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-12&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-12&quot;}] Result: getElementText:11 interesting facts about &apos;Tubelight&apos;
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-13&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-13&quot;}] Result: getElementText:&apos;Jab Harry Met Sejal&apos; mini trailer 3
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-13&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-13&quot;}] Result: getElementText:&apos;Jab Harry Met Sejal&apos; mini trailer 3
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-14&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-14&quot;}] Result: getElementText:‘Tubelight’ is Salman’s shortest film
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-14&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-14&quot;}] Result: getElementText:‘Tubelight’ is Salman’s shortest film
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-15&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-15&quot;}] Result: getElementText:Pic: Bebo takes Taimur to visit granny Babita
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-15&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-15&quot;}] Result: getElementText:Pic: Bebo takes Taimur to visit granny Babita
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-16&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-16&quot;}] Result: getElementText:Model&apos;s tragic death after 100 plastic surgeries
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-16&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;entrmnt-wdgt-outer&apos;]//div[@class=&apos;stories&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-16&quot;}] Result: getElementText:Model&apos;s tragic death after 100 plastic surgeries
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;entslides&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;entslides&apos;]/ul/li, using=xpath}] Result: [id: 0.021775480276349457-17, id: 0.021775480276349457-18, id: 0.021775480276349457-19, id: 0.021775480276349457-20, id: 0.021775480276349457-21, id: 0.021775480276349457-22, id: 0.021775480276349457-23, id: 0.021775480276349457-24, id: 0.021775480276349457-25, id: 0.021775480276349457-26, id: 0.021775480276349457-27, id: 0.021775480276349457-28, id: 0.021775480276349457-29, id: 0.021775480276349457-30, id: 0.021775480276349457-31]
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-17&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-17&quot;}] Result: isElementDisplayed:true
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-18&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-18&quot;}] Result: isElementDisplayed:true
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-19&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-19&quot;}] Result: isElementDisplayed:true
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-20&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-20&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-21&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-21&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-22&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-22&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-23&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-23&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-24&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-24&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-25&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-25&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-26&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-26&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-27&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-27&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-28&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-28&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-29&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-29&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-30&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-30&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-31&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-31&quot;}] Result: isElementDisplayed:false
+Total number of image displayed : 
+Expected: &lt;3&gt;
+     Actual: was &lt;3&gt;
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerificationEntertainment_jxgcq9x10puu60990.png
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//span[@class=&apos;sprite_bg next&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//span[@class=&apos;sprite_bg next&apos;], using=xpath}] Result: id: 0.021775480276349457-32
+[WebDriverCommandLogger] - Executing executeScript parameters: {&quot;args&quot;:[{&quot;element-6066-11e4-a52e-4f735466cecf&quot;:&quot;0.021775480276349457-32&quot;,&quot;ELEMENT&quot;:&quot;0.021775480276349457-32&quot;}],&quot;script&quot;:&quot;arguments[0].click();&quot;}
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;entslides&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;entslides&apos;]/ul/li, using=xpath}] Result: [id: 0.021775480276349457-17, id: 0.021775480276349457-18, id: 0.021775480276349457-19, id: 0.021775480276349457-20, id: 0.021775480276349457-21, id: 0.021775480276349457-22, id: 0.021775480276349457-23, id: 0.021775480276349457-24, id: 0.021775480276349457-25, id: 0.021775480276349457-26, id: 0.021775480276349457-27, id: 0.021775480276349457-28, id: 0.021775480276349457-29, id: 0.021775480276349457-30, id: 0.021775480276349457-31]
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-17&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-17&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-18&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-18&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-19&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-19&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-20&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-20&quot;}] Result: isElementDisplayed:true
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-21&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-21&quot;}] Result: isElementDisplayed:true
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-22&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-22&quot;}] Result: isElementDisplayed:true
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-23&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-23&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-24&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-24&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-25&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-25&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-26&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-26&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-27&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-27&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-28&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-28&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-29&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-29&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-30&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-30&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-31&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-31&quot;}] Result: isElementDisplayed:false
+Total number of image displayed : 
+Expected: &lt;3&gt;
+     Actual: was &lt;3&gt;
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerificationEntertainment_10qkjuv4p0zw760991.png
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//span[@class=&apos;sprite_bg prev&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//span[@class=&apos;sprite_bg prev&apos;], using=xpath}] Result: id: 0.021775480276349457-33
+[WebDriverCommandLogger] - Executing executeScript parameters: {&quot;args&quot;:[{&quot;element-6066-11e4-a52e-4f735466cecf&quot;:&quot;0.021775480276349457-33&quot;,&quot;ELEMENT&quot;:&quot;0.021775480276349457-33&quot;}],&quot;script&quot;:&quot;arguments[0].click();&quot;}
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;entslides&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;entslides&apos;]/ul/li, using=xpath}] Result: [id: 0.021775480276349457-17, id: 0.021775480276349457-18, id: 0.021775480276349457-19, id: 0.021775480276349457-20, id: 0.021775480276349457-21, id: 0.021775480276349457-22, id: 0.021775480276349457-23, id: 0.021775480276349457-24, id: 0.021775480276349457-25, id: 0.021775480276349457-26, id: 0.021775480276349457-27, id: 0.021775480276349457-28, id: 0.021775480276349457-29, id: 0.021775480276349457-30, id: 0.021775480276349457-31]
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-17&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-17&quot;}] Result: isElementDisplayed:true
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-18&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-18&quot;}] Result: isElementDisplayed:true
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-19&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-19&quot;}] Result: isElementDisplayed:true
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-20&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-20&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-21&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-21&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-22&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-22&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-23&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-23&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-24&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-24&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-25&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-25&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-26&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-26&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-27&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-27&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-28&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-28&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-29&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-29&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-30&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-30&quot;}] Result: isElementDisplayed:false
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li parameters: {&quot;id&quot;:&quot;0.021775480276349457-31&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;entslides&apos;]/ul/li param-2: {&quot;id&quot;:&quot;0.021775480276349457-31&quot;}] Result: isElementDisplayed:false
+Total number of image displayed : 
+Expected: &lt;3&gt;
+     Actual: was &lt;3&gt;
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerificationEntertainment_18c00wd2zerpa60992.png
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//*[@id=&apos;nav-entertainment&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//*[@id=&apos;nav-entertainment&apos;], using=xpath}] Result: id: 0.021775480276349457-34
+[WebDriverCommandLogger] - Executing mouseMoveTo parameters: {&quot;element&quot;:&quot;0.021775480276349457-34&quot;}
+[WebDriverCommandLogger] - command: mouseMoveTo[ param-1: {element=0.021775480276349457-34}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//ul[@id=&apos;rnaventertainment&apos;]/li/a&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//ul[@id=&apos;rnaventertainment&apos;]/li/a, using=xpath}] Result: [id: 0.021775480276349457-35, id: 0.021775480276349457-36, id: 0.021775480276349457-37, id: 0.021775480276349457-38, id: 0.021775480276349457-39, id: 0.021775480276349457-40, id: 0.021775480276349457-41, id: 0.021775480276349457-42, id: 0.021775480276349457-43, id: 0.021775480276349457-44, id: 0.021775480276349457-45, id: 0.021775480276349457-46, id: 0.021775480276349457-47, id: 0.021775480276349457-48]
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-35&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-35&quot;}] Result: getElementText:Shilpa Shetty’s endearing throwback with mum
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-36&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-36&quot;}] Result: getElementText:Shahid-Mira look regal at a wedding in London
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-37&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-37&quot;}] Result: getElementText:&apos;Jab Harry Met Sejal&apos; mini trailer 3
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-38&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-38&quot;}] Result: getElementText:Prabhas, Varun recreate iconic ‘Baahubali’ pose
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-39&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-39&quot;}] Result: getElementText:Movie Review: Bank Chor
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-40&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-40&quot;}] Result: getElementText:‘Tubelight’gets ‘U’ certificate, is Salman’s
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-41&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-41&quot;}] Result: getElementText:Baadshaho poster: 6 badasses aim for gold
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-42&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-42&quot;}] Result: getElementText:Priyanka Chopra reunites with her pooch Diana in
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-43&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-43&quot;}] Result: getElementText:Salman introduces ‘Tubelight’ star Matin
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-44&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-44&quot;}] Result: getElementText:Actress Anjali Shrivastav found dead in Andheri
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-45&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-45&quot;}] Result: getElementText:Pic: Bebo takes Taimur to visit granny Babita
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-46&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-46&quot;}] Result: getElementText:Pic: SRK&apos;s stunning selfie with wife Gauri
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-47&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-47&quot;}] Result: getElementText:Anil Kapoor starrer &apos;Mubarakan&apos; poster
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-48&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //ul[@id=&apos;rnaventertainment&apos;]/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-48&quot;}] Result: getElementText:Stars reacted to India V/S Pak match
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//ul[@id=&apos;rnav27135527&apos;]/li/a&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//ul[@id=&apos;rnav27135527&apos;]/li/a, using=xpath}] Result: [id: 0.021775480276349457-49, id: 0.021775480276349457-50, id: 0.021775480276349457-51, id: 0.021775480276349457-52, id: 0.021775480276349457-53, id: 0.021775480276349457-54, id: 0.021775480276349457-55, id: 0.021775480276349457-56, id: 0.021775480276349457-57, id: 0.021775480276349457-58, id: 0.021775480276349457-59, id: 0.021775480276349457-60, id: 0.021775480276349457-61, id: 0.021775480276349457-62]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a, using=xpath}] Result: [id: 0.021775480276349457-63, id: 0.021775480276349457-64, id: 0.021775480276349457-65, id: 0.021775480276349457-66, id: 0.021775480276349457-67, id: 0.021775480276349457-68, id: 0.021775480276349457-69, id: 0.021775480276349457-70, id: 0.021775480276349457-71, id: 0.021775480276349457-72, id: 0.021775480276349457-73, id: 0.021775480276349457-74, id: 0.021775480276349457-75, id: 0.021775480276349457-76, id: 0.021775480276349457-77, id: 0.021775480276349457-78, id: 0.021775480276349457-79]
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-63&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-63&quot;}] Result: getElementText:Entertainment
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-64&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-64&quot;}] Result: getElementText:Hindi
+[WebDriverCommandLogger] - Executing mouseMoveTo parameters: {&quot;element&quot;:&quot;0.021775480276349457-64&quot;}
+[WebDriverCommandLogger] - command: mouseMoveTo[ param-1: {element=0.021775480276349457-64}] Result: null
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-49 parameters: {&quot;id&quot;:&quot;0.021775480276349457-49&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-49 param-2: {&quot;id&quot;:&quot;0.021775480276349457-49&quot;}] Result: getElementText:HC stays proceedings in Jiah Khan case
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-50 parameters: {&quot;id&quot;:&quot;0.021775480276349457-50&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-50 param-2: {&quot;id&quot;:&quot;0.021775480276349457-50&quot;}] Result: getElementText:Witness Salman Khan-Sohail Khan&apos;s adorable
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-51 parameters: {&quot;id&quot;:&quot;0.021775480276349457-51&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-51 param-2: {&quot;id&quot;:&quot;0.021775480276349457-51&quot;}] Result: getElementText:Government ropes in Amitabh Bachchan to promote
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-52 parameters: {&quot;id&quot;:&quot;0.021775480276349457-52&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-52 param-2: {&quot;id&quot;:&quot;0.021775480276349457-52&quot;}] Result: getElementText:Pooja Bhatt on playing an alcoholic after quitting
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-53 parameters: {&quot;id&quot;:&quot;0.021775480276349457-53&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-53 param-2: {&quot;id&quot;:&quot;0.021775480276349457-53&quot;}] Result: getElementText:No NOC required from Gandhi family for &apos;Indu
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-54 parameters: {&quot;id&quot;:&quot;0.021775480276349457-54&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-54 param-2: {&quot;id&quot;:&quot;0.021775480276349457-54&quot;}] Result: getElementText:PIC: Sunny Leone looks mesmerising in this peach
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-55 parameters: {&quot;id&quot;:&quot;0.021775480276349457-55&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-55 param-2: {&quot;id&quot;:&quot;0.021775480276349457-55&quot;}] Result: getElementText:Then and now: Arjun Kapoor is unrecognisable
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-56 parameters: {&quot;id&quot;:&quot;0.021775480276349457-56&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-56 param-2: {&quot;id&quot;:&quot;0.021775480276349457-56&quot;}] Result: getElementText:‘When Harry Met Sejal’ mini trailer: Shah Rukh Khan
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-57 parameters: {&quot;id&quot;:&quot;0.021775480276349457-57&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-57 param-2: {&quot;id&quot;:&quot;0.021775480276349457-57&quot;}] Result: getElementText:Bollywood celebs like Shah Rukh Khan, Anupam Kher,
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-58 parameters: {&quot;id&quot;:&quot;0.021775480276349457-58&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-58 param-2: {&quot;id&quot;:&quot;0.021775480276349457-58&quot;}] Result: getElementText:Father’s Day: Celebs wish the super dads
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-59 parameters: {&quot;id&quot;:&quot;0.021775480276349457-59&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-59 param-2: {&quot;id&quot;:&quot;0.021775480276349457-59&quot;}] Result: getElementText:Sidharth Malhotra, Manoj Bajpayee don Army uniform
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-60 parameters: {&quot;id&quot;:&quot;0.021775480276349457-60&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-60 param-2: {&quot;id&quot;:&quot;0.021775480276349457-60&quot;}] Result: getElementText:Kabir Khan supports Salman Khan&apos;s anti-war comments
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-61 parameters: {&quot;id&quot;:&quot;0.021775480276349457-61&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-61 param-2: {&quot;id&quot;:&quot;0.021775480276349457-61&quot;}] Result: getElementText:Salman Khan bonds with &apos;Tubelight&apos;s child actor in
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-62 parameters: {&quot;id&quot;:&quot;0.021775480276349457-62&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-62 param-2: {&quot;id&quot;:&quot;0.021775480276349457-62&quot;}] Result: getElementText:Video: Vivek’s kids wish him Father’s Day
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-65&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-65&quot;}] Result: getElementText:English
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-66&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-66&quot;}] Result: getElementText:Tamil
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-67&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-67&quot;}] Result: getElementText:Telugu
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-68&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-68&quot;}] Result: getElementText:Malayalam
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-69&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-69&quot;}] Result: getElementText:Kannada
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-70&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-70&quot;}] Result: getElementText:Bengali
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-71&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-71&quot;}] Result: getElementText:Punjabi
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-72&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-72&quot;}] Result: getElementText:Marathi
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-73&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-73&quot;}] Result: getElementText:Bhojpuri
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-74&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-74&quot;}] Result: getElementText:Gujarati
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-75&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-75&quot;}] Result: getElementText:Movie Reviews
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-76&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-76&quot;}] Result: getElementText:Music
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-77&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-77&quot;}] Result: getElementText:Beauty Pageants
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-78&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-78&quot;}] Result: getElementText:Photos
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-79&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-79&quot;}] Result: getElementText:Videos
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//ul[@id=&apos;rnav27135489&apos;]/li/a&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//ul[@id=&apos;rnav27135489&apos;]/li/a, using=xpath}] Result: [id: 0.021775480276349457-80, id: 0.021775480276349457-81, id: 0.021775480276349457-82, id: 0.021775480276349457-83, id: 0.021775480276349457-84, id: 0.021775480276349457-85, id: 0.021775480276349457-86, id: 0.021775480276349457-87, id: 0.021775480276349457-88, id: 0.021775480276349457-89, id: 0.021775480276349457-90, id: 0.021775480276349457-91, id: 0.021775480276349457-92, id: 0.021775480276349457-93]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a, using=xpath}] Result: [id: 0.021775480276349457-63, id: 0.021775480276349457-64, id: 0.021775480276349457-65, id: 0.021775480276349457-66, id: 0.021775480276349457-67, id: 0.021775480276349457-68, id: 0.021775480276349457-69, id: 0.021775480276349457-70, id: 0.021775480276349457-71, id: 0.021775480276349457-72, id: 0.021775480276349457-73, id: 0.021775480276349457-74, id: 0.021775480276349457-75, id: 0.021775480276349457-76, id: 0.021775480276349457-77, id: 0.021775480276349457-78, id: 0.021775480276349457-79]
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-63&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-63&quot;}] Result: getElementText:Entertainment
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-64&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-64&quot;}] Result: getElementText:Hindi
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-65&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-65&quot;}] Result: getElementText:English
+[WebDriverCommandLogger] - Executing mouseMoveTo parameters: {&quot;element&quot;:&quot;0.021775480276349457-65&quot;}
+[WebDriverCommandLogger] - command: mouseMoveTo[ param-1: {element=0.021775480276349457-65}] Result: null
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-80 parameters: {&quot;id&quot;:&quot;0.021775480276349457-80&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-80 param-2: {&quot;id&quot;:&quot;0.021775480276349457-80&quot;}] Result: getElementText:Gal Gadot shows the real meaning of &apos;Wonder Woman&apos;
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-81 parameters: {&quot;id&quot;:&quot;0.021775480276349457-81&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-81 param-2: {&quot;id&quot;:&quot;0.021775480276349457-81&quot;}] Result: getElementText:Justin Bieber&apos;s shirtless arm-wrestling bout with a
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-82 parameters: {&quot;id&quot;:&quot;0.021775480276349457-82&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-82 param-2: {&quot;id&quot;:&quot;0.021775480276349457-82&quot;}] Result: getElementText:Ed Sheeran awarded MBE in Queen&apos;s Birthday Honours
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-83 parameters: {&quot;id&quot;:&quot;0.021775480276349457-83&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-83 param-2: {&quot;id&quot;:&quot;0.021775480276349457-83&quot;}] Result: getElementText:One Direction might reunite for Grenfell Tower
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-84 parameters: {&quot;id&quot;:&quot;0.021775480276349457-84&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-84 param-2: {&quot;id&quot;:&quot;0.021775480276349457-84&quot;}] Result: getElementText:&apos;Rocky&apos; and &apos;Karate Kid&apos; director John G. Avildsen
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-85 parameters: {&quot;id&quot;:&quot;0.021775480276349457-85&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-85 param-2: {&quot;id&quot;:&quot;0.021775480276349457-85&quot;}] Result: getElementText:Beyonce Knowles and Jay Z welcome twins
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-86 parameters: {&quot;id&quot;:&quot;0.021775480276349457-86&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-86 param-2: {&quot;id&quot;:&quot;0.021775480276349457-86&quot;}] Result: getElementText:Anupam Kher&apos;s &apos;The Big Sick&apos; to release in India on
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-87 parameters: {&quot;id&quot;:&quot;0.021775480276349457-87&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-87 param-2: {&quot;id&quot;:&quot;0.021775480276349457-87&quot;}] Result: getElementText:Olivia Wilde&apos;s son Otis Alexander Sudeikis is tough
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-88 parameters: {&quot;id&quot;:&quot;0.021775480276349457-88&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-88 param-2: {&quot;id&quot;:&quot;0.021775480276349457-88&quot;}] Result: getElementText:Oprah Winfrey throws a &apos;Wonder Woman&apos; theme party
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-89 parameters: {&quot;id&quot;:&quot;0.021775480276349457-89&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-89 param-2: {&quot;id&quot;:&quot;0.021775480276349457-89&quot;}] Result: getElementText:Andie MacDowell wasn&apos;t a strict mother
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-90 parameters: {&quot;id&quot;:&quot;0.021775480276349457-90&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-90 param-2: {&quot;id&quot;:&quot;0.021775480276349457-90&quot;}] Result: getElementText:George Clooney&apos;s father Nick Clooney reveals how
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-91 parameters: {&quot;id&quot;:&quot;0.021775480276349457-91&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-91 param-2: {&quot;id&quot;:&quot;0.021775480276349457-91&quot;}] Result: getElementText:Priyanka Bose bags her second Hollywood project
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-92 parameters: {&quot;id&quot;:&quot;0.021775480276349457-92&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-92 param-2: {&quot;id&quot;:&quot;0.021775480276349457-92&quot;}] Result: getElementText:Movie review: Cars 3
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-93 parameters: {&quot;id&quot;:&quot;0.021775480276349457-93&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-93 param-2: {&quot;id&quot;:&quot;0.021775480276349457-93&quot;}] Result: getElementText:Nicole Kidman ready to embrace her 50s
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-66&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-66&quot;}] Result: getElementText:Tamil
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-67&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-67&quot;}] Result: getElementText:Telugu
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-68&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-68&quot;}] Result: getElementText:Malayalam
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-69&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-69&quot;}] Result: getElementText:Kannada
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-70&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-70&quot;}] Result: getElementText:Bengali
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-71&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-71&quot;}] Result: getElementText:Punjabi
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-72&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-72&quot;}] Result: getElementText:Marathi
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-73&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-73&quot;}] Result: getElementText:Bhojpuri
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-74&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-74&quot;}] Result: getElementText:Gujarati
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-75&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-75&quot;}] Result: getElementText:Movie Reviews
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-76&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-76&quot;}] Result: getElementText:Music
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-77&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-77&quot;}] Result: getElementText:Beauty Pageants
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-78&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-78&quot;}] Result: getElementText:Photos
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-79&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-79&quot;}] Result: getElementText:Videos
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//ul[@id=&apos;rnav27135454&apos;]/li/a&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//ul[@id=&apos;rnav27135454&apos;]/li/a, using=xpath}] Result: [id: 0.021775480276349457-94, id: 0.021775480276349457-95, id: 0.021775480276349457-96, id: 0.021775480276349457-97, id: 0.021775480276349457-98, id: 0.021775480276349457-99, id: 0.021775480276349457-100, id: 0.021775480276349457-101, id: 0.021775480276349457-102, id: 0.021775480276349457-103, id: 0.021775480276349457-104, id: 0.021775480276349457-105, id: 0.021775480276349457-106, id: 0.021775480276349457-107]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a, using=xpath}] Result: [id: 0.021775480276349457-63, id: 0.021775480276349457-64, id: 0.021775480276349457-65, id: 0.021775480276349457-66, id: 0.021775480276349457-67, id: 0.021775480276349457-68, id: 0.021775480276349457-69, id: 0.021775480276349457-70, id: 0.021775480276349457-71, id: 0.021775480276349457-72, id: 0.021775480276349457-73, id: 0.021775480276349457-74, id: 0.021775480276349457-75, id: 0.021775480276349457-76, id: 0.021775480276349457-77, id: 0.021775480276349457-78, id: 0.021775480276349457-79]
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-63&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-63&quot;}] Result: getElementText:Entertainment
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-64&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-64&quot;}] Result: getElementText:Hindi
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-65&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-65&quot;}] Result: getElementText:English
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-66&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-66&quot;}] Result: getElementText:Tamil
+[WebDriverCommandLogger] - Executing mouseMoveTo parameters: {&quot;element&quot;:&quot;0.021775480276349457-66&quot;}
+[WebDriverCommandLogger] - command: mouseMoveTo[ param-1: {element=0.021775480276349457-66}] Result: null
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-94 parameters: {&quot;id&quot;:&quot;0.021775480276349457-94&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-94 param-2: {&quot;id&quot;:&quot;0.021775480276349457-94&quot;}] Result: getElementText:Playing a visually challenged girl was tough: Sai
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-95 parameters: {&quot;id&quot;:&quot;0.021775480276349457-95&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-95 param-2: {&quot;id&quot;:&quot;0.021775480276349457-95&quot;}] Result: getElementText:Tovino Thomas dubs in Tamil for his Kollywood debut
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-96 parameters: {&quot;id&quot;:&quot;0.021775480276349457-96&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-96 param-2: {&quot;id&quot;:&quot;0.021775480276349457-96&quot;}] Result: getElementText:Ajith’s single Surviva takes internet by storm
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-97 parameters: {&quot;id&quot;:&quot;0.021775480276349457-97&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-97 param-2: {&quot;id&quot;:&quot;0.021775480276349457-97&quot;}] Result: getElementText:Nenjam Marappathillai: Trailer
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-98 parameters: {&quot;id&quot;:&quot;0.021775480276349457-98&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-98 param-2: {&quot;id&quot;:&quot;0.021775480276349457-98&quot;}] Result: getElementText:Technical wizards bag top honour
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-99 parameters: {&quot;id&quot;:&quot;0.021775480276349457-99&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-99 param-2: {&quot;id&quot;:&quot;0.021775480276349457-99&quot;}] Result: getElementText:Rajinikanth preparing to enter politics, says TN
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-100 parameters: {&quot;id&quot;:&quot;0.021775480276349457-100&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-100 param-2: {&quot;id&quot;:&quot;0.021775480276349457-100&quot;}] Result: getElementText:Thaana Serndha Koottam first look in July
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-101 parameters: {&quot;id&quot;:&quot;0.021775480276349457-101&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-101 param-2: {&quot;id&quot;:&quot;0.021775480276349457-101&quot;}] Result: getElementText:Naragasooran cast is out
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-102 parameters: {&quot;id&quot;:&quot;0.021775480276349457-102&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-102 param-2: {&quot;id&quot;:&quot;0.021775480276349457-102&quot;}] Result: getElementText:Ajith is a true survivor: Yogi B
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-103 parameters: {&quot;id&quot;:&quot;0.021775480276349457-103&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-103 param-2: {&quot;id&quot;:&quot;0.021775480276349457-103&quot;}] Result: getElementText:When all eyes were on the black lady
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-104 parameters: {&quot;id&quot;:&quot;0.021775480276349457-104&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-104 param-2: {&quot;id&quot;:&quot;0.021775480276349457-104&quot;}] Result: getElementText:Vasanth to helm a video as a tribute to APJ Abdul
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-105 parameters: {&quot;id&quot;:&quot;0.021775480276349457-105&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-105 param-2: {&quot;id&quot;:&quot;0.021775480276349457-105&quot;}] Result: getElementText:A ‘gift song’ for celebrities and public
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-106 parameters: {&quot;id&quot;:&quot;0.021775480276349457-106&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-106 param-2: {&quot;id&quot;:&quot;0.021775480276349457-106&quot;}] Result: getElementText:Candid moments at Filmfare Awards south 2017
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-107 parameters: {&quot;id&quot;:&quot;0.021775480276349457-107&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-107 param-2: {&quot;id&quot;:&quot;0.021775480276349457-107&quot;}] Result: getElementText:Slovenia beckons &apos;Dhruva Natchathiram&apos; team
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-67&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-67&quot;}] Result: getElementText:Telugu
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-68&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-68&quot;}] Result: getElementText:Malayalam
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-69&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-69&quot;}] Result: getElementText:Kannada
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-70&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-70&quot;}] Result: getElementText:Bengali
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-71&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-71&quot;}] Result: getElementText:Punjabi
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-72&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-72&quot;}] Result: getElementText:Marathi
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-73&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-73&quot;}] Result: getElementText:Bhojpuri
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-74&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-74&quot;}] Result: getElementText:Gujarati
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-75&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-75&quot;}] Result: getElementText:Movie Reviews
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-76&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-76&quot;}] Result: getElementText:Music
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-77&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-77&quot;}] Result: getElementText:Beauty Pageants
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-78&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-78&quot;}] Result: getElementText:Photos
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-79&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-79&quot;}] Result: getElementText:Videos
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//ul[@id=&apos;rnav27135440&apos;]/li/a&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//ul[@id=&apos;rnav27135440&apos;]/li/a, using=xpath}] Result: [id: 0.021775480276349457-108, id: 0.021775480276349457-109, id: 0.021775480276349457-110, id: 0.021775480276349457-111, id: 0.021775480276349457-112, id: 0.021775480276349457-113, id: 0.021775480276349457-114, id: 0.021775480276349457-115, id: 0.021775480276349457-116, id: 0.021775480276349457-117, id: 0.021775480276349457-118, id: 0.021775480276349457-119, id: 0.021775480276349457-120, id: 0.021775480276349457-121]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a, using=xpath}] Result: [id: 0.021775480276349457-63, id: 0.021775480276349457-64, id: 0.021775480276349457-65, id: 0.021775480276349457-66, id: 0.021775480276349457-67, id: 0.021775480276349457-68, id: 0.021775480276349457-69, id: 0.021775480276349457-70, id: 0.021775480276349457-71, id: 0.021775480276349457-72, id: 0.021775480276349457-73, id: 0.021775480276349457-74, id: 0.021775480276349457-75, id: 0.021775480276349457-76, id: 0.021775480276349457-77, id: 0.021775480276349457-78, id: 0.021775480276349457-79]
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-63&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-63&quot;}] Result: getElementText:Entertainment
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-64&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-64&quot;}] Result: getElementText:Hindi
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-65&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-65&quot;}] Result: getElementText:English
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-66&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-66&quot;}] Result: getElementText:Tamil
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-67&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-67&quot;}] Result: getElementText:Telugu
+[WebDriverCommandLogger] - Executing mouseMoveTo parameters: {&quot;element&quot;:&quot;0.021775480276349457-67&quot;}
+[WebDriverCommandLogger] - command: mouseMoveTo[ param-1: {element=0.021775480276349457-67}] Result: null
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-108 parameters: {&quot;id&quot;:&quot;0.021775480276349457-108&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-108 param-2: {&quot;id&quot;:&quot;0.021775480276349457-108&quot;}] Result: getElementText:Padmapriya returns to T’wood as a doctor in
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-109 parameters: {&quot;id&quot;:&quot;0.021775480276349457-109&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-109 param-2: {&quot;id&quot;:&quot;0.021775480276349457-109&quot;}] Result: getElementText:‘Kaadhali’ Movie review highlights: A triangular
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-110 parameters: {&quot;id&quot;:&quot;0.021775480276349457-110&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-110 param-2: {&quot;id&quot;:&quot;0.021775480276349457-110&quot;}] Result: getElementText:Rashmika Mandanna in ‘Naa Peru Surya’?
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-111 parameters: {&quot;id&quot;:&quot;0.021775480276349457-111&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-111 param-2: {&quot;id&quot;:&quot;0.021775480276349457-111&quot;}] Result: getElementText:Vijay Devarakonda’s UK trip is what bucket list
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-112 parameters: {&quot;id&quot;:&quot;0.021775480276349457-112&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-112 param-2: {&quot;id&quot;:&quot;0.021775480276349457-112&quot;}] Result: getElementText:I am not getting married: Rashmi
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-113 parameters: {&quot;id&quot;:&quot;0.021775480276349457-113&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-113 param-2: {&quot;id&quot;:&quot;0.021775480276349457-113&quot;}] Result: getElementText:Chiru, Rajsekhar rift continues?
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-114 parameters: {&quot;id&quot;:&quot;0.021775480276349457-114&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-114 param-2: {&quot;id&quot;:&quot;0.021775480276349457-114&quot;}] Result: getElementText:Praveen Sattaru says shooting PSV Garuda Vega in
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-115 parameters: {&quot;id&quot;:&quot;0.021775480276349457-115&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-115 param-2: {&quot;id&quot;:&quot;0.021775480276349457-115&quot;}] Result: getElementText:Ram Charan -Sukumar period saga named Rangasthalam
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-116 parameters: {&quot;id&quot;:&quot;0.021775480276349457-116&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-116 param-2: {&quot;id&quot;:&quot;0.021775480276349457-116&quot;}] Result: getElementText:Ami Thumi Movie review highlights: The film fares
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-117 parameters: {&quot;id&quot;:&quot;0.021775480276349457-117&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-117 param-2: {&quot;id&quot;:&quot;0.021775480276349457-117&quot;}] Result: getElementText:Ami Thumi has a Jaane Bhi Do Yaaro-vibe about it
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-118 parameters: {&quot;id&quot;:&quot;0.021775480276349457-118&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-118 param-2: {&quot;id&quot;:&quot;0.021775480276349457-118&quot;}] Result: getElementText:Duvvada Jagannadham’s director Harish Shankar
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-119 parameters: {&quot;id&quot;:&quot;0.021775480276349457-119&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-119 param-2: {&quot;id&quot;:&quot;0.021775480276349457-119&quot;}] Result: getElementText:Allu Arjun’s ‘Duvvada Jagannadham’ faces the ire of
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-120 parameters: {&quot;id&quot;:&quot;0.021775480276349457-120&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-120 param-2: {&quot;id&quot;:&quot;0.021775480276349457-120&quot;}] Result: getElementText:Fashion Designer s/o Ladies Tailor Movie review
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-121 parameters: {&quot;id&quot;:&quot;0.021775480276349457-121&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-121 param-2: {&quot;id&quot;:&quot;0.021775480276349457-121&quot;}] Result: getElementText:Sundeep Kishan to replace Naga Chaitanya in
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-68&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-68&quot;}] Result: getElementText:Malayalam
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-69&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-69&quot;}] Result: getElementText:Kannada
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-70&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-70&quot;}] Result: getElementText:Bengali
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-71&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-71&quot;}] Result: getElementText:Punjabi
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-72&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-72&quot;}] Result: getElementText:Marathi
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-73&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-73&quot;}] Result: getElementText:Bhojpuri
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-74&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-74&quot;}] Result: getElementText:Gujarati
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-75&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-75&quot;}] Result: getElementText:Movie Reviews
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-76&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-76&quot;}] Result: getElementText:Music
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-77&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-77&quot;}] Result: getElementText:Beauty Pageants
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-78&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-78&quot;}] Result: getElementText:Photos
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-79&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-79&quot;}] Result: getElementText:Videos
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//ul[@id=&apos;rnav27134572&apos;]/li/a&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//ul[@id=&apos;rnav27134572&apos;]/li/a, using=xpath}] Result: [id: 0.021775480276349457-122, id: 0.021775480276349457-123, id: 0.021775480276349457-124, id: 0.021775480276349457-125, id: 0.021775480276349457-126, id: 0.021775480276349457-127, id: 0.021775480276349457-128, id: 0.021775480276349457-129, id: 0.021775480276349457-130, id: 0.021775480276349457-131, id: 0.021775480276349457-132, id: 0.021775480276349457-133, id: 0.021775480276349457-134, id: 0.021775480276349457-135]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a, using=xpath}] Result: [id: 0.021775480276349457-63, id: 0.021775480276349457-64, id: 0.021775480276349457-65, id: 0.021775480276349457-66, id: 0.021775480276349457-67, id: 0.021775480276349457-68, id: 0.021775480276349457-69, id: 0.021775480276349457-70, id: 0.021775480276349457-71, id: 0.021775480276349457-72, id: 0.021775480276349457-73, id: 0.021775480276349457-74, id: 0.021775480276349457-75, id: 0.021775480276349457-76, id: 0.021775480276349457-77, id: 0.021775480276349457-78, id: 0.021775480276349457-79]
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-63&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-63&quot;}] Result: getElementText:Entertainment
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-64&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-64&quot;}] Result: getElementText:Hindi
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-65&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-65&quot;}] Result: getElementText:English
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-66&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-66&quot;}] Result: getElementText:Tamil
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-67&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-67&quot;}] Result: getElementText:Telugu
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-68&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-68&quot;}] Result: getElementText:Malayalam
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-69&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-69&quot;}] Result: getElementText:Kannada
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-70&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-70&quot;}] Result: getElementText:Bengali
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-71&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-71&quot;}] Result: getElementText:Punjabi
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-72&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-72&quot;}] Result: getElementText:Marathi
+[WebDriverCommandLogger] - Executing mouseMoveTo parameters: {&quot;element&quot;:&quot;0.021775480276349457-72&quot;}
+[WebDriverCommandLogger] - command: mouseMoveTo[ param-1: {element=0.021775480276349457-72}] Result: null
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-122 parameters: {&quot;id&quot;:&quot;0.021775480276349457-122&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-122 param-2: {&quot;id&quot;:&quot;0.021775480276349457-122&quot;}] Result: getElementText:Marathi viewers, be ready to pay more for movie
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-123 parameters: {&quot;id&quot;:&quot;0.021775480276349457-123&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-123 param-2: {&quot;id&quot;:&quot;0.021775480276349457-123&quot;}] Result: getElementText:Ranveer Singh launches Swwapnil Joshi&apos;s film poster
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-124 parameters: {&quot;id&quot;:&quot;0.021775480276349457-124&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-124 param-2: {&quot;id&quot;:&quot;0.021775480276349457-124&quot;}] Result: getElementText:Itemgiri
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-125 parameters: {&quot;id&quot;:&quot;0.021775480276349457-125&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-125 param-2: {&quot;id&quot;:&quot;0.021775480276349457-125&quot;}] Result: getElementText:Sairat actress Rinku Rajguru clears SSC exam
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-126 parameters: {&quot;id&quot;:&quot;0.021775480276349457-126&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-126 param-2: {&quot;id&quot;:&quot;0.021775480276349457-126&quot;}] Result: getElementText:Zari
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-127 parameters: {&quot;id&quot;:&quot;0.021775480276349457-127&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-127 param-2: {&quot;id&quot;:&quot;0.021775480276349457-127&quot;}] Result: getElementText:Radhika Apte: Bollywood and regional cinema at par
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-128 parameters: {&quot;id&quot;:&quot;0.021775480276349457-128&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-128 param-2: {&quot;id&quot;:&quot;0.021775480276349457-128&quot;}] Result: getElementText:Dhondi
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-129 parameters: {&quot;id&quot;:&quot;0.021775480276349457-129&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-129 param-2: {&quot;id&quot;:&quot;0.021775480276349457-129&quot;}] Result: getElementText:GST row: Marathi industry threatens to go on a
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-130 parameters: {&quot;id&quot;:&quot;0.021775480276349457-130&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-130 param-2: {&quot;id&quot;:&quot;0.021775480276349457-130&quot;}] Result: getElementText:Muramba
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-131 parameters: {&quot;id&quot;:&quot;0.021775480276349457-131&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-131 param-2: {&quot;id&quot;:&quot;0.021775480276349457-131&quot;}] Result: getElementText:FU: Friendship Unlimited
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-132 parameters: {&quot;id&quot;:&quot;0.021775480276349457-132&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-132 param-2: {&quot;id&quot;:&quot;0.021775480276349457-132&quot;}] Result: getElementText:Music Review: Muramba
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-133 parameters: {&quot;id&quot;:&quot;0.021775480276349457-133&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-133 param-2: {&quot;id&quot;:&quot;0.021775480276349457-133&quot;}] Result: getElementText:Music Review: FU
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-134 parameters: {&quot;id&quot;:&quot;0.021775480276349457-134&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-134 param-2: {&quot;id&quot;:&quot;0.021775480276349457-134&quot;}] Result: getElementText:Is Shraddha Kapoor doing Marathi film?
+[WebDriverCommandLogger] - Executing getElementText element: id: 0.021775480276349457-135 parameters: {&quot;id&quot;:&quot;0.021775480276349457-135&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: id: 0.021775480276349457-135 param-2: {&quot;id&quot;:&quot;0.021775480276349457-135&quot;}] Result: getElementText:Amruta Khanvilkar starrer Bus Stop to release soon
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-73&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-73&quot;}] Result: getElementText:Bhojpuri
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-74&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-74&quot;}] Result: getElementText:Gujarati
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-75&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-75&quot;}] Result: getElementText:Movie Reviews
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-76&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-76&quot;}] Result: getElementText:Music
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-77&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-77&quot;}] Result: getElementText:Beauty Pageants
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-78&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-78&quot;}] Result: getElementText:Photos
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-79&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-79&quot;}] Result: getElementText:Videos
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//ul[@id=&apos;null&apos;]/li/a&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//ul[@id=&apos;null&apos;]/li/a, using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a, using=xpath}] Result: [id: 0.021775480276349457-63, id: 0.021775480276349457-64, id: 0.021775480276349457-65, id: 0.021775480276349457-66, id: 0.021775480276349457-67, id: 0.021775480276349457-68, id: 0.021775480276349457-69, id: 0.021775480276349457-70, id: 0.021775480276349457-71, id: 0.021775480276349457-72, id: 0.021775480276349457-73, id: 0.021775480276349457-74, id: 0.021775480276349457-75, id: 0.021775480276349457-76, id: 0.021775480276349457-77, id: 0.021775480276349457-78, id: 0.021775480276349457-79]
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-63&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-63&quot;}] Result: getElementText:Entertainment
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-64&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-64&quot;}] Result: getElementText:Hindi
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-65&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-65&quot;}] Result: getElementText:English
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-66&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-66&quot;}] Result: getElementText:Tamil
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-67&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-67&quot;}] Result: getElementText:Telugu
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-68&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-68&quot;}] Result: getElementText:Malayalam
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-69&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-69&quot;}] Result: getElementText:Kannada
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-70&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-70&quot;}] Result: getElementText:Bengali
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-71&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-71&quot;}] Result: getElementText:Punjabi
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-72&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-72&quot;}] Result: getElementText:Marathi
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-73&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-73&quot;}] Result: getElementText:Bhojpuri
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-74&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-74&quot;}] Result: getElementText:Gujarati
+[WebDriverCommandLogger] - Executing mouseMoveTo parameters: {&quot;element&quot;:&quot;0.021775480276349457-74&quot;}
+[WebDriverCommandLogger] - command: mouseMoveTo[ param-1: {element=0.021775480276349457-74}] Result: null
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-75&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-75&quot;}] Result: getElementText:Movie Reviews
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-76&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-76&quot;}] Result: getElementText:Music
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-77&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-77&quot;}] Result: getElementText:Beauty Pageants
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-78&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-78&quot;}] Result: getElementText:Photos
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-79&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-79&quot;}] Result: getElementText:Videos
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a, using=xpath}] Result: [id: 0.021775480276349457-63, id: 0.021775480276349457-64, id: 0.021775480276349457-65, id: 0.021775480276349457-66, id: 0.021775480276349457-67, id: 0.021775480276349457-68, id: 0.021775480276349457-69, id: 0.021775480276349457-70, id: 0.021775480276349457-71, id: 0.021775480276349457-72, id: 0.021775480276349457-73, id: 0.021775480276349457-74, id: 0.021775480276349457-75, id: 0.021775480276349457-76, id: 0.021775480276349457-77, id: 0.021775480276349457-78, id: 0.021775480276349457-79]
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-63&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-63&quot;}] Result: getElementText:Entertainment
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-64&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a param-2: {&quot;id&quot;:&quot;0.021775480276349457-64&quot;}] Result: getElementText:Hindi
+[WebDriverCommandLogger] - Executing mouseMoveTo parameters: {&quot;element&quot;:&quot;0.021775480276349457-64&quot;}
+[WebDriverCommandLogger] - command: mouseMoveTo[ param-1: {element=0.021775480276349457-64}] Result: null
+[WebDriverCommandLogger] - Executing executeScript parameters: {&quot;args&quot;:[{&quot;element-6066-11e4-a52e-4f735466cecf&quot;:&quot;0.021775480276349457-64&quot;,&quot;ELEMENT&quot;:&quot;0.021775480276349457-64&quot;}],&quot;script&quot;:&quot;arguments[0].click();&quot;}
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a parameters: {&quot;id&quot;:&quot;0.021775480276349457-65&quot;}
+[QAFExtendedWebElement] - stale element reference: element is not attached to the page document
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 33 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\TAPAS~1.PAD\AppData\Local\Temp\scoped_dir7812_29857}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9445330bb221a859823764d905d7c7ce
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a, using=xpath}] Result: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 72 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\TAPAS~1.PAD\AppData\Local\Temp\scoped_dir7812_29857}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9445330bb221a859823764d905d7c7ce
+*** Element info: {Using=xpath, value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a}
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a, using=xpath}] Result: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 533 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\TAPAS~1.PAD\AppData\Local\Temp\scoped_dir7812_29857}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9445330bb221a859823764d905d7c7ce
+*** Element info: {Using=xpath, value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a}
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a, using=xpath}] Result: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\TAPAS~1.PAD\AppData\Local\Temp\scoped_dir7812_29857}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9445330bb221a859823764d905d7c7ce
+*** Element info: {Using=xpath, value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a}
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a, using=xpath}] Result: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\TAPAS~1.PAD\AppData\Local\Temp\scoped_dir7812_29857}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9445330bb221a859823764d905d7c7ce
+*** Element info: {Using=xpath, value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a}
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a, using=xpath}] Result: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\TAPAS~1.PAD\AppData\Local\Temp\scoped_dir7812_29857}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9445330bb221a859823764d905d7c7ce
+*** Element info: {Using=xpath, value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a}
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a, using=xpath}] Result: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\TAPAS~1.PAD\AppData\Local\Temp\scoped_dir7812_29857}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9445330bb221a859823764d905d7c7ce
+*** Element info: {Using=xpath, value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a}
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a, using=xpath}] Result: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\TAPAS~1.PAD\AppData\Local\Temp\scoped_dir7812_29857}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9445330bb221a859823764d905d7c7ce
+*** Element info: {Using=xpath, value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a}
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a, using=xpath}] Result: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\TAPAS~1.PAD\AppData\Local\Temp\scoped_dir7812_29857}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9445330bb221a859823764d905d7c7ce
+*** Element info: {Using=xpath, value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a}
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a, using=xpath}] Result: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\TAPAS~1.PAD\AppData\Local\Temp\scoped_dir7812_29857}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9445330bb221a859823764d905d7c7ce
+*** Element info: {Using=xpath, value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a}
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a, using=xpath}] Result: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 19 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\TAPAS~1.PAD\AppData\Local\Temp\scoped_dir7812_29857}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9445330bb221a859823764d905d7c7ce
+*** Element info: {Using=xpath, value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a}
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a, using=xpath}] Result: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\TAPAS~1.PAD\AppData\Local\Temp\scoped_dir7812_29857}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9445330bb221a859823764d905d7c7ce
+*** Element info: {Using=xpath, value=//li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a}
+[QAFInvokedMethodListener2] - org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for presence of element located by: By.xpath: //li[@id=&apos;nav-entertainment&apos;]//div[@class=&apos;left-column&apos;]/ul/li/a
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: QAFExtendedWebDriver
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerificationEntertainment_8pydpigoojd260993.png
+</system-out>
+    <system-err>log4j:WARN No such property [follow] in org.apache.log4j.FileAppender.
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 15485
+Only local connections are allowed.
+</system-err>
+  </testcase>
+</testsuite>

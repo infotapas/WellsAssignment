@@ -1,0 +1,6 @@
+14:05:50 Invoking Teststep: Decline notifications
+14:06:00 Completed Teststep: Decline notifications
+14:06:00 Invoking Teststep: Get List of top-stories and print
+14:06:01 Completed Teststep: Get List of top-stories and print
+14:06:01 Invoking Teststep: verifyNewsTitle
+14:06:14 Completed Teststep: verifyNewsTitle

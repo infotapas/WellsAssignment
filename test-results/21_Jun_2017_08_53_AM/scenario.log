@@ -1,0 +1,22 @@
+14:23:34 Invoking Teststep: Decline notifications
+14:23:43 Completed Teststep: Decline notifications
+14:23:43 Invoking Teststep: Entertainment section verification
+14:23:44 Completed Teststep: Entertainment section verification
+14:23:44 Invoking Teststep: Extract entertainment section's news
+14:23:45 Completed Teststep: Extract entertainment section's news
+14:23:45 Invoking Teststep: Verify total number of image displayed
+14:23:52 Completed Teststep: Verify total number of image displayed
+14:23:57 Invoking Teststep: Reading sub news
+14:24:17 Completed Teststep: Reading sub news
+14:24:17 Invoking Teststep: Click on {0} and verify page with arguments: [Hindi]
+14:25:19 Completed Teststep: Click on {0} and verify page with arguments: [Hindi]
+14:25:19 Invoking Teststep: Verify trending now section
+14:25:21 Completed Teststep: Verify trending now section
+14:25:21 Invoking Teststep: Verify news Image for each news
+14:25:23 Completed Teststep: Verify news Image for each news
+14:25:31 Invoking Teststep: Decline notifications
+14:25:42 Completed Teststep: Decline notifications
+14:25:42 Invoking Teststep: Get List of top-stories and print
+14:25:42 Completed Teststep: Get List of top-stories and print
+14:25:42 Invoking Teststep: Verify each news title
+14:32:30 Completed Teststep: Verify each news title

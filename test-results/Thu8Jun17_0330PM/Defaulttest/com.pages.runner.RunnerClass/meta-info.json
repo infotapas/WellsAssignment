@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "sampleTest",
+        "sign": "RunnerClass.sampleTest()[pri:0, instance:com.pages.runner.RunnerClass@289d1c02]"
+      },
+      "dependsOn": [],
+      "startTime": 1496916011904,
+      "duration": 30979,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

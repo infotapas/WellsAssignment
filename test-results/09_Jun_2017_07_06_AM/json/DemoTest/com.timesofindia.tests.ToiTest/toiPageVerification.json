@@ -1,0 +1,427 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "declineNotifications",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 419
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 315
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 431
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 437
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 448
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 359
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 416
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='ntfc_content'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 370
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getTopStoriesList",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 3bf7ee96-06c0-4875-a8d4-645766607b15, id: bdb8db46-3bec-4ac7-908f-60f214578966, id: 68e1e451-1e61-4aef-9a72-b4e976bf1f24, id: faf855b3-8ad3-4b16-9203-9a336bb8007c, id: c1d3c028-1286-4f47-9480-b973c8f89b5a, id: 3d41ddc8-d787-4b48-b3b0-e4911aa2efea, id: 258a6f6f-f497-4a1a-a8aa-267a11247589]",
+          "subLogs": [],
+          "duration": 143
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 3bf7ee96-06c0-4875-a8d4-645766607b15, id: bdb8db46-3bec-4ac7-908f-60f214578966, id: 68e1e451-1e61-4aef-9a72-b4e976bf1f24, id: faf855b3-8ad3-4b16-9203-9a336bb8007c, id: c1d3c028-1286-4f47-9480-b973c8f89b5a, id: 3d41ddc8-d787-4b48-b3b0-e4911aa2efea, id: 258a6f6f-f497-4a1a-a8aa-267a11247589]",
+          "subLogs": [],
+          "duration": 84
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"3bf7ee96-06c0-4875-a8d4-645766607b15\"}"
+          ],
+          "result": "getElementText:Modi meets Xi Jinping on SCO sidelines",
+          "subLogs": [],
+          "duration": 78
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"bdb8db46-3bec-4ac7-908f-60f214578966\"}"
+          ],
+          "result": "getElementText:Infosys founders looking to sell stake in company",
+          "subLogs": [],
+          "duration": 87
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"68e1e451-1e61-4aef-9a72-b4e976bf1f24\"}"
+          ],
+          "result": "getElementText:Live: May won't resign, say British media",
+          "subLogs": [],
+          "duration": 70
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"faf855b3-8ad3-4b16-9203-9a336bb8007c\"}"
+          ],
+          "result": "getElementText:Indian-origin candidates shine in UK polls",
+          "subLogs": [],
+          "duration": 82
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"c1d3c028-1286-4f47-9480-b973c8f89b5a\"}"
+          ],
+          "result": "getElementText:ISIS claims it killed two Chinese in Pakistan",
+          "subLogs": [],
+          "duration": 79
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"3d41ddc8-d787-4b48-b3b0-e4911aa2efea\"}"
+          ],
+          "result": "getElementText:Trump asked me to lay off Russia probe: Comey",
+          "subLogs": [],
+          "duration": 86
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='top-story']/ul/li",
+            "{\"id\":\"258a6f6f-f497-4a1a-a8aa-267a11247589\"}"
+          ],
+          "result": "getElementText:Day-long curfew relaxation in Mandsaur",
+          "subLogs": [],
+          "duration": 67
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyNewsTitle",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 3bf7ee96-06c0-4875-a8d4-645766607b15, id: bdb8db46-3bec-4ac7-908f-60f214578966, id: 68e1e451-1e61-4aef-9a72-b4e976bf1f24, id: faf855b3-8ad3-4b16-9203-9a336bb8007c, id: c1d3c028-1286-4f47-9480-b973c8f89b5a, id: 3d41ddc8-d787-4b48-b3b0-e4911aa2efea, id: 258a6f6f-f497-4a1a-a8aa-267a11247589]",
+          "subLogs": [],
+          "duration": 66
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[id: 3bf7ee96-06c0-4875-a8d4-645766607b15, id: bdb8db46-3bec-4ac7-908f-60f214578966, id: 68e1e451-1e61-4aef-9a72-b4e976bf1f24, id: faf855b3-8ad3-4b16-9203-9a336bb8007c, id: c1d3c028-1286-4f47-9480-b973c8f89b5a, id: 3d41ddc8-d787-4b48-b3b0-e4911aa2efea, id: 258a6f6f-f497-4a1a-a8aa-267a11247589]",
+          "subLogs": [],
+          "duration": 72
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "News: India News, Latest Bollywood News, Sports News, Business & Political News, National & International News | Times of India",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 433
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 316
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 379
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 365
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 364
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 372
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 385
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 355
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 380
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='logo'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 368
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='top-story']/ul/li, using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 296
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Decline notifications",
+      "type": "TestStepPass",
+      "duration": 10222,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "No notification present",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Get List of top-stories and print",
+      "type": "TestStepPass",
+      "duration": 797,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Modi meets Xi Jinping on SCO sidelines",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Infosys founders looking to sell stake in company",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Live: May won't resign, say British media",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Indian-origin candidates shine in UK polls",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "ISIS claims it killed two Chinese in Pakistan",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Trump asked me to lay off Russia probe: Comey",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Day-long curfew relaxation in Mandsaur",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "verifyNewsTitle",
+      "type": "TestStepFail",
+      "screenshot": "../img/toiPageVerification_4027evbxji0y45863.png",
+      "duration": 12569,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "News title is : News: India News, Latest Bollywood News, Sports News, Business & Political News, National & International News | Times of India",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Top Story list present : Actual Top Story list not present",
+          "type": "Fail",
+          "screenshot": "../img/toiPageVerification_4027evbxji0y45863.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

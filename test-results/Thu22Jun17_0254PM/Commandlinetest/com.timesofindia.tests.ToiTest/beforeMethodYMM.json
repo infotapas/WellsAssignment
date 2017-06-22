@@ -1,0 +1,23 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://partners.perfectomobile.com/nexperience/perfectomobile/wd/hub}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3167
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 658
+    }
+  ],
+  "checkPoints": []
+}

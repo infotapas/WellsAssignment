@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="TestSuite" time="85.915" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\TAPAS~1.PAD\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Users\tapas.padhi\gmworkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6623044538828468759.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Perforce\DVCS\;C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security 10 for Windows SP2\;C:\Software\eclipse-jee-neon-2-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\tapas.padhi"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="tapas.padhi"/>
+    <property name="java.class.path" value="/C:/Software/eclipse-jee-neon-2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.timesofindia.tests.ToiTest" name="toiPageVerification" time="64.661">
+    <failure message="Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;10.11.28.37&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:10137/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: f33f091c-415c-48d0-a6f1-adf51f7188f7" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;10.11.28.37&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:10137/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: f33f091c-415c-48d0-a6f1-adf51f7188f7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:222)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:320)
+	at com.timesofindia.pages.DetailedNewsPage.verifyNewsTitle(DetailedNewsPage.java:27)
+	at com.timesofindia.defs.DetailsNewsDefs.verifyNewsTitle_aroundBody0(DetailsNewsDefs.java:22)
+	at com.timesofindia.defs.DetailsNewsDefs$AjcClosure1.run(DetailsNewsDefs.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)
+	at com.timesofindia.defs.DetailsNewsDefs.verifyNewsTitle(DetailsNewsDefs.java:16)
+	at com.timesofindia.tests.ToiTest.toiPageVerification(ToiTest.java:30)
+</failure>
+    <system-out>[ConfigurationManager] - ISFW build info: {qaf-Type=core, qaf-Revision=10, qaf-Version=2.1, qaf-Build-Time=03-Jan-2017 14:01:00}
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\mailer.properties not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\test_data not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\desktop_web\object_repository not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\desktop_web\configuration not exist!
+[ConfigurationManager] - C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\desktop_web\translations.properties not exist!
+[ConfigurationManager] - Resource dir: C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\desktop_web. Found property files to load: 1
+[ConfigurationManager] - Resource dir: C:\Users\tapas.padhi\WellsAssignment\WellsAssignmentProject\resources\desktop_web. Found property files to load: 0
+[QAFTestBase] - Initializing Driver...browser_str:IExplorerDriver,base_url:http://timesofindia.indiatimes.com/,sel_server:localhost,port:4444
+[UiDriverFactory] - Driver: IExplorerDriver
+driver init done
+[WebDriverCommandLogger] - Executing get parameters: {&quot;url&quot;:&quot;http://timesofindia.indiatimes.com/&quot;}
+[WebDriverCommandLogger] - command: get[ param-1: {url=http://timesofindia.indiatimes.com/}] Result: null
+[WebDriverCommandLogger] - Executing maximizeWindow parameters: {&quot;windowHandle&quot;:&quot;current&quot;}
+[WebDriverCommandLogger] - command: maximizeWindow[ param-1: {windowHandle=current}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;ntfc_content&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;ntfc_content&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: fa56b506-2170-4c86-b159-a89e6a1268fa, id: 96ee61d7-33e1-4782-85d9-6f3da5a29319, id: a5253dba-a59e-4d9a-8a35-94d4a959e1e6, id: ce00c4cb-dd85-41b2-b831-7dd11b3a8f67, id: a916c9d5-26e7-4271-9732-dd3351429a59, id: 7f0165a6-30fe-458c-9349-e5abed10564e, id: d71c1547-2508-4cf6-978f-1a8a9451871f]
+TopStory size count is 7
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: fa56b506-2170-4c86-b159-a89e6a1268fa, id: 96ee61d7-33e1-4782-85d9-6f3da5a29319, id: a5253dba-a59e-4d9a-8a35-94d4a959e1e6, id: ce00c4cb-dd85-41b2-b831-7dd11b3a8f67, id: a916c9d5-26e7-4271-9732-dd3351429a59, id: 7f0165a6-30fe-458c-9349-e5abed10564e, id: d71c1547-2508-4cf6-978f-1a8a9451871f]
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;fa56b506-2170-4c86-b159-a89e6a1268fa&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;fa56b506-2170-4c86-b159-a89e6a1268fa&quot;}] Result: getElementText:Partial stay on law making Aadhaar must for ITR
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;96ee61d7-33e1-4782-85d9-6f3da5a29319&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;96ee61d7-33e1-4782-85d9-6f3da5a29319&quot;}] Result: getElementText:Live: I will form a government, says Theresa May
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;a5253dba-a59e-4d9a-8a35-94d4a959e1e6&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;a5253dba-a59e-4d9a-8a35-94d4a959e1e6&quot;}] Result: getElementText:UK PM May&apos;s election gamble backfires
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;ce00c4cb-dd85-41b2-b831-7dd11b3a8f67&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;ce00c4cb-dd85-41b2-b831-7dd11b3a8f67&quot;}] Result: getElementText:Indian-origin candidates shine in UK polls
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;a916c9d5-26e7-4271-9732-dd3351429a59&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;a916c9d5-26e7-4271-9732-dd3351429a59&quot;}] Result: getElementText:SBI makes home loans above Rs 75 lakh cheaper
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;7f0165a6-30fe-458c-9349-e5abed10564e&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;7f0165a6-30fe-458c-9349-e5abed10564e&quot;}] Result: getElementText:J&amp;K: Infiltration bid foiled, 2 terrorists killed in Uri
+[WebDriverCommandLogger] - Executing getElementText element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;d71c1547-2508-4cf6-978f-1a8a9451871f&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;d71c1547-2508-4cf6-978f-1a8a9451871f&quot;}] Result: getElementText:India, Pakistan become full members of SCO
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: fa56b506-2170-4c86-b159-a89e6a1268fa, id: 96ee61d7-33e1-4782-85d9-6f3da5a29319, id: a5253dba-a59e-4d9a-8a35-94d4a959e1e6, id: ce00c4cb-dd85-41b2-b831-7dd11b3a8f67, id: a916c9d5-26e7-4271-9732-dd3351429a59, id: 7f0165a6-30fe-458c-9349-e5abed10564e, id: d71c1547-2508-4cf6-978f-1a8a9451871f]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: fa56b506-2170-4c86-b159-a89e6a1268fa, id: 96ee61d7-33e1-4782-85d9-6f3da5a29319, id: a5253dba-a59e-4d9a-8a35-94d4a959e1e6, id: ce00c4cb-dd85-41b2-b831-7dd11b3a8f67, id: a916c9d5-26e7-4271-9732-dd3351429a59, id: 7f0165a6-30fe-458c-9349-e5abed10564e, id: d71c1547-2508-4cf6-978f-1a8a9451871f]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;fa56b506-2170-4c86-b159-a89e6a1268fa&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;fa56b506-2170-4c86-b159-a89e6a1268fa&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: AADHAAR: SC partially stays law making Aadhaar mandatory for PAN, ITR filing | India News - Times of India
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;logo&apos;], using=xpath}] Result: The xpath expression &apos;//div[@class=&apos;logo&apos;]&apos; cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 246 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;10.11.28.37&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:10137/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: f33f091c-415c-48d0-a6f1-adf51f7188f7
+*** Element info: {Using=xpath, value=//div[@class=&apos;logo&apos;]}
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;logo&apos;], using=xpath}] Result: [id: 2d182340-10ee-4740-9710-36adf386d379]
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_13rzyiotusr2g57368.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: db2fea66-0288-4f97-821f-edcca80d618d, id: 6ba80b10-4be4-4571-b164-b3f201e99868, id: b69769cc-b5cd-44f0-ae23-c935cdf880c7, id: 4cca97ca-8585-42bb-854b-41207e73d1ba, id: 09fa1e99-a218-4ff4-8d54-1d9d906574c9, id: 89b3f4fb-3796-4ebb-8f4a-1706f89991d7, id: 63578f9d-22da-476b-91ab-311aa9ac2620]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: db2fea66-0288-4f97-821f-edcca80d618d, id: 6ba80b10-4be4-4571-b164-b3f201e99868, id: b69769cc-b5cd-44f0-ae23-c935cdf880c7, id: 4cca97ca-8585-42bb-854b-41207e73d1ba, id: 09fa1e99-a218-4ff4-8d54-1d9d906574c9, id: 89b3f4fb-3796-4ebb-8f4a-1706f89991d7, id: 63578f9d-22da-476b-91ab-311aa9ac2620]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;6ba80b10-4be4-4571-b164-b3f201e99868&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;6ba80b10-4be4-4571-b164-b3f201e99868&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: Live: UK Election Results: With 153 seats out of 650 declared in British election, Conservatives on 57 and Labour on 76
+[WebDriverCommandLogger] - Executing goBack parameters: {}
+[WebDriverCommandLogger] - command: goBack[ param-1: {}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;logo&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;logo&apos;], using=xpath}] Result: [id: c0ee930b-ec24-49bc-9035-1a6a16693e52]
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottoiPageVerification_12ctl9wrjrr0957369.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: e8c464b2-31d8-4703-b3d6-90fc56d13bb6, id: 6499d497-240f-4a6c-8c6d-d1d7dcff5327, id: fc163a7a-e1cd-4bc6-a227-63d309f4c719, id: 9eeb4999-e6ad-475f-a86a-deac40c7c933, id: 3a26aa56-c041-4bc3-a2f0-8d37db7ef78b, id: 6e1b6401-5c66-4d66-8288-09544e055a29, id: 2a2ddf1d-b9e4-4d04-9192-4cca351c373a]
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;top-story&apos;]/ul/li&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;top-story&apos;]/ul/li, using=xpath}] Result: [id: e8c464b2-31d8-4703-b3d6-90fc56d13bb6, id: 6499d497-240f-4a6c-8c6d-d1d7dcff5327, id: fc163a7a-e1cd-4bc6-a227-63d309f4c719, id: 9eeb4999-e6ad-475f-a86a-deac40c7c933, id: 3a26aa56-c041-4bc3-a2f0-8d37db7ef78b, id: 6e1b6401-5c66-4d66-8288-09544e055a29, id: 2a2ddf1d-b9e4-4d04-9192-4cca351c373a]
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li parameters: {&quot;id&quot;:&quot;fc163a7a-e1cd-4bc6-a227-63d309f4c719&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;top-story&apos;]/ul/li param-2: {&quot;id&quot;:&quot;fc163a7a-e1cd-4bc6-a227-63d309f4c719&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing getTitle parameters: {}
+[WebDriverCommandLogger] - command: getTitle[ param-1: {}] Result: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;10.11.28.37&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:10137/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: f33f091c-415c-48d0-a6f1-adf51f7188f7
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[WebDriverCommandLogger] - command: screenshot[ param-1: {}] Result: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;10.11.28.37&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:10137/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: f33f091c-415c-48d0-a6f1-adf51f7188f7
+</system-out>
+    <system-err>log4j:WARN No such property [follow] in org.apache.log4j.FileAppender.
+Started InternetExplorerDriver server (32-bit)
+2.47.0.0
+Listening on port 10137
+org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;icpl12186&apos;, ip: &apos;10.11.28.37&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:10137/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: f33f091c-415c-48d0-a6f1-adf51f7188f7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:222)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.getScreenshotAs(QAFExtendedWebDriver.java:269)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.takeScreenShot(QAFExtendedWebDriver.java:460)
+	at com.qmetry.qaf.automation.core.QAFTestBase.takeScreenShot(QAFTestBase.java:278)
+	at com.qmetry.qaf.automation.testng.pro.QAFTestNGListener.processResult(QAFTestNGListener.java:280)
+	at com.qmetry.qaf.automation.testng.pro.QAFTestNGListener.afterInvocation(QAFTestNGListener.java:211)
+	at com.qmetry.qaf.automation.testng.pro.QAFTestNGListener2.afterInvocation(QAFTestNGListener2.java:158)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeAfterInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:108)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeAfterInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:104)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)
+	at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:556)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:699)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:805)
+	at org.testng.TestRunner.run(TestRunner.java:655)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+</system-err>
+  </testcase>
+</testsuite>
