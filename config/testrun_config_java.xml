@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QAS Demo" verbose="0" parallel="tests" thread-count="3">
+
+
+	<test name="iOS BDD Test" enabled="true">
+		<parameter name="env.resources" value="resources/native_app/android"></parameter>
+		<parameter name="driver.capabilities.deviceName" value="3219D3B1"></parameter>
+		<classes>
+			<class name="com.perfecto.sample.tests.SampleTests"></class>
+		</classes>
+	</test>
+
+</suite>
